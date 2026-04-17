@@ -2,19 +2,21 @@
 
 from app.collectors import JsonMarketCollector
 from app.domain import ShoppingItem
+from app.matching import MatchingService
 from app.normalization import NormalizationService
 
 
 def main() -> None:
-    """Run a simple normalization validation flow."""
+    """Run a simple matching validation flow."""
     normalization_service = NormalizationService()
+    matching_service = MatchingService()
 
     shopping_item = ShoppingItem(
         item_id="item-001",
-        display_name="Leite Integral UHT",
+        display_name="Leite Integral",
         normalized_name="",
         requested_quantity=2,
-        requested_unit="unidade",
+        requested_unit="unit",
     )
 
     normalized_item = normalization_service.normalize_shopping_item(shopping_item)
@@ -23,27 +25,37 @@ def main() -> None:
         market_name="Market A",
         file_path="data/market_data/market_a.json",
     )
-    market_a_offers = market_a_collector.collect_offers()
+    market_b_collector = JsonMarketCollector(
+        market_name="Market B",
+        file_path="data/market_data/market_b.json",
+    )
 
-    normalized_offers = [
+    market_a_offers = [
         normalization_service.normalize_product_offer(offer)
-        for offer in market_a_offers
+        for offer in market_a_collector.collect_offers()
+    ]
+    market_b_offers = [
+        normalization_service.normalize_product_offer(offer)
+        for offer in market_b_collector.collect_offers()
     ]
 
-    print("Market Quote Assistant - normalization validation")
-    print()
-    print("Shopping item:")
-    print(f"- original:   {shopping_item.display_name}")
-    print(f"- normalized: {normalized_item.normalized_name}")
-    print(f"- unit:       {normalized_item.requested_unit}")
+    matched_offers = matching_service.match_offers(
+        shopping_item=normalized_item,
+        product_offers=market_a_offers + market_b_offers,
+    )
 
+    print("Market Quote Assistant - matching validation")
     print()
-    print("Market A normalized offers:")
-    for offer in normalized_offers:
+    print(f"Shopping item: {normalized_item.describe()}")
+    print()
+
+    for matched_offer in matched_offers:
         print(
-            f"- original: {offer.original_name} | "
-            f"normalized: {offer.normalized_name} | "
-            f"size: {offer.size_value} {offer.size_unit}"
+            f"- {matched_offer.product_offer.market_name} | "
+            f"{matched_offer.product_offer.original_name} | "
+            f"{matched_offer.match_type.value} | "
+            f"{matched_offer.confidence_score:.2f} | "
+            f"{matched_offer.notes}"
         )
 
 

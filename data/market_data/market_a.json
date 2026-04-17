@@ -1,0 +1,35 @@
+[
+  {
+    "original_name": "Arroz Branco Tipo 1 5kg Camil",
+    "normalized_name": "",
+    "price": 27.9,
+    "currency": "BRL",
+    "available": true,
+    "url": "https://mock.market-a.local/arroz-camil-5kg",
+    "size_value": 5,
+    "size_unit": "kg",
+    "brand": "Camil"
+  },
+  {
+    "original_name": "Leite Integral UHT 1L Italac",
+    "normalized_name": "",
+    "price": 4.99,
+    "currency": "BRL",
+    "available": true,
+    "url": "https://mock.market-a.local/leite-italac-1l",
+    "size_value": 1,
+    "size_unit": "l",
+    "brand": "Italac"
+  },
+  {
+    "original_name": "Banana Nanica Kg",
+    "normalized_name": "",
+    "price": 6.5,
+    "currency": "BRL",
+    "available": true,
+    "url": "https://mock.market-a.local/banana-nanica-kg",
+    "size_value": 1,
+    "size_unit": "kg",
+    "brand": null
+  }
+]

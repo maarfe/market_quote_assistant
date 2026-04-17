@@ -1,0 +1,35 @@
+[
+  {
+    "original_name": "Arroz Branco 5 KG Tio Joao",
+    "normalized_name": "",
+    "price": 26.4,
+    "currency": "BRL",
+    "available": true,
+    "url": "https://mock.market-b.local/arroz-tio-joao-5kg",
+    "size_value": 5,
+    "size_unit": "kg",
+    "brand": "Tio Joao"
+  },
+  {
+    "original_name": "Leite UHT Integral Piracanjuba 1 Litro",
+    "normalized_name": "",
+    "price": 5.19,
+    "currency": "BRL",
+    "available": true,
+    "url": "https://mock.market-b.local/leite-piracanjuba-1l",
+    "size_value": 1,
+    "size_unit": "l",
+    "brand": "Piracanjuba"
+  },
+  {
+    "original_name": "Banana Prata Kg",
+    "normalized_name": "",
+    "price": 7.2,
+    "currency": "BRL",
+    "available": true,
+    "url": "https://mock.market-b.local/banana-prata-kg",
+    "size_value": 1,
+    "size_unit": "kg",
+    "brand": null
+  }
+]

@@ -69,33 +69,52 @@ class RecommendationPolicy:
         if combined_full_coverage and not single_full_coverage:
             return self._build_combined_recommendation(
                 best_combined_option=best_combined_option,
-                reason="Combined option provides better coverage than the best single market.",
+                reason="Combined option provides better coverage than the best single-market scenario.",
             )
 
         if single_full_coverage and not combined_full_coverage:
             return self._build_single_market_recommendation(
                 best_single_market=best_single_market,
-                reason="Best single market provides better coverage than the combined option.",
+                reason="Best single-market scenario provides better coverage than the combined option.",
             )
 
-        savings = MoneyHelper.round_currency(
-            best_single_market.total_cost - best_combined_option["total_cost"]
-        )
+        single_total = MoneyHelper.round_currency(best_single_market.total_cost)
+        combined_total = MoneyHelper.round_currency(best_combined_option["total_cost"])
+        cost_difference = MoneyHelper.round_currency(single_total - combined_total)
 
-        if savings >= self._config.minimum_savings_to_split:
-            return self._build_combined_recommendation(
-                best_combined_option=best_combined_option,
+        if cost_difference > 0:
+            if cost_difference >= self._config.minimum_savings_to_split:
+                return self._build_combined_recommendation(
+                    best_combined_option=best_combined_option,
+                    reason=(
+                        f"Combined option saves R$ {cost_difference:.2f} and exceeds the "
+                        f"minimum split threshold of R$ {self._config.minimum_savings_to_split:.2f}."
+                    ),
+                )
+
+            return self._build_single_market_recommendation(
+                best_single_market=best_single_market,
                 reason=(
-                    f"Combined option saves {savings:.2f}, which meets the minimum "
-                    f"savings threshold of {self._config.minimum_savings_to_split:.2f}."
+                    f"Combined option saves R$ {cost_difference:.2f}, but this does not justify "
+                    f"splitting the purchase across multiple markets."
                 ),
             )
 
+        if cost_difference == 0:
+            return self._build_single_market_recommendation(
+                best_single_market=best_single_market,
+                reason=(
+                    "Combined option has the same total cost as the best single market, "
+                    "so the single-market strategy is more convenient."
+                ),
+            )
+
+        combined_extra_cost = MoneyHelper.round_currency(abs(cost_difference))
         return self._build_single_market_recommendation(
             best_single_market=best_single_market,
             reason=(
-                f"Combined option saves only {max(savings, 0.0):.2f}, which does not meet "
-                f"the minimum savings threshold of {self._config.minimum_savings_to_split:.2f}."
+                f"Combined option costs R$ {combined_extra_cost:.2f} more than the best single market, "
+                "so splitting the purchase is not justified."
             ),
         )
 

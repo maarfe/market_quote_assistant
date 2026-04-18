@@ -50,8 +50,10 @@ class OutputFormatter:
         """
         return (
             f"{matched_offer.shopping_item.display_name} -> "
-            f"{matched_offer.product_offer.original_name} "
-            f"({self.format_currency(matched_offer.product_offer.price)})"
+            f"{matched_offer.product_offer.original_name} | "
+            f"unit price: {self.format_currency(matched_offer.get_unit_price())} | "
+            f"quantity: {matched_offer.get_requested_quantity():g} | "
+            f"item total: {self.format_currency(matched_offer.calculate_total_price())}"
         )
 
     def format_market_quote_header(self, market_quote: MarketQuote) -> str:

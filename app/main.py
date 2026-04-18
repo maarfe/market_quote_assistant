@@ -37,7 +37,7 @@ def main() -> None:
             item_id="item-003",
             display_name="Banana",
             normalized_name="",
-            requested_quantity=1,
+            requested_quantity=2,
             requested_unit="kg",
         ),
     ]

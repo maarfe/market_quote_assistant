@@ -15,6 +15,7 @@ class CliConfig:
         market_sources_path: Path to the market sources JSON file.
         output_mode: Output mode to render.
         export_json_path: Optional path for exporting the JSON result.
+        delivery_address_path: Path to the user's address.
     """
 
     shopping_list_path: str
@@ -22,6 +23,7 @@ class CliConfig:
     market_sources_path: str
     output_mode: str
     export_json_path: str | None
+    delivery_address_path: str | None
 
 
 class CliConfigService:
@@ -39,6 +41,13 @@ class CliConfigService:
         parser = argparse.ArgumentParser(
             prog="market-quote-assistant",
             description="Compare grocery quotes across mock markets.",
+        )
+
+        parser.add_argument(
+            "--delivery-address",
+            dest="delivery_address_path",
+            default=None,
+            help="Optional path to the delivery address JSON file.",
         )
 
         parser.add_argument(
@@ -85,4 +94,5 @@ class CliConfigService:
             market_sources_path=args.market_sources_path,
             output_mode=args.output_mode,
             export_json_path=args.export_json_path,
+            delivery_address_path=args.delivery_address_path,
         )

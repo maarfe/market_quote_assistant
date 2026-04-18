@@ -28,6 +28,7 @@ def main() -> None:
             shopping_list_path=cli_config.shopping_list_path,
             delivery_fees_path=cli_config.delivery_fees_path,
             market_sources_path=cli_config.market_sources_path,
+            delivery_address_path=cli_config.delivery_address_path,
         )
 
         json_output = None

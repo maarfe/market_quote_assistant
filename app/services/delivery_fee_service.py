@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 from typing import Any
+
 from app.shared import InvalidDeliveryFeeConfigError
 
 
@@ -22,7 +23,8 @@ class DeliveryFeeService:
             A dictionary mapping market names to delivery fee values.
 
         Raises:
-            ValueError: If the JSON structure is invalid.
+            FileNotFoundError: If the file does not exist.
+            InvalidDeliveryFeeConfigError: If the JSON structure is invalid.
         """
         path = Path(file_path)
 
@@ -49,10 +51,26 @@ class DeliveryFeeService:
 
         Returns:
             A normalized dictionary of delivery fee values.
+
+        Raises:
+            InvalidDeliveryFeeConfigError: If any entry is invalid.
         """
         normalized_fees: dict[str, float] = {}
 
         for market_name, fee_value in payload.items():
-            normalized_fees[str(market_name)] = float(fee_value)
+            normalized_market_name = str(market_name).strip()
+            normalized_fee_value = float(fee_value)
+
+            if not normalized_market_name:
+                raise InvalidDeliveryFeeConfigError(
+                    "Delivery fee market name cannot be empty."
+                )
+
+            if normalized_fee_value < 0:
+                raise InvalidDeliveryFeeConfigError(
+                    "Delivery fee value cannot be negative."
+                )
+
+            normalized_fees[normalized_market_name] = normalized_fee_value
 
         return normalized_fees

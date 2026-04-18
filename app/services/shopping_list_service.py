@@ -25,7 +25,7 @@ class ShoppingListService:
 
         Raises:
             FileNotFoundError: If the file does not exist.
-            ValueError: If the JSON structure is invalid.
+            InvalidShoppingListError: If the JSON structure is invalid.
         """
         path = Path(file_path)
 
@@ -51,7 +51,7 @@ class ShoppingListService:
             A ShoppingItem instance.
 
         Raises:
-            ValueError: If required fields are missing.
+            InvalidShoppingListError: If required fields are missing or invalid.
         """
         required_fields = {"item_id", "display_name"}
 
@@ -62,10 +62,36 @@ class ShoppingListService:
                 f"Shopping item is missing required field(s): {missing_fields_str}."
             )
 
+        item_id = str(raw_item["item_id"]).strip()
+        display_name = str(raw_item["display_name"]).strip()
+        normalized_name = str(raw_item.get("normalized_name", "")).strip()
+        requested_quantity = float(raw_item.get("requested_quantity", 1))
+        requested_unit = str(raw_item.get("requested_unit", "unit")).strip()
+
+        if not item_id:
+            raise InvalidShoppingListError(
+                "Shopping item field 'item_id' cannot be empty."
+            )
+
+        if not display_name:
+            raise InvalidShoppingListError(
+                "Shopping item field 'display_name' cannot be empty."
+            )
+
+        if requested_quantity <= 0:
+            raise InvalidShoppingListError(
+                "Shopping item field 'requested_quantity' must be greater than zero."
+            )
+
+        if not requested_unit:
+            raise InvalidShoppingListError(
+                "Shopping item field 'requested_unit' cannot be empty."
+            )
+
         return ShoppingItem(
-            item_id=str(raw_item["item_id"]),
-            display_name=str(raw_item["display_name"]),
-            normalized_name=str(raw_item.get("normalized_name", "")),
-            requested_quantity=float(raw_item.get("requested_quantity", 1)),
-            requested_unit=str(raw_item.get("requested_unit", "unit")),
+            item_id=item_id,
+            display_name=display_name,
+            normalized_name=normalized_name,
+            requested_quantity=requested_quantity,
+            requested_unit=requested_unit,
         )

@@ -65,3 +65,64 @@ def test_load_from_file_should_raise_error_when_required_fields_are_missing(tmp_
 
     with pytest.raises(InvalidShoppingListError):
         service.load_from_file(file_path)
+
+
+def test_load_from_file_should_raise_error_when_item_id_is_empty(tmp_path):
+    service = ShoppingListService()
+
+    file_path = tmp_path / "shopping_list.json"
+    file_path.write_text(
+        json.dumps(
+            [
+                {
+                    "item_id": "",
+                    "display_name": "Arroz Branco",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidShoppingListError):
+        service.load_from_file(file_path)
+
+
+def test_load_from_file_should_raise_error_when_display_name_is_empty(tmp_path):
+    service = ShoppingListService()
+
+    file_path = tmp_path / "shopping_list.json"
+    file_path.write_text(
+        json.dumps(
+            [
+                {
+                    "item_id": "item-001",
+                    "display_name": "",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidShoppingListError):
+        service.load_from_file(file_path)
+
+
+def test_load_from_file_should_raise_error_when_requested_quantity_is_not_positive(tmp_path):
+    service = ShoppingListService()
+
+    file_path = tmp_path / "shopping_list.json"
+    file_path.write_text(
+        json.dumps(
+            [
+                {
+                    "item_id": "item-001",
+                    "display_name": "Arroz Branco",
+                    "requested_quantity": 0,
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidShoppingListError):
+        service.load_from_file(file_path)

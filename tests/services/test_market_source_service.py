@@ -61,3 +61,43 @@ def test_load_from_file_should_raise_error_when_required_fields_are_missing(tmp_
 
     with pytest.raises(InvalidMarketSourceConfigError):
         service.load_from_file(file_path)
+
+
+def test_load_from_file_should_raise_error_when_market_name_is_empty(tmp_path):
+    service = MarketSourceService()
+
+    file_path = tmp_path / "market_sources.json"
+    file_path.write_text(
+        json.dumps(
+            [
+                {
+                    "market_name": "",
+                    "file_path": "data/market_data/market_a.json",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidMarketSourceConfigError):
+        service.load_from_file(file_path)
+
+
+def test_load_from_file_should_raise_error_when_file_path_is_empty(tmp_path):
+    service = MarketSourceService()
+
+    file_path = tmp_path / "market_sources.json"
+    file_path.write_text(
+        json.dumps(
+            [
+                {
+                    "market_name": "Market A",
+                    "file_path": "",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidMarketSourceConfigError):
+        service.load_from_file(file_path)

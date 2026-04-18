@@ -4,6 +4,8 @@ from app.collectors import JsonMarketCollector
 from app.comparison import ComparisonService
 from app.matching import MatchingService
 from app.normalization import NormalizationService
+from app.providers.coverage.mock_coverage_provider import MockCoverageProvider
+from app.services.coverage_discovery_service import CoverageDiscoveryService
 from app.services.delivery_address_service import DeliveryAddressService
 from app.services.delivery_fee_service import DeliveryFeeService
 from app.services.market_source_service import MarketSourceService
@@ -30,7 +32,7 @@ class ApplicationService:
         shopping_list_path: str,
         delivery_fees_path: str,
         market_sources_path: str,
-        delivery_address_path: str | None = None
+        delivery_address_path: str | None = None,
     ):
         """
         Execute the full quote comparison workflow.
@@ -39,16 +41,25 @@ class ApplicationService:
             shopping_list_path: Path to the shopping list JSON file.
             delivery_fees_path: Path to the delivery fee JSON file.
             market_sources_path: Path to the market sources JSON file.
-            delivery_address_path: Path to the user's address.
+            delivery_address_path: Optional path to the user's address JSON file.
 
         Returns:
             A comparison result produced by the comparison engine.
         """
-
         delivery_address = None
         if delivery_address_path:
             delivery_address = self._delivery_address_service.load_from_file(
                 delivery_address_path
+            )
+
+            coverage_service = CoverageDiscoveryService(
+                providers=[MockCoverageProvider()]
+            )
+            covered_markets = coverage_service.get_covered_markets(delivery_address)
+
+            print(
+                f"Covered markets for {delivery_address.postal_code}: "
+                f"{covered_markets}"
             )
 
         shopping_items = self._shopping_list_service.load_from_file(shopping_list_path)

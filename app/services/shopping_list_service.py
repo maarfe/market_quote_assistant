@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from app.domain import ShoppingItem
+from app.shared import InvalidShoppingListError
 
 
 class ShoppingListService:
@@ -32,7 +33,7 @@ class ShoppingListService:
             payload = json.load(file)
 
         if not isinstance(payload, list):
-            raise ValueError(
+            raise InvalidShoppingListError(
                 f"Expected a list of shopping items in '{path}', "
                 f"but received '{type(payload).__name__}'."
             )
@@ -57,7 +58,7 @@ class ShoppingListService:
         missing_fields = required_fields - raw_item.keys()
         if missing_fields:
             missing_fields_str = ", ".join(sorted(missing_fields))
-            raise ValueError(
+            raise InvalidShoppingListError(
                 f"Shopping item is missing required field(s): {missing_fields_str}."
             )
 

@@ -1,6 +1,7 @@
 """Utilities for unit normalization and standardization."""
 
 from dataclasses import dataclass
+from app.shared import UnsupportedUnitError
 
 
 @dataclass(slots=True)
@@ -95,6 +96,6 @@ class UnitNormalizer:
         normalized_key = unit.strip().lower()
 
         if normalized_key not in self._UNIT_ALIASES:
-            raise ValueError(f"Unsupported unit '{unit}'.")
+            raise UnsupportedUnitError(f"Unsupported unit '{unit}'.")
 
         return self._UNIT_ALIASES[normalized_key]

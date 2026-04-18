@@ -4,6 +4,12 @@ import json
 
 from app.output import CliRenderer, JsonRenderer
 from app.services import ApplicationService, CliConfigService
+from app.shared import (
+    InvalidDeliveryFeeConfigError,
+    InvalidMarketSourceConfigError,
+    InvalidShoppingListError,
+    UnsupportedUnitError,
+)
 
 
 def main() -> None:
@@ -37,6 +43,22 @@ def main() -> None:
 
     except FileNotFoundError as error:
         print(f"Error: required file not found: {error.filename}")
+        raise SystemExit(1) from error
+
+    except InvalidShoppingListError as error:
+        print(f"Error: invalid shopping list: {error}")
+        raise SystemExit(1) from error
+
+    except InvalidDeliveryFeeConfigError as error:
+        print(f"Error: invalid delivery fee configuration: {error}")
+        raise SystemExit(1) from error
+
+    except InvalidMarketSourceConfigError as error:
+        print(f"Error: invalid market source configuration: {error}")
+        raise SystemExit(1) from error
+
+    except UnsupportedUnitError as error:
+        print(f"Error: unsupported unit detected: {error}")
         raise SystemExit(1) from error
 
     except ValueError as error:

@@ -7,11 +7,12 @@ from app.comparison import ComparisonService
 from app.matching import MatchingService
 from app.normalization import NormalizationService
 from app.output import CliRenderer, JsonRenderer
-from app.services import ShoppingListService
+from app.services import CliConfigService, ShoppingListService
 
 
 def main() -> None:
     """Run the end-to-end MVP validation flow."""
+    cli_config_service = CliConfigService()
     shopping_list_service = ShoppingListService()
     normalization_service = NormalizationService()
     matching_service = MatchingService()
@@ -19,8 +20,10 @@ def main() -> None:
     cli_renderer = CliRenderer()
     json_renderer = JsonRenderer()
 
+    cli_config = cli_config_service.parse_args()
+
     shopping_items = shopping_list_service.load_from_file(
-        "data/shopping_lists/default_shopping_list.json"
+        cli_config.shopping_list_path
     )
 
     normalized_items = [
@@ -65,13 +68,18 @@ def main() -> None:
         },
     )
 
-    cli_output = cli_renderer.render_comparison_result(comparison_result)
-    json_output = json_renderer.render_comparison_result(comparison_result)
+    if cli_config.output_mode in {"cli", "both"}:
+        cli_output = cli_renderer.render_comparison_result(comparison_result)
+        print(cli_output)
 
-    print(cli_output)
-    print()
-    print("JSON preview:")
-    print(json.dumps(json_output, indent=2, ensure_ascii=False))
+    if cli_config.output_mode in {"json", "both"}:
+        json_output = json_renderer.render_comparison_result(comparison_result)
+
+        if cli_config.output_mode == "both":
+            print()
+            print("JSON preview:")
+
+        print(json.dumps(json_output, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

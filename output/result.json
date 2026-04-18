@@ -1,0 +1,387 @@
+{
+  "market_quotes": [
+    {
+      "market_name": "Market A",
+      "selected_offers": [
+        {
+          "shopping_item": {
+            "item_id": "item-001",
+            "display_name": "Arroz Branco",
+            "normalized_name": "arroz branco",
+            "requested_quantity": 1.0,
+            "requested_unit": "unit"
+          },
+          "product_offer": {
+            "market_name": "Market A",
+            "original_name": "Arroz Branco Tipo 1 5kg Camil",
+            "normalized_name": "arroz branco 1 5kg camil",
+            "price": 27.9,
+            "currency": "BRL",
+            "available": true,
+            "url": "https://mock.market-a.local/arroz-camil-5kg",
+            "size_value": 5.0,
+            "size_unit": "kg",
+            "brand": "Camil"
+          },
+          "match_type": "exact_match",
+          "confidence_score": 1.0,
+          "notes": "All required name tokens are present and units are compatible.",
+          "unit_price": 27.9,
+          "requested_quantity": 1.0,
+          "total_price": 27.9
+        },
+        {
+          "shopping_item": {
+            "item_id": "item-002",
+            "display_name": "Leite Integral",
+            "normalized_name": "leite integral",
+            "requested_quantity": 2.0,
+            "requested_unit": "unit"
+          },
+          "product_offer": {
+            "market_name": "Market A",
+            "original_name": "Leite Integral UHT 1L Italac",
+            "normalized_name": "leite integral 1l italac",
+            "price": 4.99,
+            "currency": "BRL",
+            "available": true,
+            "url": "https://mock.market-a.local/leite-italac-1l",
+            "size_value": 1.0,
+            "size_unit": "l",
+            "brand": "Italac"
+          },
+          "match_type": "exact_match",
+          "confidence_score": 1.0,
+          "notes": "All required name tokens are present and units are compatible.",
+          "unit_price": 4.99,
+          "requested_quantity": 2.0,
+          "total_price": 9.98
+        },
+        {
+          "shopping_item": {
+            "item_id": "item-003",
+            "display_name": "Banana",
+            "normalized_name": "banana",
+            "requested_quantity": 2.0,
+            "requested_unit": "kg"
+          },
+          "product_offer": {
+            "market_name": "Market A",
+            "original_name": "Banana Nanica Kg",
+            "normalized_name": "banana nanica kg",
+            "price": 6.5,
+            "currency": "BRL",
+            "available": true,
+            "url": "https://mock.market-a.local/banana-nanica-kg",
+            "size_value": 1.0,
+            "size_unit": "kg",
+            "brand": null
+          },
+          "match_type": "exact_match",
+          "confidence_score": 1.0,
+          "notes": "All required name tokens are present and units are compatible.",
+          "unit_price": 6.5,
+          "requested_quantity": 2.0,
+          "total_price": 13.0
+        }
+      ],
+      "missing_items": [],
+      "subtotal": 50.88,
+      "delivery_fee": 8.0,
+      "total_cost": 58.88,
+      "full_coverage": true
+    },
+    {
+      "market_name": "Market B",
+      "selected_offers": [
+        {
+          "shopping_item": {
+            "item_id": "item-001",
+            "display_name": "Arroz Branco",
+            "normalized_name": "arroz branco",
+            "requested_quantity": 1.0,
+            "requested_unit": "unit"
+          },
+          "product_offer": {
+            "market_name": "Market B",
+            "original_name": "Arroz Branco 5 KG Tio Joao",
+            "normalized_name": "arroz branco 5 kg tio joao",
+            "price": 26.4,
+            "currency": "BRL",
+            "available": true,
+            "url": "https://mock.market-b.local/arroz-tio-joao-5kg",
+            "size_value": 5.0,
+            "size_unit": "kg",
+            "brand": "Tio Joao"
+          },
+          "match_type": "exact_match",
+          "confidence_score": 1.0,
+          "notes": "All required name tokens are present and units are compatible.",
+          "unit_price": 26.4,
+          "requested_quantity": 1.0,
+          "total_price": 26.4
+        },
+        {
+          "shopping_item": {
+            "item_id": "item-002",
+            "display_name": "Leite Integral",
+            "normalized_name": "leite integral",
+            "requested_quantity": 2.0,
+            "requested_unit": "unit"
+          },
+          "product_offer": {
+            "market_name": "Market B",
+            "original_name": "Leite UHT Integral Piracanjuba 1 Litro",
+            "normalized_name": "leite integral piracanjuba 1 litro",
+            "price": 5.19,
+            "currency": "BRL",
+            "available": true,
+            "url": "https://mock.market-b.local/leite-piracanjuba-1l",
+            "size_value": 1.0,
+            "size_unit": "l",
+            "brand": "Piracanjuba"
+          },
+          "match_type": "exact_match",
+          "confidence_score": 1.0,
+          "notes": "All required name tokens are present and units are compatible.",
+          "unit_price": 5.19,
+          "requested_quantity": 2.0,
+          "total_price": 10.38
+        },
+        {
+          "shopping_item": {
+            "item_id": "item-003",
+            "display_name": "Banana",
+            "normalized_name": "banana",
+            "requested_quantity": 2.0,
+            "requested_unit": "kg"
+          },
+          "product_offer": {
+            "market_name": "Market B",
+            "original_name": "Banana Prata Kg",
+            "normalized_name": "banana prata kg",
+            "price": 7.2,
+            "currency": "BRL",
+            "available": true,
+            "url": "https://mock.market-b.local/banana-prata-kg",
+            "size_value": 1.0,
+            "size_unit": "kg",
+            "brand": null
+          },
+          "match_type": "exact_match",
+          "confidence_score": 1.0,
+          "notes": "All required name tokens are present and units are compatible.",
+          "unit_price": 7.2,
+          "requested_quantity": 2.0,
+          "total_price": 14.4
+        }
+      ],
+      "missing_items": [],
+      "subtotal": 51.18,
+      "delivery_fee": 11.0,
+      "total_cost": 62.18,
+      "full_coverage": true
+    }
+  ],
+  "best_single_market": {
+    "market_name": "Market A",
+    "selected_offers": [
+      {
+        "shopping_item": {
+          "item_id": "item-001",
+          "display_name": "Arroz Branco",
+          "normalized_name": "arroz branco",
+          "requested_quantity": 1.0,
+          "requested_unit": "unit"
+        },
+        "product_offer": {
+          "market_name": "Market A",
+          "original_name": "Arroz Branco Tipo 1 5kg Camil",
+          "normalized_name": "arroz branco 1 5kg camil",
+          "price": 27.9,
+          "currency": "BRL",
+          "available": true,
+          "url": "https://mock.market-a.local/arroz-camil-5kg",
+          "size_value": 5.0,
+          "size_unit": "kg",
+          "brand": "Camil"
+        },
+        "match_type": "exact_match",
+        "confidence_score": 1.0,
+        "notes": "All required name tokens are present and units are compatible.",
+        "unit_price": 27.9,
+        "requested_quantity": 1.0,
+        "total_price": 27.9
+      },
+      {
+        "shopping_item": {
+          "item_id": "item-002",
+          "display_name": "Leite Integral",
+          "normalized_name": "leite integral",
+          "requested_quantity": 2.0,
+          "requested_unit": "unit"
+        },
+        "product_offer": {
+          "market_name": "Market A",
+          "original_name": "Leite Integral UHT 1L Italac",
+          "normalized_name": "leite integral 1l italac",
+          "price": 4.99,
+          "currency": "BRL",
+          "available": true,
+          "url": "https://mock.market-a.local/leite-italac-1l",
+          "size_value": 1.0,
+          "size_unit": "l",
+          "brand": "Italac"
+        },
+        "match_type": "exact_match",
+        "confidence_score": 1.0,
+        "notes": "All required name tokens are present and units are compatible.",
+        "unit_price": 4.99,
+        "requested_quantity": 2.0,
+        "total_price": 9.98
+      },
+      {
+        "shopping_item": {
+          "item_id": "item-003",
+          "display_name": "Banana",
+          "normalized_name": "banana",
+          "requested_quantity": 2.0,
+          "requested_unit": "kg"
+        },
+        "product_offer": {
+          "market_name": "Market A",
+          "original_name": "Banana Nanica Kg",
+          "normalized_name": "banana nanica kg",
+          "price": 6.5,
+          "currency": "BRL",
+          "available": true,
+          "url": "https://mock.market-a.local/banana-nanica-kg",
+          "size_value": 1.0,
+          "size_unit": "kg",
+          "brand": null
+        },
+        "match_type": "exact_match",
+        "confidence_score": 1.0,
+        "notes": "All required name tokens are present and units are compatible.",
+        "unit_price": 6.5,
+        "requested_quantity": 2.0,
+        "total_price": 13.0
+      }
+    ],
+    "missing_items": [],
+    "subtotal": 50.88,
+    "delivery_fee": 8.0,
+    "total_cost": 58.88,
+    "full_coverage": true
+  },
+  "best_combined_option": {
+    "strategy": "best_combined_option",
+    "selected_offers": [
+      {
+        "shopping_item": {
+          "item_id": "item-001",
+          "display_name": "Arroz Branco",
+          "normalized_name": "arroz branco",
+          "requested_quantity": 1.0,
+          "requested_unit": "unit"
+        },
+        "product_offer": {
+          "market_name": "Market B",
+          "original_name": "Arroz Branco 5 KG Tio Joao",
+          "normalized_name": "arroz branco 5 kg tio joao",
+          "price": 26.4,
+          "currency": "BRL",
+          "available": true,
+          "url": "https://mock.market-b.local/arroz-tio-joao-5kg",
+          "size_value": 5.0,
+          "size_unit": "kg",
+          "brand": "Tio Joao"
+        },
+        "match_type": "exact_match",
+        "confidence_score": 1.0,
+        "notes": "All required name tokens are present and units are compatible.",
+        "unit_price": 26.4,
+        "requested_quantity": 1.0,
+        "total_price": 26.4
+      },
+      {
+        "shopping_item": {
+          "item_id": "item-002",
+          "display_name": "Leite Integral",
+          "normalized_name": "leite integral",
+          "requested_quantity": 2.0,
+          "requested_unit": "unit"
+        },
+        "product_offer": {
+          "market_name": "Market A",
+          "original_name": "Leite Integral UHT 1L Italac",
+          "normalized_name": "leite integral 1l italac",
+          "price": 4.99,
+          "currency": "BRL",
+          "available": true,
+          "url": "https://mock.market-a.local/leite-italac-1l",
+          "size_value": 1.0,
+          "size_unit": "l",
+          "brand": "Italac"
+        },
+        "match_type": "exact_match",
+        "confidence_score": 1.0,
+        "notes": "All required name tokens are present and units are compatible.",
+        "unit_price": 4.99,
+        "requested_quantity": 2.0,
+        "total_price": 9.98
+      },
+      {
+        "shopping_item": {
+          "item_id": "item-003",
+          "display_name": "Banana",
+          "normalized_name": "banana",
+          "requested_quantity": 2.0,
+          "requested_unit": "kg"
+        },
+        "product_offer": {
+          "market_name": "Market A",
+          "original_name": "Banana Nanica Kg",
+          "normalized_name": "banana nanica kg",
+          "price": 6.5,
+          "currency": "BRL",
+          "available": true,
+          "url": "https://mock.market-a.local/banana-nanica-kg",
+          "size_value": 1.0,
+          "size_unit": "kg",
+          "brand": null
+        },
+        "match_type": "exact_match",
+        "confidence_score": 1.0,
+        "notes": "All required name tokens are present and units are compatible.",
+        "unit_price": 6.5,
+        "requested_quantity": 2.0,
+        "total_price": 13.0
+      }
+    ],
+    "missing_items": [],
+    "used_markets": [
+      "Market A",
+      "Market B"
+    ],
+    "subtotal": 49.38,
+    "delivery_total": 19.0,
+    "total_cost": 68.38,
+    "full_coverage": true,
+    "market_count": 2
+  },
+  "best_final_recommendation": {
+    "strategy": "best_single_market",
+    "market_name": "Market A",
+    "total_cost": 58.88,
+    "full_coverage": true,
+    "reason": "Combined option costs R$ 9.50 more than the best single market, so splitting the purchase is not justified."
+  },
+  "missing_items": [],
+  "summary_notes": [
+    "Best single market is 'Market A' with total cost 58.88 and full coverage=True.",
+    "Best combined option uses 2 market(s) with total cost 68.38 and full coverage=True.",
+    "Final recommendation selected strategy 'best_single_market'.",
+    "Combined option costs R$ 9.50 more than the best single market, so splitting the purchase is not justified."
+  ]
+}

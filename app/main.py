@@ -3,7 +3,7 @@
 import json
 
 from app.output import CliRenderer, JsonRenderer
-from app.services import ApplicationService, CliConfigService
+from app.services import ApplicationService, CliConfigService, ResultExportService
 from app.shared import (
     InvalidDeliveryFeeConfigError,
     InvalidMarketSourceConfigError,
@@ -18,6 +18,7 @@ def main() -> None:
     application_service = ApplicationService()
     cli_renderer = CliRenderer()
     json_renderer = JsonRenderer()
+    result_export_service = ResultExportService()
 
     try:
         cli_config = cli_config_service.parse_args()
@@ -28,18 +29,27 @@ def main() -> None:
             market_sources_path=cli_config.market_sources_path,
         )
 
+        json_output = None
+        if cli_config.output_mode in {"json", "both"} or cli_config.export_json_path:
+            json_output = json_renderer.render_comparison_result(comparison_result)
+
         if cli_config.output_mode in {"cli", "both"}:
             cli_output = cli_renderer.render_comparison_result(comparison_result)
             print(cli_output)
 
         if cli_config.output_mode in {"json", "both"}:
-            json_output = json_renderer.render_comparison_result(comparison_result)
-
             if cli_config.output_mode == "both":
                 print()
                 print("JSON preview:")
 
             print(json.dumps(json_output, indent=2, ensure_ascii=False))
+
+        if cli_config.export_json_path:
+            exported_path = result_export_service.export_json(
+                file_path=cli_config.export_json_path,
+                payload=json_output,
+            )
+            print(f"JSON result exported to: {exported_path}")
 
     except FileNotFoundError as error:
         print(f"Error: required file not found: {error.filename}")

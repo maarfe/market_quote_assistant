@@ -14,12 +14,14 @@ class CliConfig:
         delivery_fees_path: Path to the delivery fee JSON file.
         market_sources_path: Path to the market sources JSON file.
         output_mode: Output mode to render.
+        export_json_path: Optional path for exporting the JSON result.
     """
 
     shopping_list_path: str
     delivery_fees_path: str
     market_sources_path: str
     output_mode: str
+    export_json_path: str | None
 
 
 class CliConfigService:
@@ -68,6 +70,13 @@ class CliConfigService:
             help="Output mode to render.",
         )
 
+        parser.add_argument(
+            "--export-json",
+            dest="export_json_path",
+            default=None,
+            help="Optional path to export the JSON result to a file.",
+        )
+
         args = parser.parse_args()
 
         return CliConfig(
@@ -75,4 +84,5 @@ class CliConfigService:
             delivery_fees_path=args.delivery_fees_path,
             market_sources_path=args.market_sources_path,
             output_mode=args.output_mode,
+            export_json_path=args.export_json_path,
         )

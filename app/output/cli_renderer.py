@@ -33,6 +33,10 @@ class CliRenderer:
 
         lines.extend(self._render_best_single_market(comparison_result))
         lines.append("")
+        lines.extend(self._render_best_combined_option(comparison_result))
+        lines.append("")
+        lines.extend(self._render_final_recommendation(comparison_result))
+        lines.append("")
         lines.extend(self._render_summary_notes(comparison_result))
 
         return "\n".join(lines).strip()
@@ -98,6 +102,85 @@ class CliRenderer:
                 f"({self._formatter.format_currency(best_market.total_cost)})"
             ),
         ]
+
+    def _render_best_combined_option(
+        self,
+        comparison_result: ComparisonResult,
+    ) -> list[str]:
+        """
+        Render the best combined-market section.
+
+        Args:
+            comparison_result: Comparison result to inspect.
+
+        Returns:
+            A list of rendered lines.
+        """
+        combined_option = comparison_result.best_combined_option
+
+        if combined_option is None:
+            return ["Best combined option:", "- none"]
+
+        lines = [
+            "Best combined option:",
+            f"- subtotal: {self._formatter.format_currency(combined_option['subtotal'])}",
+            f"- delivery total: {self._formatter.format_currency(combined_option['delivery_total'])}",
+            f"- total cost: {self._formatter.format_currency(combined_option['total_cost'])}",
+            f"- full coverage: {combined_option['full_coverage']}",
+            f"- used markets: {', '.join(combined_option['used_markets']) or 'none'}",
+            f"- market count: {combined_option['market_count']}",
+            "- selected offers:",
+        ]
+
+        if combined_option["selected_offers"]:
+            for selected_offer in combined_option["selected_offers"]:
+                lines.append(
+                    f"  - {self._formatter.format_selected_offer(selected_offer)}"
+                )
+        else:
+            lines.append("  - none")
+
+        if combined_option["missing_items"]:
+            lines.append("- missing items:")
+            for missing_item in combined_option["missing_items"]:
+                lines.append(
+                    f"  - {self._formatter.format_shopping_item(missing_item)}"
+                )
+
+        return lines
+
+    def _render_final_recommendation(
+        self,
+        comparison_result: ComparisonResult,
+    ) -> list[str]:
+        """
+        Render the final recommendation section.
+
+        Args:
+            comparison_result: Comparison result to inspect.
+
+        Returns:
+            A list of rendered lines.
+        """
+        recommendation = comparison_result.best_final_recommendation
+
+        if recommendation is None:
+            return ["Final recommendation:", "- none"]
+
+        lines = [
+            "Final recommendation:",
+            f"- strategy: {recommendation['strategy']}",
+            f"- total cost: {self._formatter.format_currency(recommendation['total_cost'])}",
+            f"- full coverage: {recommendation['full_coverage']}",
+        ]
+
+        if recommendation["strategy"] == "best_single_market":
+            lines.append(f"- market name: {recommendation['market_name']}")
+        else:
+            lines.append(f"- market count: {recommendation['market_count']}")
+            lines.append(f"- used markets: {', '.join(recommendation['used_markets'])}")
+
+        return lines
 
     def _render_summary_notes(
         self,

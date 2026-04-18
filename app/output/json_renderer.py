@@ -28,7 +28,11 @@ class JsonRenderer:
                 if comparison_result.best_single_market is not None
                 else None
             ),
-            "best_combined_option": comparison_result.best_combined_option,
+            "best_combined_option": (
+                self._serialize_combined_option(comparison_result.best_combined_option)
+                if comparison_result.best_combined_option is not None
+                else None
+            ),
             "best_final_recommendation": comparison_result.best_final_recommendation,
             "missing_items": [
                 self._serialize_shopping_item(item)
@@ -61,6 +65,34 @@ class JsonRenderer:
             "delivery_fee": market_quote.delivery_fee,
             "total_cost": market_quote.total_cost,
             "full_coverage": market_quote.has_full_coverage(),
+        }
+
+    def _serialize_combined_option(self, combined_option: dict) -> dict:
+        """
+        Serialize a combined quote option.
+
+        Args:
+            combined_option: Combined quote payload.
+
+        Returns:
+            A dictionary representation of the combined option.
+        """
+        return {
+            "strategy": combined_option["strategy"],
+            "selected_offers": [
+                self._serialize_matched_offer(selected_offer)
+                for selected_offer in combined_option["selected_offers"]
+            ],
+            "missing_items": [
+                self._serialize_shopping_item(item)
+                for item in combined_option["missing_items"]
+            ],
+            "used_markets": combined_option["used_markets"],
+            "subtotal": combined_option["subtotal"],
+            "delivery_total": combined_option["delivery_total"],
+            "total_cost": combined_option["total_cost"],
+            "full_coverage": combined_option["full_coverage"],
+            "market_count": combined_option["market_count"],
         }
 
     def _serialize_matched_offer(self, matched_offer: MatchedOffer) -> dict:

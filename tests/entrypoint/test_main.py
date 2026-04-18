@@ -1,61 +1,28 @@
 """Entrypoint output tests for app.main."""
 
-import json
-
 import pytest
 
 from app.main import main
+from tests.factories import (
+    create_delivery_fees_file,
+    create_market_data_file,
+    create_market_sources_file,
+    create_shopping_list_file,
+)
 
 
 def test_main_should_print_cli_output_when_output_mode_is_cli(tmp_path, monkeypatch, capsys):
-    shopping_list_path = tmp_path / "shopping_list.json"
-    delivery_fees_path = tmp_path / "delivery_fees.json"
-    market_sources_path = tmp_path / "market_sources.json"
-    market_a_path = tmp_path / "market_a.json"
-
-    shopping_list_path.write_text(
-        json.dumps(
-            [
-                {
-                    "item_id": "item-001",
-                    "display_name": "Leite Integral",
-                    "requested_quantity": 1,
-                    "requested_unit": "unit",
-                }
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    delivery_fees_path.write_text(
-        json.dumps({"Market A": 8.0}),
-        encoding="utf-8",
-    )
-
-    market_a_path.write_text(
-        json.dumps(
-            [
-                {
-                    "original_name": "Leite Integral UHT 1L Italac",
-                    "price": 4.99,
-                    "size_value": 1,
-                    "size_unit": "l",
-                }
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    market_sources_path.write_text(
-        json.dumps(
-            [
-                {
-                    "market_name": "Market A",
-                    "file_path": str(market_a_path),
-                }
-            ]
-        ),
-        encoding="utf-8",
+    shopping_list_path = create_shopping_list_file(tmp_path)
+    delivery_fees_path = create_delivery_fees_file(tmp_path)
+    market_a_path = create_market_data_file(tmp_path, filename="market_a.json")
+    market_sources_path = create_market_sources_file(
+        tmp_path,
+        payload=[
+            {
+                "market_name": "Market A",
+                "file_path": str(market_a_path),
+            }
+        ],
     )
 
     monkeypatch.setattr(
@@ -81,54 +48,17 @@ def test_main_should_print_cli_output_when_output_mode_is_cli(tmp_path, monkeypa
 
 
 def test_main_should_print_json_output_when_output_mode_is_json(tmp_path, monkeypatch, capsys):
-    shopping_list_path = tmp_path / "shopping_list.json"
-    delivery_fees_path = tmp_path / "delivery_fees.json"
-    market_sources_path = tmp_path / "market_sources.json"
-    market_a_path = tmp_path / "market_a.json"
-
-    shopping_list_path.write_text(
-        json.dumps(
-            [
-                {
-                    "item_id": "item-001",
-                    "display_name": "Leite Integral",
-                    "requested_quantity": 1,
-                    "requested_unit": "unit",
-                }
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    delivery_fees_path.write_text(
-        json.dumps({"Market A": 8.0}),
-        encoding="utf-8",
-    )
-
-    market_a_path.write_text(
-        json.dumps(
-            [
-                {
-                    "original_name": "Leite Integral UHT 1L Italac",
-                    "price": 4.99,
-                    "size_value": 1,
-                    "size_unit": "l",
-                }
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    market_sources_path.write_text(
-        json.dumps(
-            [
-                {
-                    "market_name": "Market A",
-                    "file_path": str(market_a_path),
-                }
-            ]
-        ),
-        encoding="utf-8",
+    shopping_list_path = create_shopping_list_file(tmp_path)
+    delivery_fees_path = create_delivery_fees_file(tmp_path)
+    market_a_path = create_market_data_file(tmp_path, filename="market_a.json")
+    market_sources_path = create_market_sources_file(
+        tmp_path,
+        payload=[
+            {
+                "market_name": "Market A",
+                "file_path": str(market_a_path),
+            }
+        ],
     )
 
     monkeypatch.setattr(
@@ -154,54 +84,17 @@ def test_main_should_print_json_output_when_output_mode_is_json(tmp_path, monkey
 
 
 def test_main_should_print_both_outputs_when_output_mode_is_both(tmp_path, monkeypatch, capsys):
-    shopping_list_path = tmp_path / "shopping_list.json"
-    delivery_fees_path = tmp_path / "delivery_fees.json"
-    market_sources_path = tmp_path / "market_sources.json"
-    market_a_path = tmp_path / "market_a.json"
-
-    shopping_list_path.write_text(
-        json.dumps(
-            [
-                {
-                    "item_id": "item-001",
-                    "display_name": "Leite Integral",
-                    "requested_quantity": 1,
-                    "requested_unit": "unit",
-                }
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    delivery_fees_path.write_text(
-        json.dumps({"Market A": 8.0}),
-        encoding="utf-8",
-    )
-
-    market_a_path.write_text(
-        json.dumps(
-            [
-                {
-                    "original_name": "Leite Integral UHT 1L Italac",
-                    "price": 4.99,
-                    "size_value": 1,
-                    "size_unit": "l",
-                }
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    market_sources_path.write_text(
-        json.dumps(
-            [
-                {
-                    "market_name": "Market A",
-                    "file_path": str(market_a_path),
-                }
-            ]
-        ),
-        encoding="utf-8",
+    shopping_list_path = create_shopping_list_file(tmp_path)
+    delivery_fees_path = create_delivery_fees_file(tmp_path)
+    market_a_path = create_market_data_file(tmp_path, filename="market_a.json")
+    market_sources_path = create_market_sources_file(
+        tmp_path,
+        payload=[
+            {
+                "market_name": "Market A",
+                "file_path": str(market_a_path),
+            }
+        ],
     )
 
     monkeypatch.setattr(

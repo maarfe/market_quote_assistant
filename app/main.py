@@ -75,7 +75,7 @@ def main() -> None:
             )
         )
 
-    comparison_result = comparison_service.compare_single_market_quotes(
+    comparison_result = comparison_service.compare_quotes(
         shopping_items=normalized_items,
         matched_offers=matched_offers,
         delivery_fees={

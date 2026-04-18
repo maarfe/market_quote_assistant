@@ -17,9 +17,11 @@ def test_should_select_combined_option_when_savings_exceed_threshold():
         delivery_fee=0.0,
     )
 
-    # simula um custo alto no single market
-    best_single_market.selected_offers = []
-    best_single_market._subtotal = 60.0
+    class FakeMatchedOffer:
+        def calculate_total_price(self) -> float:
+            return 60.0
+
+    best_single_market.selected_offers = [FakeMatchedOffer()]
 
     best_combined_option = {
         "total_cost": 40.0,
@@ -35,7 +37,6 @@ def test_should_select_combined_option_when_savings_exceed_threshold():
 
     assert result is not None
     assert result["strategy"] == "best_combined_option"
-
 def test_should_select_single_market_when_combined_is_more_expensive():
     policy = RecommendationPolicy(
         RecommendationPolicyConfig(minimum_savings_to_split=8.0)

@@ -8,7 +8,7 @@ def create_market_quote(
     market_name: str = "Market A",
     item_prices: list[float] | None = None,
     delivery_fee: float = 0.0,
-):
+) -> MarketQuote:
     """Create a market quote for tests."""
     item_prices = item_prices or []
 

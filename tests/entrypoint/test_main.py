@@ -3,38 +3,25 @@
 import pytest
 
 from app.main import main
-from tests.factories import (
-    create_delivery_fees_file,
-    create_market_data_file,
-    create_market_sources_file,
-    create_shopping_list_file,
-)
 
 
-def test_main_should_print_cli_output_when_output_mode_is_cli(tmp_path, monkeypatch, capsys):
-    shopping_list_path = create_shopping_list_file(tmp_path)
-    delivery_fees_path = create_delivery_fees_file(tmp_path)
-    market_a_path = create_market_data_file(tmp_path, filename="market_a.json")
-    market_sources_path = create_market_sources_file(
-        tmp_path,
-        payload=[
-            {
-                "market_name": "Market A",
-                "file_path": str(market_a_path),
-            }
-        ],
-    )
-
+def test_main_should_print_cli_output_when_output_mode_is_cli(
+    default_shopping_list_path,
+    default_delivery_fees_path,
+    default_market_sources_path,
+    monkeypatch,
+    capsys,
+):
     monkeypatch.setattr(
         "sys.argv",
         [
             "prog",
             "--shopping-list",
-            str(shopping_list_path),
+            str(default_shopping_list_path),
             "--delivery-fees",
-            str(delivery_fees_path),
+            str(default_delivery_fees_path),
             "--market-sources",
-            str(market_sources_path),
+            str(default_market_sources_path),
             "--output",
             "cli",
         ],
@@ -47,30 +34,23 @@ def test_main_should_print_cli_output_when_output_mode_is_cli(tmp_path, monkeypa
     assert "JSON preview:" not in captured.out
 
 
-def test_main_should_print_json_output_when_output_mode_is_json(tmp_path, monkeypatch, capsys):
-    shopping_list_path = create_shopping_list_file(tmp_path)
-    delivery_fees_path = create_delivery_fees_file(tmp_path)
-    market_a_path = create_market_data_file(tmp_path, filename="market_a.json")
-    market_sources_path = create_market_sources_file(
-        tmp_path,
-        payload=[
-            {
-                "market_name": "Market A",
-                "file_path": str(market_a_path),
-            }
-        ],
-    )
-
+def test_main_should_print_json_output_when_output_mode_is_json(
+    default_shopping_list_path,
+    default_delivery_fees_path,
+    default_market_sources_path,
+    monkeypatch,
+    capsys,
+):
     monkeypatch.setattr(
         "sys.argv",
         [
             "prog",
             "--shopping-list",
-            str(shopping_list_path),
+            str(default_shopping_list_path),
             "--delivery-fees",
-            str(delivery_fees_path),
+            str(default_delivery_fees_path),
             "--market-sources",
-            str(market_sources_path),
+            str(default_market_sources_path),
             "--output",
             "json",
         ],
@@ -83,30 +63,23 @@ def test_main_should_print_json_output_when_output_mode_is_json(tmp_path, monkey
     assert "Market Quote Assistant - comparison result" not in captured.out
 
 
-def test_main_should_print_both_outputs_when_output_mode_is_both(tmp_path, monkeypatch, capsys):
-    shopping_list_path = create_shopping_list_file(tmp_path)
-    delivery_fees_path = create_delivery_fees_file(tmp_path)
-    market_a_path = create_market_data_file(tmp_path, filename="market_a.json")
-    market_sources_path = create_market_sources_file(
-        tmp_path,
-        payload=[
-            {
-                "market_name": "Market A",
-                "file_path": str(market_a_path),
-            }
-        ],
-    )
-
+def test_main_should_print_both_outputs_when_output_mode_is_both(
+    default_shopping_list_path,
+    default_delivery_fees_path,
+    default_market_sources_path,
+    monkeypatch,
+    capsys,
+):
     monkeypatch.setattr(
         "sys.argv",
         [
             "prog",
             "--shopping-list",
-            str(shopping_list_path),
+            str(default_shopping_list_path),
             "--delivery-fees",
-            str(delivery_fees_path),
+            str(default_delivery_fees_path),
             "--market-sources",
-            str(market_sources_path),
+            str(default_market_sources_path),
             "--output",
             "both",
         ],

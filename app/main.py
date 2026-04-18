@@ -7,13 +7,18 @@ from app.comparison import ComparisonService
 from app.matching import MatchingService
 from app.normalization import NormalizationService
 from app.output import CliRenderer, JsonRenderer
-from app.services import CliConfigService, ShoppingListService
+from app.services import (
+    CliConfigService,
+    DeliveryFeeService,
+    ShoppingListService,
+)
 
 
 def main() -> None:
     """Run the end-to-end MVP validation flow."""
     cli_config_service = CliConfigService()
     shopping_list_service = ShoppingListService()
+    delivery_fee_service = DeliveryFeeService()
     normalization_service = NormalizationService()
     matching_service = MatchingService()
     comparison_service = ComparisonService()
@@ -24,6 +29,9 @@ def main() -> None:
 
     shopping_items = shopping_list_service.load_from_file(
         cli_config.shopping_list_path
+    )
+    delivery_fees = delivery_fee_service.load_from_file(
+        cli_config.delivery_fees_path
     )
 
     normalized_items = [
@@ -62,10 +70,7 @@ def main() -> None:
     comparison_result = comparison_service.compare_quotes(
         shopping_items=normalized_items,
         matched_offers=matched_offers,
-        delivery_fees={
-            "Market A": 8.0,
-            "Market B": 11.0,
-        },
+        delivery_fees=delivery_fees,
     )
 
     if cli_config.output_mode in {"cli", "both"}:

@@ -11,10 +11,12 @@ class CliConfig:
 
     Attributes:
         shopping_list_path: Path to the shopping list JSON file.
+        delivery_fees_path: Path to the delivery fee JSON file.
         output_mode: Output mode to render.
     """
 
     shopping_list_path: str
+    delivery_fees_path: str
     output_mode: str
 
 
@@ -43,6 +45,13 @@ class CliConfigService:
         )
 
         parser.add_argument(
+            "--delivery-fees",
+            dest="delivery_fees_path",
+            default="data/delivery_fees/default_delivery_fees.json",
+            help="Path to the delivery fee JSON file.",
+        )
+
+        parser.add_argument(
             "--output",
             dest="output_mode",
             choices=("cli", "json", "both"),
@@ -54,5 +63,6 @@ class CliConfigService:
 
         return CliConfig(
             shopping_list_path=args.shopping_list_path,
+            delivery_fees_path=args.delivery_fees_path,
             output_mode=args.output_mode,
         )

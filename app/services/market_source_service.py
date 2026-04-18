@@ -4,6 +4,7 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+
 from app.shared import InvalidMarketSourceConfigError
 
 
@@ -37,7 +38,8 @@ class MarketSourceService:
             A list of configured market sources.
 
         Raises:
-            ValueError: If the JSON structure is invalid.
+            FileNotFoundError: If the file does not exist.
+            InvalidMarketSourceConfigError: If the JSON structure is invalid.
         """
         path = Path(file_path)
 
@@ -63,7 +65,7 @@ class MarketSourceService:
             A MarketSource instance.
 
         Raises:
-            ValueError: If required fields are missing.
+            InvalidMarketSourceConfigError: If required fields are missing or invalid.
         """
         required_fields = {"market_name", "file_path"}
 
@@ -74,7 +76,20 @@ class MarketSourceService:
                 f"Market source is missing required field(s): {missing_fields_str}."
             )
 
+        market_name = str(raw_source["market_name"]).strip()
+        file_path = str(raw_source["file_path"]).strip()
+
+        if not market_name:
+            raise InvalidMarketSourceConfigError(
+                "Market source field 'market_name' cannot be empty."
+            )
+
+        if not file_path:
+            raise InvalidMarketSourceConfigError(
+                "Market source field 'file_path' cannot be empty."
+            )
+
         return MarketSource(
-            market_name=str(raw_source["market_name"]),
-            file_path=str(raw_source["file_path"]),
+            market_name=market_name,
+            file_path=file_path,
         )

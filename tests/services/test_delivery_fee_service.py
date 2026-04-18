@@ -41,3 +41,37 @@ def test_load_from_file_should_raise_error_when_payload_is_not_a_dict(tmp_path):
 
     with pytest.raises(InvalidDeliveryFeeConfigError):
         service.load_from_file(file_path)
+        
+
+def test_load_from_file_should_raise_error_when_market_name_is_empty(tmp_path):
+    service = DeliveryFeeService()
+
+    file_path = tmp_path / "delivery_fees.json"
+    file_path.write_text(
+        json.dumps(
+            {
+                "": 8.0,
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidDeliveryFeeConfigError):
+        service.load_from_file(file_path)
+
+
+def test_load_from_file_should_raise_error_when_fee_is_negative(tmp_path):
+    service = DeliveryFeeService()
+
+    file_path = tmp_path / "delivery_fees.json"
+    file_path.write_text(
+        json.dumps(
+            {
+                "Market A": -1.0,
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(InvalidDeliveryFeeConfigError):
+        service.load_from_file(file_path)

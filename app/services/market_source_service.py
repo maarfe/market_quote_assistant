@@ -4,6 +4,7 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+from app.shared import InvalidMarketSourceConfigError
 
 
 @dataclass(slots=True)
@@ -44,7 +45,7 @@ class MarketSourceService:
             payload = json.load(file)
 
         if not isinstance(payload, list):
-            raise ValueError(
+            raise InvalidMarketSourceConfigError(
                 f"Expected a list of market sources in '{path}', "
                 f"but received '{type(payload).__name__}'."
             )
@@ -69,7 +70,7 @@ class MarketSourceService:
         missing_fields = required_fields - raw_source.keys()
         if missing_fields:
             missing_fields_str = ", ".join(sorted(missing_fields))
-            raise ValueError(
+            raise InvalidMarketSourceConfigError(
                 f"Market source is missing required field(s): {missing_fields_str}."
             )
 

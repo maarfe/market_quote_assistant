@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 from typing import Any
+from app.shared import InvalidDeliveryFeeConfigError
 
 
 class DeliveryFeeService:
@@ -29,7 +30,7 @@ class DeliveryFeeService:
             payload = json.load(file)
 
         if not isinstance(payload, dict):
-            raise ValueError(
+            raise InvalidDeliveryFeeConfigError(
                 f"Expected a dictionary of delivery fees in '{path}', "
                 f"but received '{type(payload).__name__}'."
             )

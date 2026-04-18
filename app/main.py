@@ -4,43 +4,24 @@ import json
 
 from app.collectors import JsonMarketCollector
 from app.comparison import ComparisonService
-from app.domain import ShoppingItem
 from app.matching import MatchingService
 from app.normalization import NormalizationService
 from app.output import CliRenderer, JsonRenderer
+from app.services import ShoppingListService
 
 
 def main() -> None:
     """Run the end-to-end MVP validation flow."""
+    shopping_list_service = ShoppingListService()
     normalization_service = NormalizationService()
     matching_service = MatchingService()
     comparison_service = ComparisonService()
     cli_renderer = CliRenderer()
     json_renderer = JsonRenderer()
 
-    shopping_items = [
-        ShoppingItem(
-            item_id="item-001",
-            display_name="Arroz Branco",
-            normalized_name="",
-            requested_quantity=1,
-            requested_unit="unit",
-        ),
-        ShoppingItem(
-            item_id="item-002",
-            display_name="Leite Integral",
-            normalized_name="",
-            requested_quantity=2,
-            requested_unit="unit",
-        ),
-        ShoppingItem(
-            item_id="item-003",
-            display_name="Banana",
-            normalized_name="",
-            requested_quantity=2,
-            requested_unit="kg",
-        ),
-    ]
+    shopping_items = shopping_list_service.load_from_file(
+        "data/shopping_lists/default_shopping_list.json"
+    )
 
     normalized_items = [
         normalization_service.normalize_shopping_item(shopping_item)

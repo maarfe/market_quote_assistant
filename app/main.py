@@ -10,6 +10,7 @@ from app.output import CliRenderer, JsonRenderer
 from app.services import (
     CliConfigService,
     DeliveryFeeService,
+    MarketSourceService,
     ShoppingListService,
 )
 
@@ -19,6 +20,7 @@ def main() -> None:
     cli_config_service = CliConfigService()
     shopping_list_service = ShoppingListService()
     delivery_fee_service = DeliveryFeeService()
+    market_source_service = MarketSourceService()
     normalization_service = NormalizationService()
     matching_service = MatchingService()
     comparison_service = ComparisonService()
@@ -33,6 +35,9 @@ def main() -> None:
     delivery_fees = delivery_fee_service.load_from_file(
         cli_config.delivery_fees_path
     )
+    market_sources = market_source_service.load_from_file(
+        cli_config.market_sources_path
+    )
 
     normalized_items = [
         normalization_service.normalize_shopping_item(shopping_item)
@@ -41,13 +46,10 @@ def main() -> None:
 
     collectors = [
         JsonMarketCollector(
-            market_name="Market A",
-            file_path="data/market_data/market_a.json",
-        ),
-        JsonMarketCollector(
-            market_name="Market B",
-            file_path="data/market_data/market_b.json",
-        ),
+            market_name=market_source.market_name,
+            file_path=market_source.file_path,
+        )
+        for market_source in market_sources
     ]
 
     normalized_offers = []

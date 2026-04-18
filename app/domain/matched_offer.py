@@ -35,6 +35,33 @@ class MatchedOffer:
         """
         return self.match_type in {MatchType.EXACT, MatchType.ADJUSTABLE}
 
+    def get_unit_price(self) -> float:
+        """
+        Return the unit price associated with the selected product offer.
+
+        Returns:
+            The offer unit price.
+        """
+        return self.product_offer.price
+
+    def get_requested_quantity(self) -> float:
+        """
+        Return the requested quantity associated with the shopping item.
+
+        Returns:
+            The requested quantity.
+        """
+        return self.shopping_item.requested_quantity
+
+    def calculate_total_price(self) -> float:
+        """
+        Calculate the total price required to satisfy the requested quantity.
+
+        Returns:
+            The estimated total price for the selected offer.
+        """
+        return self.get_unit_price() * self.get_requested_quantity()
+
     def describe(self) -> str:
         """
         Return a human-readable description of the matched offer.

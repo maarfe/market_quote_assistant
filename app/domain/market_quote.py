@@ -26,12 +26,15 @@ class MarketQuote:
     @property
     def subtotal(self) -> float:
         """
-        Calculate the subtotal of selected offers.
+        Calculate the subtotal of selected offers considering requested quantities.
 
         Returns:
-            The sum of selected offer prices.
+            The sum of selected offer total prices.
         """
-        return sum(match.product_offer.price for match in self.selected_offers)
+        return sum(
+            matched_offer.calculate_total_price()
+            for matched_offer in self.selected_offers
+        )
 
     @property
     def total_cost(self) -> float:

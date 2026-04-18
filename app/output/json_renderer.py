@@ -90,6 +90,9 @@ class JsonRenderer:
             "match_type": matched_offer.match_type.value,
             "confidence_score": matched_offer.confidence_score,
             "notes": matched_offer.notes,
+            "unit_price": matched_offer.get_unit_price(),
+            "requested_quantity": matched_offer.get_requested_quantity(),
+            "total_price": matched_offer.calculate_total_price(),
         }
 
     def _serialize_shopping_item(self, shopping_item: ShoppingItem) -> dict:

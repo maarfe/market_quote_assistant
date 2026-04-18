@@ -4,6 +4,7 @@ from app.collectors import JsonMarketCollector
 from app.comparison import ComparisonService
 from app.matching import MatchingService
 from app.normalization import NormalizationService
+from app.services.delivery_address_service import DeliveryAddressService
 from app.services.delivery_fee_service import DeliveryFeeService
 from app.services.market_source_service import MarketSourceService
 from app.services.shopping_list_service import ShoppingListService
@@ -22,12 +23,14 @@ class ApplicationService:
         self._normalization_service = NormalizationService()
         self._matching_service = MatchingService()
         self._comparison_service = ComparisonService()
+        self._delivery_address_service = DeliveryAddressService()
 
     def run(
         self,
         shopping_list_path: str,
         delivery_fees_path: str,
         market_sources_path: str,
+        delivery_address_path: str | None = None
     ):
         """
         Execute the full quote comparison workflow.
@@ -36,10 +39,18 @@ class ApplicationService:
             shopping_list_path: Path to the shopping list JSON file.
             delivery_fees_path: Path to the delivery fee JSON file.
             market_sources_path: Path to the market sources JSON file.
+            delivery_address_path: Path to the user's address.
 
         Returns:
             A comparison result produced by the comparison engine.
         """
+
+        delivery_address = None
+        if delivery_address_path:
+            delivery_address = self._delivery_address_service.load_from_file(
+                delivery_address_path
+            )
+
         shopping_items = self._shopping_list_service.load_from_file(shopping_list_path)
         delivery_fees = self._delivery_fee_service.load_from_file(delivery_fees_path)
         market_sources = self._market_source_service.load_from_file(

@@ -1,0 +1,12 @@
+{
+  "label": "home",
+  "recipient_name": "Your Name",
+  "street": "Street Name",
+  "number": "123",
+  "complement": "Apartment 1",
+  "neighborhood": "Neighborhood",
+  "city": "Campinas",
+  "state": "SP",
+  "postal_code": "13000-000",
+  "country": "BR"
+}

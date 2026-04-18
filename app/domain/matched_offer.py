@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from app.domain.product_offer import ProductOffer
 from app.domain.shopping_item import ShoppingItem
 from app.domain.types import MatchType
+from app.shared import MoneyHelper
 
 
 @dataclass(slots=True)
@@ -60,8 +61,10 @@ class MatchedOffer:
         Returns:
             The estimated total price for the selected offer.
         """
-        return self.get_unit_price() * self.get_requested_quantity()
-
+        return MoneyHelper.round_currency(
+            self.get_unit_price() * self.get_requested_quantity()
+        )
+    
     def describe(self) -> str:
         """
         Return a human-readable description of the matched offer.

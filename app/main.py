@@ -1,17 +1,22 @@
 """Application entry point for the Market Quote Assistant project."""
 
+import json
+
 from app.collectors import JsonMarketCollector
 from app.comparison import ComparisonService
 from app.domain import ShoppingItem
 from app.matching import MatchingService
 from app.normalization import NormalizationService
+from app.output import CliRenderer, JsonRenderer
 
 
 def main() -> None:
-    """Run a single-market comparison validation flow."""
+    """Run the end-to-end MVP validation flow."""
     normalization_service = NormalizationService()
     matching_service = MatchingService()
     comparison_service = ComparisonService()
+    cli_renderer = CliRenderer()
+    json_renderer = JsonRenderer()
 
     shopping_items = [
         ShoppingItem(
@@ -79,41 +84,13 @@ def main() -> None:
         },
     )
 
-    print("Market Quote Assistant - single market comparison validation")
+    cli_output = cli_renderer.render_comparison_result(comparison_result)
+    json_output = json_renderer.render_comparison_result(comparison_result)
+
+    print(cli_output)
     print()
-
-    for market_quote in comparison_result.market_quotes:
-        print(f"{market_quote.market_name}:")
-        print(f"- subtotal: {market_quote.subtotal:.2f}")
-        print(f"- delivery fee: {market_quote.delivery_fee:.2f}")
-        print(f"- total cost: {market_quote.total_cost:.2f}")
-        print(f"- full coverage: {market_quote.has_full_coverage()}")
-        print("- selected offers:")
-        for selected_offer in market_quote.selected_offers:
-            print(
-                f"  - {selected_offer.shopping_item.display_name} -> "
-                f"{selected_offer.product_offer.original_name} "
-                f"({selected_offer.product_offer.price:.2f})"
-            )
-
-        if market_quote.missing_items:
-            print("- missing items:")
-            for missing_item in market_quote.missing_items:
-                print(f"  - {missing_item.display_name}")
-
-        print()
-
-    if comparison_result.best_single_market is not None:
-        print("Best single market:")
-        print(
-            f"- {comparison_result.best_single_market.market_name} "
-            f"({comparison_result.best_single_market.total_cost:.2f})"
-        )
-
-    print()
-    print("Summary notes:")
-    for note in comparison_result.summary_notes:
-        print(f"- {note}")
+    print("JSON preview:")
+    print(json.dumps(json_output, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

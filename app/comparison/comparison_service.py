@@ -2,6 +2,7 @@
 
 from app.comparison.combined_quote_builder import CombinedQuoteBuilder
 from app.comparison.market_quote_builder import MarketQuoteBuilder
+from app.comparison.recommendation_policy import RecommendationPolicy
 from app.domain import ComparisonResult, MarketQuote, MatchedOffer, ShoppingItem
 
 
@@ -17,6 +18,7 @@ class ComparisonService:
         """Initialize comparison service dependencies."""
         self._market_quote_builder = MarketQuoteBuilder()
         self._combined_quote_builder = CombinedQuoteBuilder()
+        self._recommendation_policy = RecommendationPolicy()
 
     def compare_quotes(
         self,
@@ -59,7 +61,7 @@ class ComparisonService:
             delivery_fees=delivery_fees,
         )
 
-        best_final_recommendation = self._select_best_final_recommendation(
+        best_final_recommendation = self._recommendation_policy.select_recommendation(
             best_single_market=best_single_market,
             best_combined_option=best_combined_option,
         )
@@ -177,77 +179,6 @@ class ComparisonService:
             ),
         )[0]
 
-    def _select_best_final_recommendation(
-        self,
-        best_single_market: MarketQuote | None,
-        best_combined_option: dict | None,
-    ) -> dict | None:
-        """
-        Select the best final recommendation between single-market and combined strategies.
-
-        Args:
-            best_single_market: Best single-market scenario.
-            best_combined_option: Best combined-market scenario.
-
-        Returns:
-            A dictionary describing the final recommendation, or None.
-        """
-        if best_single_market is None and best_combined_option is None:
-            return None
-
-        if best_single_market is None:
-            return {
-                "strategy": "best_combined_option",
-                "total_cost": best_combined_option["total_cost"],
-                "full_coverage": best_combined_option["full_coverage"],
-                "market_count": best_combined_option["market_count"],
-                "used_markets": best_combined_option["used_markets"],
-            }
-
-        if best_combined_option is None:
-            return {
-                "strategy": "best_single_market",
-                "market_name": best_single_market.market_name,
-                "total_cost": best_single_market.total_cost,
-                "full_coverage": best_single_market.has_full_coverage(),
-            }
-
-        single_full_coverage = best_single_market.has_full_coverage()
-        combined_full_coverage = bool(best_combined_option["full_coverage"])
-
-        if combined_full_coverage and not single_full_coverage:
-            return {
-                "strategy": "best_combined_option",
-                "total_cost": best_combined_option["total_cost"],
-                "full_coverage": True,
-                "market_count": best_combined_option["market_count"],
-                "used_markets": best_combined_option["used_markets"],
-            }
-
-        if single_full_coverage and not combined_full_coverage:
-            return {
-                "strategy": "best_single_market",
-                "market_name": best_single_market.market_name,
-                "total_cost": best_single_market.total_cost,
-                "full_coverage": True,
-            }
-
-        if best_combined_option["total_cost"] < best_single_market.total_cost:
-            return {
-                "strategy": "best_combined_option",
-                "total_cost": best_combined_option["total_cost"],
-                "full_coverage": best_combined_option["full_coverage"],
-                "market_count": best_combined_option["market_count"],
-                "used_markets": best_combined_option["used_markets"],
-            }
-
-        return {
-            "strategy": "best_single_market",
-            "market_name": best_single_market.market_name,
-            "total_cost": best_single_market.total_cost,
-            "full_coverage": best_single_market.has_full_coverage(),
-        }
-
     def _extract_global_missing_items(
         self,
         best_single_market: MarketQuote | None,
@@ -264,7 +195,9 @@ class ComparisonService:
             A list of missing shopping items.
         """
         single_missing = best_single_market.missing_items if best_single_market else []
-        combined_missing = best_combined_option["missing_items"] if best_combined_option else []
+        combined_missing = (
+            best_combined_option["missing_items"] if best_combined_option else []
+        )
 
         if len(combined_missing) < len(single_missing):
             return combined_missing
@@ -312,6 +245,7 @@ class ComparisonService:
             notes.append(
                 f"Final recommendation selected strategy '{best_final_recommendation['strategy']}'."
             )
+            notes.append(best_final_recommendation["reason"])
 
         if not notes:
             notes.append("No valid quote scenario could be generated.")

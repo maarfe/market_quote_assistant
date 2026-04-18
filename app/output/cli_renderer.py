@@ -180,6 +180,9 @@ class CliRenderer:
             lines.append(f"- market count: {recommendation['market_count']}")
             lines.append(f"- used markets: {', '.join(recommendation['used_markets'])}")
 
+        if "reason" in recommendation:
+            lines.append(f"- reason: {recommendation['reason']}")
+
         return lines
 
     def _render_summary_notes(

@@ -65,7 +65,7 @@ class CliConfigService:
         parser.add_argument(
             "--output",
             dest="output_mode",
-            choices=("cli", "json", "both"),
+            choices=("cli", "json", "both", "summary"),
             default="both",
             help="Output mode to render.",
         )

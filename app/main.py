@@ -2,7 +2,7 @@
 
 import json
 
-from app.output import CliRenderer, JsonRenderer
+from app.output import CliRenderer, JsonRenderer, SummaryRenderer
 from app.services import ApplicationService, CliConfigService, ResultExportService
 from app.shared import (
     InvalidDeliveryFeeConfigError,
@@ -18,6 +18,7 @@ def main() -> None:
     application_service = ApplicationService()
     cli_renderer = CliRenderer()
     json_renderer = JsonRenderer()
+    summary_renderer = SummaryRenderer()
     result_export_service = ResultExportService()
 
     try:
@@ -33,16 +34,23 @@ def main() -> None:
         if cli_config.output_mode in {"json", "both"} or cli_config.export_json_path:
             json_output = json_renderer.render_comparison_result(comparison_result)
 
-        if cli_config.output_mode in {"cli", "both"}:
-            cli_output = cli_renderer.render_comparison_result(comparison_result)
-            print(cli_output)
+        if cli_config.output_mode == "summary":
+            summary_output = summary_renderer.render_comparison_result(
+                comparison_result
+            )
+            print(summary_output)
 
-        if cli_config.output_mode in {"json", "both"}:
-            if cli_config.output_mode == "both":
-                print()
-                print("JSON preview:")
+        else:
+            if cli_config.output_mode in {"cli", "both"}:
+                cli_output = cli_renderer.render_comparison_result(comparison_result)
+                print(cli_output)
 
-            print(json.dumps(json_output, indent=2, ensure_ascii=False))
+            if cli_config.output_mode in {"json", "both"}:
+                if cli_config.output_mode == "both":
+                    print()
+                    print("JSON preview:")
+
+                print(json.dumps(json_output, indent=2, ensure_ascii=False))
 
         if cli_config.export_json_path:
             exported_path = result_export_service.export_json(

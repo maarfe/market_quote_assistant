@@ -2,7 +2,7 @@
 
 from app.comparison.quote_selector import QuoteSelector
 from app.domain import MatchedOffer, ShoppingItem
-
+from app.shared import MoneyHelper
 
 class CombinedQuoteBuilder:
     """
@@ -51,16 +51,20 @@ class CombinedQuoteBuilder:
             selected_offers.append(best_offer)
 
         used_markets = self._extract_used_markets(selected_offers)
-        subtotal = sum(
-            selected_offer.calculate_total_price()
-            for selected_offer in selected_offers
+        subtotal = MoneyHelper.round_currency(
+            sum(
+                selected_offer.calculate_total_price()
+                for selected_offer in selected_offers
+            )
         )
-        delivery_total = sum(
-            delivery_fees.get(market_name, 0.0)
-            for market_name in used_markets
+        delivery_total = MoneyHelper.round_currency(
+            sum(
+                delivery_fees.get(market_name, 0.0)
+                for market_name in used_markets
+            )
         )
-        total_cost = subtotal + delivery_total
-
+        total_cost = MoneyHelper.round_currency(subtotal + delivery_total)
+        
         return {
             "strategy": "best_combined_option",
             "selected_offers": selected_offers,

@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 
 from app.domain.matched_offer import MatchedOffer
 from app.domain.shopping_item import ShoppingItem
+from app.shared import MoneyHelper
 
 
 @dataclass(slots=True)
@@ -31,9 +32,11 @@ class MarketQuote:
         Returns:
             The sum of selected offer total prices.
         """
-        return sum(
-            matched_offer.calculate_total_price()
-            for matched_offer in self.selected_offers
+        return MoneyHelper.round_currency(
+            sum(
+                matched_offer.calculate_total_price()
+                for matched_offer in self.selected_offers
+            )
         )
 
     @property
@@ -44,7 +47,7 @@ class MarketQuote:
         Returns:
             The final market total cost.
         """
-        return self.subtotal + self.delivery_fee
+        return MoneyHelper.round_currency(self.subtotal + self.delivery_fee)
 
     def has_full_coverage(self) -> bool:
         """

@@ -3,6 +3,7 @@
 from dataclasses import dataclass
 
 from app.domain import MarketQuote
+from app.shared import MoneyHelper
 
 
 @dataclass(slots=True)
@@ -77,7 +78,9 @@ class RecommendationPolicy:
                 reason="Best single market provides better coverage than the combined option.",
             )
 
-        savings = best_single_market.total_cost - best_combined_option["total_cost"]
+        savings = MoneyHelper.round_currency(
+            best_single_market.total_cost - best_combined_option["total_cost"]
+        )
 
         if savings >= self._config.minimum_savings_to_split:
             return self._build_combined_recommendation(
@@ -114,7 +117,7 @@ class RecommendationPolicy:
         return {
             "strategy": "best_single_market",
             "market_name": best_single_market.market_name,
-            "total_cost": best_single_market.total_cost,
+            "total_cost": MoneyHelper.round_currency(best_single_market.total_cost),
             "full_coverage": best_single_market.has_full_coverage(),
             "reason": reason,
         }
@@ -136,7 +139,7 @@ class RecommendationPolicy:
         """
         return {
             "strategy": "best_combined_option",
-            "total_cost": best_combined_option["total_cost"],
+            "total_cost": MoneyHelper.round_currency(best_combined_option["total_cost"]),
             "full_coverage": best_combined_option["full_coverage"],
             "market_count": best_combined_option["market_count"],
             "used_markets": best_combined_option["used_markets"],

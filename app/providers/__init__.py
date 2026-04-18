@@ -1,0 +1,1 @@
+"""Provider layer for external discovery and collection integrations."""

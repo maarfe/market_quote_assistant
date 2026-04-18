@@ -1,10 +1,21 @@
+"""Domain model for market delivery coverage results."""
+
 from dataclasses import dataclass
 
 
 @dataclass(slots=True)
 class MarketCoverage:
     """
-    Represents delivery coverage status for a market.
+    Represent the delivery coverage status of a market provider.
+
+    Attributes:
+        provider: Technical or logical provider identifier.
+        market_name: Human-readable market name.
+        is_covered: Whether the market delivers to the provided address.
+        supports_delivery: Whether home delivery is supported.
+        supports_pickup: Whether store pickup is supported.
+        coverage_status: Coverage classification, such as
+            'covered', 'not_covered', or 'unknown'.
     """
 
     provider: str
@@ -12,4 +23,4 @@ class MarketCoverage:
     is_covered: bool
     supports_delivery: bool
     supports_pickup: bool
-    coverage_status: str  # covered | not_covered | unknown
+    coverage_status: str

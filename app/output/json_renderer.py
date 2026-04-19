@@ -143,4 +143,7 @@ class JsonRenderer:
             "normalized_name": shopping_item.normalized_name,
             "requested_quantity": shopping_item.requested_quantity,
             "requested_unit": shopping_item.requested_unit,
+            "preferred_brand": shopping_item.preferred_brand,
+            "preferred_size_value": shopping_item.preferred_size_value,
+            "preferred_size_unit": shopping_item.preferred_size_unit,
         }

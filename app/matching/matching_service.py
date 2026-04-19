@@ -142,39 +142,37 @@ class MatchingService:
         base_score: float,
     ) -> float:
         """
-        Adjust confidence score using real-world heuristics.
-
-        This improves selection quality for real market data.
+        Adjust confidence score using user preferences instead of hardcoded heuristics.
         """
 
         score = base_score
 
-        size_value = product_offer.size_value
-        size_unit = product_offer.size_unit
+        # 🔹 Penaliza falta de tamanho
+        if product_offer.size_value is None or product_offer.size_unit is None:
+            score -= 0.05
 
-        # Penaliza produtos sem tamanho
-        if size_value is None or size_unit is None:
-            score -= 0.1
+        # 🔹 Preferência de marca
+        if shopping_item.preferred_brand:
+            if product_offer.brand:
+                if shopping_item.preferred_brand.lower() in product_offer.brand.lower():
+                    score += 0.3
+                else:
+                    score -= 0.3
 
-        # Caso clássico: arroz
-        if "arroz" in shopping_item.normalized_name:
-            if size_unit == "kg":
-                if size_value >= 5:
-                    score += 0.2  # pacote típico
-                elif size_value <= 1:
-                    score -= 0.2  # muito pequeno
+        # 🔹 Preferência de tamanho
+        if (
+            shopping_item.preferred_size_value is not None
+            and shopping_item.preferred_size_unit
+            and product_offer.size_value is not None
+            and product_offer.size_unit == shopping_item.preferred_size_unit
+        ):
+            diff = abs(product_offer.size_value - shopping_item.preferred_size_value)
 
-        # leite
-        if "leite" in shopping_item.normalized_name:
-            if size_unit == "l":
-                if size_value == 1:
-                    score += 0.2
-                elif size_value < 1:
-                    score -= 0.1
-
-        # banana
-        if "banana" in shopping_item.normalized_name:
-            if size_unit == "kg":
-                score += 0.2
+            if diff == 0:
+                score += 0.3
+            elif diff <= shopping_item.preferred_size_value * 0.2:
+                score += 0.15
+            else:
+                score -= 0.1
 
         return max(0.0, min(1.5, score))

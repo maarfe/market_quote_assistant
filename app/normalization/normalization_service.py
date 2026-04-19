@@ -40,6 +40,9 @@ class NormalizationService:
             normalized_name=normalized_name,
             requested_quantity=shopping_item.requested_quantity,
             requested_unit=normalized_unit,
+            preferred_brand=shopping_item.preferred_brand,
+            preferred_size_value=shopping_item.preferred_size_value,
+            preferred_size_unit=shopping_item.preferred_size_unit,
         )
 
     def normalize_product_offer(self, product_offer: ProductOffer) -> ProductOffer:

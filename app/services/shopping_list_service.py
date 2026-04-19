@@ -88,10 +88,25 @@ class ShoppingListService:
                 "Shopping item field 'requested_unit' cannot be empty."
             )
 
+        preferred_brand = raw_item.get("preferred_brand")
+        if preferred_brand is not None:
+            preferred_brand = str(preferred_brand).strip() or None
+
+        preferred_size_value = raw_item.get("preferred_size_value")
+        if preferred_size_value is not None:
+            preferred_size_value = float(preferred_size_value)
+
+        preferred_size_unit = raw_item.get("preferred_size_unit")
+        if preferred_size_unit is not None:
+            preferred_size_unit = str(preferred_size_unit).strip() or None
+
         return ShoppingItem(
             item_id=item_id,
             display_name=display_name,
             normalized_name=normalized_name,
             requested_quantity=requested_quantity,
             requested_unit=requested_unit,
+            preferred_brand=preferred_brand,
+            preferred_size_value=preferred_size_value,
+            preferred_size_unit=preferred_size_unit,
         )

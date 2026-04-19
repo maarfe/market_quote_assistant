@@ -15,5 +15,3 @@ build/
 .venv/
 .vscode/
 .idea/
-data/location/*.json
-!data/location/address.example.json

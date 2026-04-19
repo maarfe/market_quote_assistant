@@ -1,6 +1,6 @@
 """Application orchestration service for the Market Quote Assistant project."""
 
-from app.collectors import JsonMarketCollector
+from app.collectors import JsonMarketCollector, SavegnagoOfferCollector
 from app.comparison import ComparisonService
 from app.matching import MatchingService
 from app.normalization import NormalizationService
@@ -75,13 +75,30 @@ class ApplicationService:
             for shopping_item in shopping_items
         ]
 
-        collectors = [
+        collectors = []
+
+        collectors.extend(
             JsonMarketCollector(
                 market_name=market_source.market_name,
                 file_path=market_source.file_path,
             )
             for market_source in market_sources
-        ]
+        )
+
+        if delivery_address:
+            search_terms = list(
+                {
+                    item.display_name.strip()
+                    for item in shopping_items
+                    if item.display_name.strip()
+                }
+            )
+
+            collectors.append(
+                SavegnagoOfferCollector(
+                    search_terms=search_terms,
+                )
+            )
 
         normalized_offers = []
         for collector in collectors:

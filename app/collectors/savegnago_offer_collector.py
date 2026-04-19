@@ -116,7 +116,11 @@ class SavegnagoOfferCollector(BaseCollector):
         )
         response.raise_for_status()
 
-        return response.json()
+        response_data = response.json()
+        if not isinstance(response_data, dict):
+            return {}
+
+        return response_data
 
     def _build_headers(self) -> dict[str, str]:
         """Build HTTP headers."""
@@ -132,12 +136,28 @@ class SavegnagoOfferCollector(BaseCollector):
         }
 
     def _extract_products(self, response_data: dict[str, Any]) -> list[dict[str, Any]]:
-        """Extract product list from GraphQL response."""
-        return (
-            response_data.get("data", {})
-            .get("productSearch", {})
-            .get("products", [])
-        )
+        """
+        Extract product list from GraphQL response.
+
+        Args:
+            response_data: Raw JSON response.
+
+        Returns:
+            List of product dictionaries.
+        """
+        data = response_data.get("data")
+        if not isinstance(data, dict):
+            return []
+
+        product_search = data.get("productSearch")
+        if not isinstance(product_search, dict):
+            return []
+
+        products = product_search.get("products")
+        if not isinstance(products, list):
+            return []
+
+        return [product for product in products if isinstance(product, dict)]
 
     def _map_product(self, product: dict[str, Any]) -> ProductOffer | None:
         """Map VTEX product into ProductOffer."""

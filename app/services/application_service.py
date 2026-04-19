@@ -4,7 +4,9 @@ from app.collectors import JsonMarketCollector
 from app.comparison import ComparisonService
 from app.matching import MatchingService
 from app.normalization import NormalizationService
-from app.providers.coverage.mock_coverage_provider import MockCoverageProvider
+from app.providers.coverage.savegnago_coverage_provider import (
+    SavegnagoCoverageProvider,
+)
 from app.services.coverage_discovery_service import CoverageDiscoveryService
 from app.services.delivery_address_service import DeliveryAddressService
 from app.services.delivery_fee_service import DeliveryFeeService
@@ -53,7 +55,7 @@ class ApplicationService:
             )
 
             coverage_service = CoverageDiscoveryService(
-                providers=[MockCoverageProvider()]
+                providers=[SavegnagoCoverageProvider()]
             )
             covered_markets = coverage_service.get_covered_markets(delivery_address)
 

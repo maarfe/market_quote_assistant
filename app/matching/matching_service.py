@@ -37,11 +37,17 @@ class MatchingService:
             product_offer=product_offer,
         )
 
+        adjusted_score = self._adjust_confidence_for_real_data(
+            shopping_item=shopping_item,
+            product_offer=product_offer,
+            base_score=evaluation.confidence_score,
+        )
+
         return MatchedOffer(
             shopping_item=shopping_item,
             product_offer=product_offer,
             match_type=evaluation.match_type,
-            confidence_score=evaluation.confidence_score,
+            confidence_score=adjusted_score,
             notes=evaluation.notes,
         )
 
@@ -128,3 +134,47 @@ class MatchingService:
             confidence_score=0.5,
             notes="Partial textual overlap found, but exact token coverage is missing.",
         )
+
+    def _adjust_confidence_for_real_data(
+        self,
+        shopping_item: ShoppingItem,
+        product_offer: ProductOffer,
+        base_score: float,
+    ) -> float:
+        """
+        Adjust confidence score using real-world heuristics.
+
+        This improves selection quality for real market data.
+        """
+
+        score = base_score
+
+        size_value = product_offer.size_value
+        size_unit = product_offer.size_unit
+
+        # Penaliza produtos sem tamanho
+        if size_value is None or size_unit is None:
+            score -= 0.1
+
+        # Caso clássico: arroz
+        if "arroz" in shopping_item.normalized_name:
+            if size_unit == "kg":
+                if size_value >= 5:
+                    score += 0.2  # pacote típico
+                elif size_value <= 1:
+                    score -= 0.2  # muito pequeno
+
+        # leite
+        if "leite" in shopping_item.normalized_name:
+            if size_unit == "l":
+                if size_value == 1:
+                    score += 0.2
+                elif size_value < 1:
+                    score -= 0.1
+
+        # banana
+        if "banana" in shopping_item.normalized_name:
+            if size_unit == "kg":
+                score += 0.2
+
+        return max(0.0, min(1.5, score))

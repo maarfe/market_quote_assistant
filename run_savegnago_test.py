@@ -6,7 +6,7 @@ from pathlib import Path
 from app.core.entities.address import Address
 from app.core.entities.shopping_item import ShoppingItem
 from app.markets.savegnago.savegnago_client import SavegnagoClient
-
+from app.core.matching.offer_filter import filter_offers
 
 BASE_DIR = Path(__file__).resolve().parent
 CONFIG_DIR = BASE_DIR / "app" / "config"
@@ -38,7 +38,12 @@ def load_shopping_items() -> list[ShoppingItem]:
             continue
 
         shopping_items.append(
-            ShoppingItem(name=name.strip())
+            ShoppingItem(
+                name=name.strip(),
+                preferred_brand=item.get("preferred_brand"),
+                preferred_type=item.get("preferred_type"),
+                exclude_terms=item.get("exclude_terms"),
+            )
         )
 
     return shopping_items
@@ -65,6 +70,9 @@ def main() -> None:
         print(f"{'=' * 80}")
 
         offers = client.search_products(shopping_item, address)
+        print(f"ANTES: {len(offers)} ofertas")
+        offers = filter_offers(shopping_item, offers)
+        print(f"DEPOIS: {len(offers)} ofertas")
 
         if not offers:
             print("Nenhuma oferta encontrada.")

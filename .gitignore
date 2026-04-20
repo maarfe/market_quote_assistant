@@ -15,3 +15,5 @@ build/
 .venv/
 .vscode/
 .idea/
+app/config/address.json
+app/config/shopping_list.json

@@ -1,0 +1,78 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from app.core.entities.address import Address
+from app.core.entities.shopping_item import ShoppingItem
+from app.markets.savegnago.savegnago_client import SavegnagoClient
+
+
+BASE_DIR = Path(__file__).resolve().parent
+CONFIG_DIR = BASE_DIR / "app" / "config"
+
+
+def load_address() -> Address:
+    address_file = CONFIG_DIR / "address.json"
+
+    with address_file.open("r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    return Address(
+        postal_code=data["zip_code"],
+    )
+
+
+def load_shopping_items() -> list[ShoppingItem]:
+    shopping_list_file = CONFIG_DIR / "shopping_list.json"
+
+    with shopping_list_file.open("r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    items = data.get("items", [])
+    shopping_items: list[ShoppingItem] = []
+
+    for item in items:
+        name = item.get("name")
+        if not isinstance(name, str) or not name.strip():
+            continue
+
+        shopping_items.append(
+            ShoppingItem(name=name.strip())
+        )
+
+    return shopping_items
+
+
+def main() -> None:
+    client = SavegnagoClient()
+
+    address = load_address()
+    shopping_items = load_shopping_items()
+
+    coverage = client.check_coverage(address)
+
+    print("COVERAGE:")
+    print(coverage)
+
+    if not shopping_items:
+        print("\nNenhum item válido encontrado em shopping_list.json")
+        return
+
+    for shopping_item in shopping_items:
+        print(f"\n{'=' * 80}")
+        print(f"ITEM: {shopping_item.name}")
+        print(f"{'=' * 80}")
+
+        offers = client.search_products(shopping_item, address)
+
+        if not offers:
+            print("Nenhuma oferta encontrada.")
+            continue
+
+        for offer in offers[:10]:
+            print(offer)
+
+
+if __name__ == "__main__":
+    main()

@@ -76,24 +76,32 @@ class SavegnagoClient(MarketClient):
         """
         Busca produtos no Savegnago.
 
-        Regra obrigatória:
+        Regras:
         - só executa a busca após coverage bem-sucedido
+        - pode realizar múltiplas buscas para aumentar recall
+        - consolida resultados sem duplicar produtos
         """
         if not self.is_regionalized:
             coverage_result = self.check_coverage(address)
             if coverage_result.status != CoverageStatus.COVERED:
                 return []
 
-        search_term = self._extract_search_term(item)
-        if not search_term:
+        search_terms = self._build_search_terms(item)
+        if not search_terms:
             return []
 
+        all_offers: list[ProductOffer] = []
+
         try:
-            response_json = execute_search_request(
-                session=self.session,
-                term=search_term,
-            )
-            return parse_products_response(response_json)
+            for term in search_terms:
+                response_json = execute_search_request(
+                    session=self.session,
+                    term=term,
+                )
+                offers = parse_products_response(response_json)
+                all_offers.extend(offers)
+
+            return self._deduplicate_offers(all_offers)
 
         except requests.Timeout:
             return []
@@ -109,15 +117,77 @@ class SavegnagoClient(MarketClient):
         return re.sub(r"\D", "", postal_code)
 
     @staticmethod
-    def _extract_search_term(item: ShoppingItem) -> str:
+    def _build_search_terms(item: ShoppingItem) -> list[str]:
         """
-        Extrai o termo de busca do item da lista.
+        Monta uma lista de termos de busca para melhorar recall.
 
-        Ajuste aqui se o seu ShoppingItem usar outro atributo.
+        Estratégia:
+        - sempre inclui o nome base
+        - adiciona busca com preferred_brand
+        - para preferred_type em string: adiciona uma busca expandida
+        - para preferred_type em lista: cria uma busca por termo
+        em vez de concatenar tudo em uma única query restritiva
         """
+        base = ""
+
         for attr_name in ("search_term", "name", "description", "raw_text"):
             value = getattr(item, attr_name, None)
             if isinstance(value, str) and value.strip():
-                return value.strip()
+                base = value.strip()
+                break
 
-        return ""
+        if not base:
+            return []
+
+        terms: list[str] = [base]
+
+        preferred_brand = getattr(item, "preferred_brand", None)
+        if isinstance(preferred_brand, str) and preferred_brand.strip():
+            terms.append(f"{base} {preferred_brand.strip()}")
+
+        preferred_type = getattr(item, "preferred_type", None)
+
+        if isinstance(preferred_type, str) and preferred_type.strip():
+            terms.append(f"{base} {preferred_type.strip()}")
+
+        elif isinstance(preferred_type, list):
+            for value in preferred_type:
+                if isinstance(value, str) and value.strip():
+                    terms.append(f"{base} {value.strip()}")
+
+        return SavegnagoClient._unique_terms(terms)
+
+    @staticmethod
+    def _unique_terms(terms: list[str]) -> list[str]:
+        unique: list[str] = []
+        seen: set[str] = set()
+
+        for term in terms:
+            normalized = " ".join(term.split()).strip().lower()
+            if not normalized or normalized in seen:
+                continue
+
+            seen.add(normalized)
+            unique.append(term.strip())
+
+        return unique
+
+
+    @staticmethod
+    def _deduplicate_offers(offers: list[ProductOffer]) -> list[ProductOffer]:
+        unique: list[ProductOffer] = []
+        seen: set[tuple[str, str]] = set()
+
+        for offer in offers:
+            key = (
+                offer.product_url.strip().lower(),
+                offer.product_name.strip().lower(),
+            )
+
+            if key in seen:
+                continue
+
+            seen.add(key)
+            unique.append(offer)
+
+        return unique

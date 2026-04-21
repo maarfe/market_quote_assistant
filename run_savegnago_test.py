@@ -70,17 +70,18 @@ def main() -> None:
         print(f"{'=' * 80}")
 
         offers = client.search_products(shopping_item, address)
-        print(f"ANTES: {len(offers)} ofertas")
         offers = filter_offers(shopping_item, offers)
-        print(f"DEPOIS: {len(offers)} ofertas")
 
         if not offers:
             print("Nenhuma oferta encontrada.")
             continue
 
+        print(f"\nEncontrados: {len(offers)} produtos válidos\n")
         for offer in offers[:10]:
-            print(offer)
-
+            print(f"- {offer.product_name}")
+            print(f"  Marca: {offer.brand or 'N/A'}")
+            print(f"  Preço: R$ {offer.price:.2f}")
+            print()
 
 if __name__ == "__main__":
     main()

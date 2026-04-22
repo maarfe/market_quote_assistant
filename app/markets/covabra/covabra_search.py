@@ -3,9 +3,13 @@ from __future__ import annotations
 import base64
 import json
 from typing import Any
-from urllib.parse import urlencode
 
 import requests
+
+from app.core.markets.vtex_search import (
+    build_vtex_search_headers,
+    execute_vtex_search_request,
+)
 
 COVABRA_BASE_URL = "https://www.covabra.com.br"
 COVABRA_GRAPHQL_URL = f"{COVABRA_BASE_URL}/_v/segment/graphql/v1"
@@ -14,22 +18,6 @@ COVABRA_BINDING_ID = "7ce9b3b0-6a3c-46fb-98ae-854829b7eb01"
 COVABRA_PERSISTED_QUERY_HASH = (
     "31d3fa494df1fc41efef6d16dd96a96e6911b8aed7a037868699a1f3f4d365de"
 )
-
-
-def prime_search_session(
-    session: requests.Session,
-    timeout: int = 20,
-) -> None:
-    """
-    Inicializa a sessão HTTP antes da busca para ajudar a estabelecer
-    cookies de contexto VTEX.
-    """
-    response = session.get(
-        COVABRA_BASE_URL,
-        headers=_build_headers(),
-        timeout=timeout,
-    )
-    response.raise_for_status()
 
 
 def build_search_params(term: str) -> dict[str, str]:
@@ -97,23 +85,15 @@ def execute_search_request(
     """
     Executa a busca real de produtos no Covabra via VTEX GraphQL.
     """
-    prime_search_session(session=session, timeout=timeout)
-
-    params = build_search_params(term=term)
-    url = f"{COVABRA_GRAPHQL_URL}?{urlencode(params)}"
-
-    response = session.get(
-        url,
-        headers=_build_headers(search_term=term),
+    return execute_vtex_search_request(
+        session=session,
+        base_url=COVABRA_BASE_URL,
+        graphql_url=COVABRA_GRAPHQL_URL,
+        term=term,
+        build_search_params=build_search_params,
+        build_headers=_build_headers,
         timeout=timeout,
     )
-    response.raise_for_status()
-
-    response_json = response.json()
-    if not isinstance(response_json, dict):
-        return {}
-
-    return response_json
 
 
 def _build_headers(search_term: str | None = None) -> dict[str, str]:
@@ -121,14 +101,7 @@ def _build_headers(search_term: str | None = None) -> dict[str, str]:
     if search_term:
         referer = f"{COVABRA_BASE_URL}/{search_term}?map=ft&p={search_term}"
 
-    return {
-        "accept": "*/*",
-        "content-type": "application/json",
-        "referer": referer,
-        "origin": COVABRA_BASE_URL,
-        "user-agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/137.0.0.0 Safari/537.36"
-        ),
-    }
+    return build_vtex_search_headers(
+        base_url=COVABRA_BASE_URL,
+        referer=referer,
+    )

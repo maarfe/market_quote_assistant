@@ -16,7 +16,7 @@ from app.markets.savegnago.savegnago_parser import (
     parse_products_response,
 )
 from app.markets.savegnago.savegnago_search import execute_search_request
-from app.markets.savegnago.savegnago_shipping import parse_shipping_response
+from app.core.parsers.vtex_shipping_parser import parse_vtex_shipping_response
 
 
 class SavegnagoClient(MarketClient):
@@ -60,7 +60,7 @@ class SavegnagoClient(MarketClient):
             )
 
             result = parse_coverage_response(response_json)
-            self._last_shipping_info = parse_shipping_response(response_json)
+            self._last_shipping_info = parse_vtex_shipping_response(response_json)
             self.is_regionalized = result.status == CoverageStatus.COVERED
 
             return result

@@ -5,10 +5,10 @@ from typing import Any
 from app.core.entities.shipping_info import ShippingInfo
 
 
-def parse_shipping_response(response_json: dict[str, Any]) -> ShippingInfo:
+def parse_vtex_shipping_response(response_json: dict[str, Any]) -> ShippingInfo:
     """
     Extrai informações de frete e prazo de entrega a partir do response
-    do endpoint de simulation do Covabra.
+    do endpoint VTEX de simulation.
 
     Estratégia:
     - percorre logisticsInfo[].slas[]

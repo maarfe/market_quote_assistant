@@ -4,6 +4,7 @@ from app.core.entities.address import Address
 from app.core.entities.coverage import CoverageResult
 from app.core.entities.product_offer import ProductOffer
 from app.core.entities.shopping_item import ShoppingItem
+from app.core.entities.shipping_info import ShippingInfo
 
 
 class MarketClient(ABC):
@@ -17,4 +18,8 @@ class MarketClient(ABC):
 
     @abstractmethod
     def search_products(self, item: ShoppingItem, address: Address) -> list[ProductOffer]:
+        raise NotImplementedError
+
+    @abstractmethod
+    def get_shipping_info(self, address: Address) -> ShippingInfo:
         raise NotImplementedError

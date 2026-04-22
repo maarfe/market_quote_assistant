@@ -76,6 +76,11 @@ def main() -> None:
         print(f"{'=' * 80}")
 
         coverage = client.check_coverage(address)
+        shipping = client.get_shipping_info(address)
+
+        print("\nENTREGA:")
+        print(f"- Frete: {'R$ ' + format(shipping.price, '.2f') if shipping.price is not None else 'N/A'}")
+        print(f"- Prazo: {shipping.delivery_estimate or 'N/A'}")
 
         print("COVERAGE:")
         print(coverage)

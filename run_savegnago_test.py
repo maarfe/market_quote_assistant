@@ -56,9 +56,14 @@ def main() -> None:
     shopping_items = load_shopping_items()
 
     coverage = client.check_coverage(address)
+    shipping = client.get_shipping_info(address)
 
     print("COVERAGE:")
     print(coverage)
+
+    print("\nENTREGA:")
+    print(f"- Frete: {'R$ ' + format(shipping.price, '.2f') if shipping.price is not None else 'N/A'}")
+    print(f"- Prazo: {shipping.delivery_estimate or 'N/A'}")
 
     if not shopping_items:
         print("\nNenhum item válido encontrado em shopping_list.json")
@@ -82,6 +87,7 @@ def main() -> None:
             print(f"  Marca: {offer.brand or 'N/A'}")
             print(f"  Preço: R$ {offer.price:.2f}")
             print()
+
 
 if __name__ == "__main__":
     main()

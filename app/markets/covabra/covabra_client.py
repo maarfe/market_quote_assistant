@@ -8,6 +8,7 @@ from app.core.entities.address import Address
 from app.core.entities.coverage import CoverageResult, CoverageStatus
 from app.core.entities.product_offer import ProductOffer
 from app.core.entities.shopping_item import ShoppingItem
+from app.core.entities.shipping_info import ShippingInfo
 from app.core.markets.market_client import MarketClient
 from app.markets.covabra.covabra_coverage import execute_coverage_request
 from app.markets.covabra.covabra_parser import (
@@ -15,6 +16,7 @@ from app.markets.covabra.covabra_parser import (
     parse_products_response,
 )
 from app.markets.covabra.covabra_search import execute_search_request
+from app.markets.covabra.covabra_shipping import parse_shipping_response
 
 
 class CovabraClient(MarketClient):
@@ -22,6 +24,7 @@ class CovabraClient(MarketClient):
     Cliente real do Covabra baseado em:
     - simulation para coverage/regionalização
     - productSearchV3 para busca de produtos
+    - simulation para extração de frete e prazo de entrega
 
     Observação importante:
     - a lógica de coverage é inicial e ainda deve ser validada com CEP não coberto
@@ -30,6 +33,7 @@ class CovabraClient(MarketClient):
     def __init__(self) -> None:
         self.session = requests.Session()
         self.is_regionalized = False
+        self._last_shipping_info: ShippingInfo | None = None
 
     def get_market_name(self) -> str:
         return "Covabra"
@@ -38,6 +42,11 @@ class CovabraClient(MarketClient):
         postal_code = self._normalize_postal_code(address.postal_code)
 
         if not postal_code:
+            self._last_shipping_info = ShippingInfo(
+                price=None,
+                delivery_estimate=None,
+                raw_text=None,
+            )
             return CoverageResult(
                 status=CoverageStatus.UNKNOWN,
                 has_delivery=False,
@@ -50,21 +59,37 @@ class CovabraClient(MarketClient):
             )
 
             result = parse_coverage_response(response_json)
+            self._last_shipping_info = parse_shipping_response(response_json)
             self.is_regionalized = result.status == CoverageStatus.COVERED
 
             return result
 
         except requests.Timeout:
+            self._last_shipping_info = ShippingInfo(
+                price=None,
+                delivery_estimate=None,
+                raw_text=None,
+            )
             return CoverageResult(
                 status=CoverageStatus.UNKNOWN,
                 has_delivery=False,
             )
         except requests.RequestException:
+            self._last_shipping_info = ShippingInfo(
+                price=None,
+                delivery_estimate=None,
+                raw_text=None,
+            )
             return CoverageResult(
                 status=CoverageStatus.UNKNOWN,
                 has_delivery=False,
             )
         except Exception:
+            self._last_shipping_info = ShippingInfo(
+                price=None,
+                delivery_estimate=None,
+                raw_text=None,
+            )
             return CoverageResult(
                 status=CoverageStatus.UNKNOWN,
                 has_delivery=False,
@@ -99,6 +124,24 @@ class CovabraClient(MarketClient):
             return []
         except Exception:
             return []
+
+    def get_shipping_info(self, address: Address) -> ShippingInfo:
+        """
+        Retorna as informações de frete e prazo já obtidas pela sessão atual.
+
+        Se ainda não houver contexto carregado, executa o coverage para popular
+        os dados de entrega a partir do endpoint de simulation.
+        """
+        if self._last_shipping_info is not None:
+            return self._last_shipping_info
+
+        self.check_coverage(address)
+
+        return self._last_shipping_info or ShippingInfo(
+            price=None,
+            delivery_estimate=None,
+            raw_text=None,
+        )
 
     @staticmethod
     def _normalize_postal_code(postal_code: str | None) -> str:

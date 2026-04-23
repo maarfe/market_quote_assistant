@@ -1,0 +1,196 @@
+{
+  "markets": [
+    {
+      "market_name": "Savegnago",
+      "coverage": {
+        "status": "covered",
+        "has_delivery": true
+      },
+      "shipping": {
+        "price": 18.2,
+        "delivery_estimate": "2026-04-23T11:00:00-03:00",
+        "raw_text": "Frete: R$ 18.20 | Prazo: 2026-04-23T11:00:00-03:00"
+      },
+      "items": [
+        {
+          "item_name": "arroz",
+          "offer_count": 8,
+          "lowest_price": 5.45,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Camil Parboilizado tipo 1 5kg",
+              "brand": "CAMIL",
+              "product_url": "https://www.savegnago.com.br/arroz-camil-parboilizado-tipo-1-5kg/p",
+              "price": 19.5,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Parboilizado Integral Prato Fino 1kg",
+              "brand": "PRATO FINO",
+              "product_url": "https://www.savegnago.com.br/arroz-parboilizado-integral-prato-fino-1kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Parboilizado Tio João 5kg Tipo 1",
+              "brand": "TIO JOAO",
+              "product_url": "https://www.savegnago.com.br/arroz-parb-tio-joao-5kg-tp1/p",
+              "price": 24.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Parboilizado Prato Fino 2kg",
+              "brand": "PRATO FINO",
+              "product_url": "https://www.savegnago.com.br/arroz-parb-prato-fino-2kg/p",
+              "price": 10.75,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Parboilizado Integral Meu Biju 1kg Tipo 1",
+              "brand": "MEU BIJU",
+              "product_url": "https://www.savegnago.com.br/arroz-parb-int-meu-biju-1kg-tp1/p",
+              "price": 5.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Parboilizado Broto Legal 2kg",
+              "brand": "BROTO LEGAL",
+              "product_url": "https://www.savegnago.com.br/arroz-parboilizado-broto-legal-2kg/p",
+              "price": 9.35,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Parboilizado Tio João Saquinhos 1KG",
+              "brand": "TIO JOAO",
+              "product_url": "https://www.savegnago.com.br/arroz-parboilizado-tio-joao-saquinhos-1kg/p",
+              "price": 5.45,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Arroz Parboilizado Vasconcelos 5kg",
+              "brand": "VASCONCELOS",
+              "product_url": "https://www.savegnago.com.br/arroz-parboilizado-vasconcelos-5kg/p",
+              "price": 22.95,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "banana nanica",
+          "offer_count": 1,
+          "lowest_price": 5.99,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Banana Nanica Exportação - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/banana-nanica-exportacao-kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market_name": "Covabra",
+      "coverage": {
+        "status": "covered",
+        "has_delivery": true
+      },
+      "shipping": {
+        "price": 14.9,
+        "delivery_estimate": "2026-04-23T13:00:00-03:00",
+        "raw_text": "Frete: R$ 14.90 | Prazo: 2026-04-23T13:00:00-03:00"
+      },
+      "items": [
+        {
+          "item_name": "arroz",
+          "offer_count": 7,
+          "lowest_price": 5.99,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Prato Fino Parboilizado Tipo I 1kg",
+              "brand": "Prato Fino",
+              "product_url": "https://www.covabra.com.br/arroz-prato-fino-parboilizado-tipo-i-1kg/p",
+              "price": 6.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Prato Fino Parboilizado Tipo I 5kg",
+              "brand": "Prato Fino",
+              "product_url": "https://www.covabra.com.br/arroz-prato-fino-parboilizado-tipo-i-5kg/p",
+              "price": 26.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Camil Parboilizado Tipo 1 com 5kg",
+              "brand": "Camil",
+              "product_url": "https://www.covabra.com.br/arroz-camil-parboilizado-tipo-1-com-5kg/p",
+              "price": 22.89,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Broto Legal Parboilizado Tipo I 5kg",
+              "brand": "Broto Legal",
+              "product_url": "https://www.covabra.com.br/arroz-broto-legal-parboilizado-tipo-i-5kg/p",
+              "price": 22.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Prato Fino Parboilizado Integral 1kg",
+              "brand": "Prato Fino",
+              "product_url": "https://www.covabra.com.br/arroz-prato-fino-parboilizado-integral-1kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Broto Legal Parboilizado Tipo I 2kg",
+              "brand": "Broto Legal",
+              "product_url": "https://www.covabra.com.br/arroz-broto-legal-parboilizado-tipo-i-2kg/p",
+              "price": 10.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Empório São João Integral Tipo I Parboilizado 1kg",
+              "brand": "Empório São João",
+              "product_url": "https://www.covabra.com.br/arroz-emporio-sao-joao-integral-tipo-i-parboilizado-1kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "banana nanica",
+          "offer_count": 1,
+          "lowest_price": 2.04,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Banana Nanica 1 Unidade 228g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/banana-nanica-1-unidade-228g/p",
+              "price": 2.04,
+              "available_quantity": 10000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

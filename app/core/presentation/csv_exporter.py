@@ -29,10 +29,6 @@ class CsvExporter:
                     "product_name",
                     "brand",
                     "price",
-                    "shipping_price",
-                    "delivery_estimate",
-                    "offer_count",
-                    "available_quantity",
                     "product_url",
                 ],
             )
@@ -43,15 +39,11 @@ class CsvExporter:
                     if not item_result.offers:
                         writer.writerow(
                             {
-                                "market": market_result.market_name,
-                                "item_name": item_result.item_name,
+                                "market": market_result.market_name.lower(),
+                                "item_name": item_result.item_name.lower(),
                                 "product_name": "",
                                 "brand": "",
                                 "price": "",
-                                "shipping_price": market_result.shipping.price,
-                                "delivery_estimate": market_result.shipping.delivery_estimate or "",
-                                "offer_count": item_result.offer_count,
-                                "available_quantity": "",
                                 "product_url": "",
                             }
                         )
@@ -60,15 +52,11 @@ class CsvExporter:
                     for offer in item_result.offers:
                         writer.writerow(
                             {
-                                "market": market_result.market_name,
-                                "item_name": item_result.item_name,
-                                "product_name": offer.product_name,
-                                "brand": offer.brand or "",
+                                "market": market_result.market_name.lower(),
+                                "item_name": item_result.item_name.lower(),
+                                "product_name": offer.product_name.lower(),
+                                "brand": (offer.brand or "").lower(),
                                 "price": offer.price,
-                                "shipping_price": market_result.shipping.price,
-                                "delivery_estimate": market_result.shipping.delivery_estimate or "",
-                                "offer_count": item_result.offer_count,
-                                "available_quantity": offer.available_quantity,
                                 "product_url": offer.product_url,
                             }
                         )

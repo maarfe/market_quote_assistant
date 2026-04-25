@@ -1,18 +1,304 @@
 market,item_name,product_name,brand,price,product_url
-savegnago,arroz parboilizado,arroz camil parboilizado tipo 1 5kg,camil,19.5,https://www.savegnago.com.br/arroz-camil-parboilizado-tipo-1-5kg/p
-savegnago,arroz parboilizado,arroz parboilizado integral prato fino 1kg,prato fino,5.99,https://www.savegnago.com.br/arroz-parboilizado-integral-prato-fino-1kg/p
-savegnago,arroz parboilizado,arroz parboilizado tio joão 5kg tipo 1,tio joao,24.9,https://www.savegnago.com.br/arroz-parb-tio-joao-5kg-tp1/p
-savegnago,arroz parboilizado,arroz parboilizado prato fino 2kg,prato fino,10.75,https://www.savegnago.com.br/arroz-parb-prato-fino-2kg/p
-savegnago,arroz parboilizado,arroz parboilizado broto legal 2kg,broto legal,9.35,https://www.savegnago.com.br/arroz-parboilizado-broto-legal-2kg/p
-savegnago,arroz parboilizado,arroz parboilizado integral meu biju 1kg tipo 1,meu biju,5.79,https://www.savegnago.com.br/arroz-parb-int-meu-biju-1kg-tp1/p
-savegnago,arroz parboilizado,arroz parboilizado tio joão saquinhos 1kg,tio joao,5.45,https://www.savegnago.com.br/arroz-parboilizado-tio-joao-saquinhos-1kg/p
-savegnago,arroz parboilizado,arroz parboilizado vasconcelos 5kg,vasconcelos,22.95,https://www.savegnago.com.br/arroz-parboilizado-vasconcelos-5kg/p
-savegnago,banana nanica,banana nanica exportação - 1kg,in natura,5.99,https://www.savegnago.com.br/banana-nanica-exportacao-kg/p
-covabra,arroz parboilizado,arroz prato fino parboilizado tipo i 1kg,prato fino,6.49,https://www.covabra.com.br/arroz-prato-fino-parboilizado-tipo-i-1kg/p
-covabra,arroz parboilizado,arroz prato fino parboilizado tipo i 5kg,prato fino,26.99,https://www.covabra.com.br/arroz-prato-fino-parboilizado-tipo-i-5kg/p
-covabra,arroz parboilizado,arroz camil parboilizado tipo 1 com 5kg,camil,22.89,https://www.covabra.com.br/arroz-camil-parboilizado-tipo-1-com-5kg/p
-covabra,arroz parboilizado,arroz broto legal parboilizado tipo i 5kg,broto legal,22.79,https://www.covabra.com.br/arroz-broto-legal-parboilizado-tipo-i-5kg/p
-covabra,arroz parboilizado,arroz prato fino parboilizado integral 1kg,prato fino,5.99,https://www.covabra.com.br/arroz-prato-fino-parboilizado-integral-1kg/p
-covabra,arroz parboilizado,arroz broto legal parboilizado tipo i 2kg,broto legal,10.99,https://www.covabra.com.br/arroz-broto-legal-parboilizado-tipo-i-2kg/p
-covabra,arroz parboilizado,arroz empório são joão integral tipo i parboilizado 1kg,empório são joão,5.99,https://www.covabra.com.br/arroz-emporio-sao-joao-integral-tipo-i-parboilizado-1kg/p
-covabra,banana nanica,banana nanica 1 unidade 228g,covabra,2.04,https://www.covabra.com.br/banana-nanica-1-unidade-228g/p
+savegnago,arroz,arroz camil parboilizado tipo 1 5kg,camil,19.5,https://www.savegnago.com.br/arroz-camil-parboilizado-tipo-1-5kg/p
+savegnago,arroz,arroz parboilizado tio joão 5kg tipo 1,tio joao,24.9,https://www.savegnago.com.br/arroz-parb-tio-joao-5kg-tp1/p
+savegnago,arroz,arroz parboilizado tio joão saquinhos 1kg,tio joao,5.45,https://www.savegnago.com.br/arroz-parboilizado-tio-joao-saquinhos-1kg/p
+savegnago,feijao carioca,feijão carioca tipo 1 camil 1kg,camil,7.65,https://www.savegnago.com.br/feijao-carioca-camil-1kg/p
+savegnago,feijao carioca,feijão carioca broto legal 1kg,broto legal,10.4,https://www.savegnago.com.br/feijao-carioca-broto-legal-1kg/p
+savegnago,feijao carioca,feijão carioca empório são joão 1kg,emporio sao joao,8.95,https://www.savegnago.com.br/feijao-carioca-emporio-sao-joao-1kg/p
+savegnago,feijao carioca,feijão carioca carunchão 1kg,carunchao,8.25,https://www.savegnago.com.br/feijao-carioca-carunchao-1kg/p
+savegnago,feijao carioca,feijão carioca vasconcelos nobre 1kg,vasconcelos,8.25,https://www.savegnago.com.br/feijao-carioca-vasconcelos-nobre-1kg/p
+savegnago,feijao carioca,feijão carioca serrazul 1kg,serrazul,6.85,https://www.savegnago.com.br/feijao-carioca-serrazul-1kg/p
+savegnago,feijao carioca,feijão carioca vapza 500g,vapza,18.7,https://www.savegnago.com.br/feijao-carioca-vapza-500g/p
+savegnago,feijao carioca,feijão carioca vapza 200g,vapza,13.85,https://www.savegnago.com.br/feijao-carioca-vapza-200g/p
+savegnago,peito de frango cru,filé de frango congelado big frango 1kg,big frango,18.9,https://www.savegnago.com.br/file-de-frango-big-frango-kg/p
+savegnago,peito de frango cru,filézinho sassami big frango congelado kg,big frango,21.9,https://www.savegnago.com.br/filezinho-sassami-fgo-big-frango-kg-cong/p
+savegnago,peito de frango cru,filé de frango congelado copacol kg,copacol,19.9,https://www.savegnago.com.br/file-de-frango-copacol-kg/p
+savegnago,peito de frango cru,patinho bovino moído resfriado oranges bandeja 500g,oranges,35.9,https://www.savegnago.com.br/patinho-bovino-moido-resfriado-oranges-bandeja-500g/p
+savegnago,carne bovina patinho acem,,,,
+savegnago,carne moida patinho,carne bovina patinho swift 500g moído,swift,29.9,https://www.savegnago.com.br/carne-bovina-patinho-swift-500g-moido/p
+savegnago,carne moida patinho,patinho bovino moído resfriado oranges bandeja 500g,oranges,35.9,https://www.savegnago.com.br/patinho-bovino-moido-resfriado-oranges-bandeja-500g/p
+savegnago,carne moida patinho,carne bovina patinho swift 1kg moído,swift,51.9,https://www.savegnago.com.br/carne-bovina-patinho-swift-1kg-moido/p
+savegnago,linguica toscana crua,linguiça toscana perdigão na brasa 500g,perdigao,23.9,https://www.savegnago.com.br/linguica-toscana-perdigao-na-brasa-kg/p
+savegnago,linguica toscana crua,linguiça toscana perdigão nabrasa 700g,perdigao,25.9,https://www.savegnago.com.br/linguica-toscana-perdigao-nabrasa-700g/p
+savegnago,linguica toscana crua,linguiça toscana perdigão nabrasa 600g alho e ervas,perdigao,29.9,https://www.savegnago.com.br/linguica-toscana-perdigao-nabrasa-600g-alho-e-ervas/p
+savegnago,linguica toscana crua,linguiça toscana perdigão nabrasa com queijo coalho 600g,perdigao,29.9,https://www.savegnago.com.br/linguica-toscana-perdigao-nabrasa-600g-com-queijo-coalho/p
+savegnago,linguica toscana crua,linguiça calabresa perdigão resfriada 400g,perdigao,14.9,https://www.savegnago.com.br/linguica-calabresa-perdigao-resfriada-400g/p
+savegnago,linguica toscana crua,linguiça de frango sadia 700g,sadia,18.9,https://www.savegnago.com.br/linguica-de-frango-sadia-700g/p
+savegnago,ovo branco,ovo branco mantiqueira com 20 unidades grandes,mantiqueira,14.75,https://www.savegnago.com.br/ovo-branco-mantiqueira-com-20-grandes-pvc/p
+savegnago,ovo branco,ovo branco grande coag com 12,coag,8.55,https://www.savegnago.com.br/ovo-branco-grande-coag-com-12/p
+savegnago,ovo branco,ovo branco coag com 20 grande,coag,13.5,https://www.savegnago.com.br/ovo-branco-coag-com-20-grande/p
+savegnago,macarrao espaguete,macarrão espaguete n8 com ovos barilla 500g,barilla,5.99,https://www.savegnago.com.br/macarrao-ovos-barilla-500g-espaguete-n8/p
+savegnago,macarrao espaguete,macarrão de sêmola com ovos espaguete 8 adria pacote 500g,adria,3.49,https://www.savegnago.com.br/macarrao-ovos-adria-500g-espag-n8/p
+savegnago,macarrao espaguete,macarrão sêmola adria espaguete 400g,adria,3.15,https://www.savegnago.com.br/macarrao-semola-adria-espaguete-400g/p
+savegnago,macarrao espaguete,macarrão de sêmola grano duro espaguete 8 adria pacote 500g,adria,6.99,https://www.savegnago.com.br/macarrao-grano-duro-adria-500g-spaguete/p
+savegnago,molho de tomate tradicional,molho tomate heinz tradicional 240g sachê,heinz,2.49,https://www.savegnago.com.br/molho-tomate-heinz-tradicional-240g-sache/p
+savegnago,molho de tomate tradicional,molho tomate fugini 300g sachê tradicional,fugini,1.79,https://www.savegnago.com.br/molho-tomate-fugini-300g-sache-tradicional/p
+savegnago,molho de tomate tradicional,molho de tomate heinz tradicional 320g,heinz,12.56,https://www.savegnago.com.br/molho-de-tomate-heinz-tradicional-320g/p
+savegnago,cebola branca in natura,cebola nacional - 1kg,in natura,4.98,https://www.savegnago.com.br/cebola-nacional-kg/p
+savegnago,cebola branca in natura,cebola miuda bandeja 320g,in natura,6.97,https://www.savegnago.com.br/cebola-miuda-bandeja-320g/p
+savegnago,cebola branca in natura,cebola roxa 1kg,in natura,8.98,https://www.savegnago.com.br/cebola-roxa-1kg/p
+savegnago,cebola branca in natura,batata primeira 1kg,in natura,5.95,https://www.savegnago.com.br/batata-primeira-kg/p
+savegnago,cebola branca in natura,limão taiti 1kg,in natura,2.45,https://www.savegnago.com.br/limao-taitii-kg/p
+savegnago,cebola branca in natura,cenoura 1kg,in natura,8.95,https://www.savegnago.com.br/cenoura-kg/p
+savegnago,cebola branca in natura,banana nanica exportação - 1kg,in natura,5.99,https://www.savegnago.com.br/banana-nanica-exportacao-kg/p
+savegnago,cebola branca in natura,alho 500g,in natura,16.9,https://www.savegnago.com.br/alho-granel-kg/p
+savegnago,cebola branca in natura,uva verde sem semente cumbuca 500g,in natura,12.9,https://www.savegnago.com.br/uva-thompson-cumbuca-500g/p
+savegnago,cebola branca in natura,mamão formosa - 1kg,in natura,5.99,https://www.savegnago.com.br/mamao-formosa-1-622kg/p
+savegnago,cebola branca in natura,laranja pera 3kg pacote,in natura,7.65,https://www.savegnago.com.br/laranja-pera-3kg-pacote/p
+savegnago,cebola branca in natura,banana prata 1kg,in natura,9.99,https://www.savegnago.com.br/banana-prata-1kg/p
+savegnago,cebola branca in natura,tomate longa vida 1kg,in natura,8.95,https://www.savegnago.com.br/tomate-longa-vida-kg/p
+savegnago,cebola branca in natura,maçã gala - 1kg,in natura,12.9,https://www.savegnago.com.br/maca-gala-150g/p
+savegnago,cebola branca in natura,brócolis ninja 150g bandeja,in natura,5.99,https://www.savegnago.com.br/brocolis-ninja-150g-bandeja/p
+savegnago,cebola branca in natura,abacaxi pérola grande unidade,in natura,8.9,https://www.savegnago.com.br/abacaxi-perola-grande-unidade/p
+savegnago,cebola branca in natura,batata doce roxa 1kg,in natura,4.75,https://www.savegnago.com.br/batata-doce-roxa-kg/p
+savegnago,cebola branca in natura,manga tommy - 1 kg,in natura,6.98,https://www.savegnago.com.br/manga-tommy-kg/p
+savegnago,cebola branca in natura,beterraba 1kg,in natura,5.99,https://www.savegnago.com.br/beterraba-kg/p
+savegnago,cebola branca in natura,pera williams 1kg,in natura,10.95,https://www.savegnago.com.br/pera-williams-kg/p
+savegnago,cebola branca in natura,chuchu 1kg,in natura,3.99,https://www.savegnago.com.br/chuchu-kg/p
+savegnago,cebola branca in natura,"melão orange 1,15kg",in natura,8.98,https://www.savegnago.com.br/melao-orange-1kg/p
+savegnago,cebola branca in natura,"cabotiá bandeja 1,800kg",in natura,3.75,https://www.savegnago.com.br/cabotia-1700kg-bandeja/p
+savegnago,cebola branca in natura,"melão amarelo 2,200kg",in natura,5.98,https://www.savegnago.com.br/melao-amarelo/p
+savegnago,alho in natura,alho 500g,in natura,16.9,https://www.savegnago.com.br/alho-granel-kg/p
+savegnago,alho in natura,alho poró unidade,in natura,3.45,https://www.savegnago.com.br/alho-poro-80g/p
+savegnago,cenoura in natura,cenoura 1kg,in natura,8.95,https://www.savegnago.com.br/cenoura-kg/p
+savegnago,brocolis in natura,brócolis ninja 150g bandeja,in natura,5.99,https://www.savegnago.com.br/brocolis-ninja-150g-bandeja/p
+savegnago,abobrinha italiana in natura,abobrinha bandeja 800g,in natura,7.65,https://www.savegnago.com.br/abobrinha-bandeja-800g/p
+savegnago,abobrinha italiana in natura,batata primeira 1kg,in natura,5.95,https://www.savegnago.com.br/batata-primeira-kg/p
+savegnago,abobrinha italiana in natura,cebola nacional - 1kg,in natura,4.98,https://www.savegnago.com.br/cebola-nacional-kg/p
+savegnago,abobrinha italiana in natura,limão taiti 1kg,in natura,2.45,https://www.savegnago.com.br/limao-taitii-kg/p
+savegnago,abobrinha italiana in natura,cenoura 1kg,in natura,8.95,https://www.savegnago.com.br/cenoura-kg/p
+savegnago,abobrinha italiana in natura,banana nanica exportação - 1kg,in natura,5.99,https://www.savegnago.com.br/banana-nanica-exportacao-kg/p
+savegnago,abobrinha italiana in natura,alho 500g,in natura,16.9,https://www.savegnago.com.br/alho-granel-kg/p
+savegnago,abobrinha italiana in natura,uva verde sem semente cumbuca 500g,in natura,12.9,https://www.savegnago.com.br/uva-thompson-cumbuca-500g/p
+savegnago,abobrinha italiana in natura,mamão formosa - 1kg,in natura,5.99,https://www.savegnago.com.br/mamao-formosa-1-622kg/p
+savegnago,abobrinha italiana in natura,laranja pera 3kg pacote,in natura,7.65,https://www.savegnago.com.br/laranja-pera-3kg-pacote/p
+savegnago,abobrinha italiana in natura,banana prata 1kg,in natura,9.99,https://www.savegnago.com.br/banana-prata-1kg/p
+savegnago,abobrinha italiana in natura,tomate longa vida 1kg,in natura,8.95,https://www.savegnago.com.br/tomate-longa-vida-kg/p
+savegnago,abobrinha italiana in natura,maçã gala - 1kg,in natura,12.9,https://www.savegnago.com.br/maca-gala-150g/p
+savegnago,abobrinha italiana in natura,brócolis ninja 150g bandeja,in natura,5.99,https://www.savegnago.com.br/brocolis-ninja-150g-bandeja/p
+savegnago,abobrinha italiana in natura,abacaxi pérola grande unidade,in natura,8.9,https://www.savegnago.com.br/abacaxi-perola-grande-unidade/p
+savegnago,abobrinha italiana in natura,batata doce roxa 1kg,in natura,4.75,https://www.savegnago.com.br/batata-doce-roxa-kg/p
+savegnago,abobrinha italiana in natura,manga tommy - 1 kg,in natura,6.98,https://www.savegnago.com.br/manga-tommy-kg/p
+savegnago,abobrinha italiana in natura,beterraba 1kg,in natura,5.99,https://www.savegnago.com.br/beterraba-kg/p
+savegnago,abobrinha italiana in natura,pera williams 1kg,in natura,10.95,https://www.savegnago.com.br/pera-williams-kg/p
+savegnago,abobrinha italiana in natura,chuchu 1kg,in natura,3.99,https://www.savegnago.com.br/chuchu-kg/p
+savegnago,abobrinha italiana in natura,"melão orange 1,15kg",in natura,8.98,https://www.savegnago.com.br/melao-orange-1kg/p
+savegnago,abobrinha italiana in natura,"cabotiá bandeja 1,800kg",in natura,3.75,https://www.savegnago.com.br/cabotia-1700kg-bandeja/p
+savegnago,abobrinha italiana in natura,"melão amarelo 2,200kg",in natura,5.98,https://www.savegnago.com.br/melao-amarelo/p
+savegnago,abobrinha italiana in natura,pepino caipira bandeja 550g,in natura,6.99,https://www.savegnago.com.br/pepino-caipira-bandeja-550g/p
+savegnago,batata inglesa,batata primeira 1kg,in natura,5.95,https://www.savegnago.com.br/batata-primeira-kg/p
+savegnago,batata inglesa,batata congelada bem brasil palito mais batata 2kg,bem brasil,22.98,https://www.savegnago.com.br/batata-congelada-bem-brasil-2kg-palito-mais-batata/p
+savegnago,batata inglesa,batata congelada mccain airfryer fininhas 600g,mccain,14.95,https://www.savegnago.com.br/batata-mccain-airfryer-extra-crocante-600g/p
+savegnago,batata inglesa,"batata congelada mccain +fininhas 1,05kg",mccain,18.95,https://www.savegnago.com.br/batata-fininha-mccain-congelada-1-05kg/p
+savegnago,batata inglesa,batatas carinhas bem brasil congelada 400g,bem brasil,6.69,https://www.savegnago.com.br/batatas-carinhas-bem-brasil-congelada-400g/p
+savegnago,batata inglesa,batata frita lisa creme de cebola lays 115g,lays,10.9,https://www.savegnago.com.br/salgadinho-batata-lays-sour-cream-115g/p
+savegnago,batata inglesa,batata congelada mccain tradicional 1.5kg,mccain,32.9,https://www.savegnago.com.br/batata-mccain-tradicional-15kg-congelada/p
+savegnago,batata inglesa,batata congelada bem brasil 700g fininha,bem brasil,16.95,https://www.savegnago.com.br/batata-congelada-bem-brasil-700g-fininha/p
+savegnago,batata inglesa,"batata congelada crinkle bem brasil 1,05kg",bem brasil,23.9,https://www.savegnago.com.br/batata-congelada-crinkle-bem-brasil-105kg/p
+savegnago,batata inglesa,batata frita lays rústica sal marinho 68g,lays,10.2,https://www.savegnago.com.br/salgadinho-batata-lay-s-rusticas-sal-marinho-68g/p
+savegnago,batata inglesa,batata congelada bem brasil air fryer 700g,bem brasil,18.9,https://www.savegnago.com.br/batata-congelada-bem-brasil-aier-fryer-700g/p
+savegnago,oleo de soja,óleo de soja liza pet 900ml,liza,7.39,https://www.savegnago.com.br/oleo-soja-liza-900ml-pet/p
+savegnago,oleo de soja,óleo de soja soya pet 900ml,soya,6.45,https://www.savegnago.com.br/oleo-soja-soya-900ml-pet/p
+savegnago,sal refinado,sal refinado lebre 1kg,lebre,3.39,https://www.savegnago.com.br/sal-refinado-lebre-1kg/p
+savegnago,sal refinado,sal refinado cisne 1kg,cisne,5.75,https://www.savegnago.com.br/sal-refinado-cisne-1kg/p
+savegnago,sal refinado,sal refinado lebre 500g light,lebre,10.55,https://www.savegnago.com.br/sal-refinado-lebre-500g-light/p
+savegnago,sal refinado,sal refinado lebre saleiro 100g,lebre,5.39,https://www.savegnago.com.br/sal-refinado-lebre-saleiro-100g/p
+savegnago,sal refinado,sal refinado cisne 500g light,cisne,13.45,https://www.savegnago.com.br/sal-refinado-cisne-500g-light/p
+savegnago,pimenta do reino moida,pimenta reino kitano 15g moida,kitano,4.95,https://www.savegnago.com.br/pimenta-reino-kitano-15g-moida/p
+savegnago,pimenta do reino moida,pimenta reino a gosto moída 40g,a gosto,7.15,https://www.savegnago.com.br/pimenta-reino-a-gosto-moida-40g/p
+savegnago,pimenta do reino moida,pimenta reino kitano 50g moida preta,kitano,13.2,https://www.savegnago.com.br/pimenta-reino-kitano-50g-moida-preta/p
+savegnago,pimenta do reino moida,pimenta reino veranita 30g moida,veranita,9.79,https://www.savegnago.com.br/pimenta-reino-veranita-30g-moida/p
+savegnago,pimenta do reino moida,pimenta reino siamar 30g moida cominho,siamar,6.48,https://www.savegnago.com.br/pimenta-reino-siamar-30g-moida-cominho/p
+savegnago,pimenta do reino moida,pimenta reino siamar 40g moida,siamar,13.75,https://www.savegnago.com.br/pimenta-reino-siamar-40g-moida/p
+savegnago,paprica doce,paprica doce veranita 40g,veranita,3.49,https://www.savegnago.com.br/paprica-doce-veranita-40g/p
+savegnago,paprica doce,páprica doce kitano 12g,kitano,3.99,https://www.savegnago.com.br/paprica-doce-yoki-12g/p
+savegnago,paprica doce,páprica doce siamar 20g,siamar,5.89,https://www.savegnago.com.br/paprica-doce-siamar/p
+savegnago,curry em po,curry veranita 40g,veranita,3.49,https://www.savegnago.com.br/curry-veranita-40g/p
+savegnago,curry em po,curry kitano 50gr,kitano,8.45,https://www.savegnago.com.br/curry-yoki-50gr/p
+savegnago,curry em po,sanitizante omo lavagem perfeita sanitiza e higieniza 2.2kg,omo,26.9,https://www.savegnago.com.br/lava-roupa-po-sanitizante-omo-22kg-lavagem-perfeita/p
+savegnago,curry em po,po chantilly dr oetker 50g,d. oetker,11.9,https://www.savegnago.com.br/po-chantilly-dr-oetker-50g/p
+savegnago,curry em po,po casca pinos 500g,mato verde,8.79,https://www.savegnago.com.br/po-casca-pinos-500g/p
+savegnago,curry em po,po compacto vult 6g fps90 medio escuro,vult,89.9,https://www.savegnago.com.br/po-compacto-vult-6g-fps90-medio-escuro/p
+savegnago,curry em po,po compacto vult 6g fps90 medio claro,vult,89.9,https://www.savegnago.com.br/po-compacto-vult-6g-fps90-medio-claro/p
+savegnago,curry em po,po casca coco mato vde 500g,mato verde,10.4,https://www.savegnago.com.br/po-casca-coco-mato-vde-500g/p
+savegnago,curry em po,po compacto vult medio 6g fps90,vult,89.9,https://www.savegnago.com.br/po-compacto-vult-medio-6g-fps90/p
+savegnago,curry em po,po compacto vult 6g fps90 claro,vult,89.9,https://www.savegnago.com.br/po-compacto-vult-6g-fps90-claro/p
+savegnago,curry em po,caldo tablete royal karui 120g curry medio,karui,36.2,https://www.savegnago.com.br/caldo-tablete-royal-karui-120g-curry-medio/p
+savegnago,curry em po,"lava roupas em pó brilhante caixa limpeza total 2,2kg",brilhante,24.45,https://www.savegnago.com.br/lava-roupas-em-po-brilhante-caixa-limpeza-total-22kg/p
+savegnago,curry em po,sabão em pó tixan ypê maciez sachê 4kg,tixan,37.9,https://www.savegnago.com.br/lava-roupa-po-tixan-maciez-4kg/p
+savegnago,curry em po,sabão em pó omo lavagem perfeita 4kg,omo,47.9,https://www.savegnago.com.br/lava-roupas-po-omo-lavagem-perfeita-4kg-sache/p
+savegnago,curry em po,"sabão em pó tixan ypê primavera 2,2kg",tixan,20.9,https://www.savegnago.com.br/lava-roupa-po-tixan-primavera-2-2kg/p
+savegnago,curry em po,achocolatado po toddy original 700g,toddy,16.6,https://www.savegnago.com.br/ahocolatado-po-toddy-original-700g/p
+savegnago,curry em po,fermento em po royal 100g,royal,5.99,https://www.savegnago.com.br/fermento-em-po-royal-100g/p
+savegnago,curry em po,"sabão em pó ypê power act 2,2kg",ype,21.9,https://www.savegnago.com.br/lava-roupa-em-po-ype-power-act-2-2kg/p
+savegnago,curry em po,"sabão em pó 5 em 1 surf cuidado do coco 1,6kg",surf,19.6,https://www.savegnago.com.br/lava-roupas-po-surf-cuidado-do-coco-16kg/p
+savegnago,curry em po,detergente lava louças em pó para máquina ypê 1kg,ype,52.9,https://www.savegnago.com.br/lava-loucas-em-po-para-maquina-ype-1kg/p
+savegnago,curry em po,"sabão em pó tixan ypê maciez sachê 1,6kg",tixan,16.45,https://www.savegnago.com.br/sabao-em-po-tixan-ype-maciez-sache-1-6kg/p
+savegnago,curry em po,sabão em pó 5 em 1 surf rosas e flor-de-lis 800g,surf,11.45,https://www.savegnago.com.br/lava-roupa-po-surf-rosas-flor-lis-800g-sache/p
+savegnago,curry em po,canela china po siamar 40g,siamar,7.09,https://www.savegnago.com.br/canela-china-po-siamar-40g/p
+savegnago,curry em po,"sabão em pó tixan ypê primavera sachê 1,6kg",tixan,16.45,https://www.savegnago.com.br/lava-roupa-em-po-tixan-sache-1-6kg-primavera/p
+covabra,arroz,arroz camil parboilizado tipo 1 com 5kg,camil,22.89,https://www.covabra.com.br/arroz-camil-parboilizado-tipo-1-com-5kg/p
+covabra,feijao carioca,feijão broto legal carioca 1kg,broto legal,10.49,https://www.covabra.com.br/feijao-broto-legal-carioca-1kg/p
+covabra,feijao carioca,feijão camil carioca 1kg,camil,7.99,https://www.covabra.com.br/feijao-camil-carioca-1kg/p
+covabra,feijao carioca,feijão oliron carioca 1kg,oliron,7.49,https://www.covabra.com.br/feijao-oliron-carioca-1kg/p
+covabra,feijao carioca,feijão grão de campo carioca 1kg,gão de campo,6.99,https://www.covabra.com.br/feijao-grao-de-campo-carioca-1kg/p
+covabra,feijao carioca,feijão empório são joão carioca 1kg,empório são joão,8.99,https://www.covabra.com.br/feijao-emporio-sao-joao-carioca-1kg/p
+covabra,feijao carioca,feijão gaspar carioca 1kg,gaspar,6.89,https://www.covabra.com.br/feijao-gaspar-carioca-1kg/p
+covabra,feijao carioca,feijão vapza carioca 500g,vapza,22.9,https://www.covabra.com.br/feijao-vapza-carioca-500g/p
+covabra,peito de frango cru,peito frango sem osso sem péle resfriado bandeja 1 unidade 618g,covabra,18.47,https://www.covabra.com.br/peito-frango-sem-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p
+covabra,peito de frango cru,peito frango com osso sem pele resfriado bandeja 1 unidade 618g,covabra,15.38,https://www.covabra.com.br/peito-frango-com-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p
+covabra,peito de frango cru,peito de frango com osso com pele resfriado bandeja 1 unidade 850g,covabra,20.31,https://www.covabra.com.br/peito-de-frango-com-osso-com-pele-resfriado-bandeja-1-unidade-850g/p
+covabra,peito de frango cru,peito frango com osso postas resfriado bandeja 1 unidade 618g,covabra,14.77,https://www.covabra.com.br/peito-frango-com-osso-postas-resfriado-bandeja-1-unidade-618g/p
+covabra,peito de frango cru,"frango inteiro resfriado 1 unidade 2,900kg",covabra,37.41,https://www.covabra.com.br/frango-inteiro-resfriado-1-unidade-2-900kg/p
+covabra,peito de frango cru,"frango à passarinho resfriado bandeja 1 unidade 1,545kg",covabra,24.56,https://www.covabra.com.br/frango-a-passarinho-resfriado-bandeja-1-unidade-1-545kg/p
+covabra,peito de frango cru,file merluza karams 500g,karams,24.9,https://www.covabra.com.br/file-merluza-karams-500g/p
+covabra,peito de frango cru,file de frango seara milanesa 400g,seara,19.9,https://www.covabra.com.br/file-de-frango-seara-milanesa-400g/p
+covabra,peito de frango cru,file mignon suino medalhao resfriado 1 unidade 515g,covabra,12.86,https://www.covabra.com.br/file-mignon-suino-medalhao-resfriado-1-unidade-515g/p
+covabra,peito de frango cru,file salmão brazilian fish 500g,brazilian fish,71.9,https://www.covabra.com.br/file-salmao-brazilian-fish-500g/p
+covabra,carne bovina patinho acem,patinho bovino cubos bandeja 1 unidade 515g,covabra,25.73,https://www.covabra.com.br/patinho-bovino-cubos-bandeja-1-unidade-515g/p
+covabra,carne bovina patinho acem,acém bovino cubos bandeja 1 unidade 515g,covabra,19.55,https://www.covabra.com.br/acem-bovino-cubos-bandeja-1-unidade-515g/p
+covabra,carne moida patinho,patinho bovino moído bandeja 1 unidade 515g,covabra,25.73,https://www.covabra.com.br/patinho-bovino-moido-bandeja-1-unidade-515g/p
+covabra,linguica toscana crua,linguiça toscana sadia 1 porção 824g,sadia,19.69,https://www.covabra.com.br/linguica-toscana-sadia-1-porcao-824g/p
+covabra,linguica toscana crua,linguiça toscana perdigão na brasa 1 porção 824g,perdigão,21.34,https://www.covabra.com.br/linguica-toscana-perdigao-na-brasa-1-porcao-824g/p
+covabra,linguica toscana crua,linguiça toscana perdigão na brasa 700g,perdigão,24.9,https://www.covabra.com.br/linguica-toscana-perdigao-na-brasa-700g/p
+covabra,linguica toscana crua,linguiça perdigão na brasa frango 700g,perdigão,18.9,https://www.covabra.com.br/linguica-perdigao-na-brasa-frango-700g/p
+covabra,linguica toscana crua,linguiça toscana perdigão com queijo 600g,perdigão,24.99,https://www.covabra.com.br/linguica-toscana-perdigao-com-queijo-600g/p
+covabra,linguica toscana crua,linguiça toscana sadia 700g,sadia,23.9,https://www.covabra.com.br/linguica-toscana-sadia-700g/p
+covabra,linguica toscana crua,linguiça toscana perdigão alho 600g,perdigão,27.99,https://www.covabra.com.br/linguica-toscana-perdigao-alho-600g/p
+covabra,linguica toscana crua,linguiça toscana perdigão biquinho 600g,perdigão,27.99,https://www.covabra.com.br/linguica-toscana-perdigao-biquinho-600g/p
+covabra,linguica toscana crua,linguiça calabresa perdigão 400g,perdigão,14.98,https://www.covabra.com.br/linguica-calabresa-perdigao-400g/p
+covabra,ovo branco,ovos jovanil brancos grandes pvc com 20unidades,jovanil,13.9,https://www.covabra.com.br/ovos-jovanil-brancos-grandes-pvc-com-20unidades/p
+covabra,ovo branco,ovos jovanil brancos grandes bandeja com 30unidades,jovanil,25.9,https://www.covabra.com.br/ovos-jovanil-brancos-grandes-bandeja-com-30unidades/p
+covabra,ovo branco,ovos brancos mantiqueira happy eggs grande pvc caixa com 20un,mantiqueira,22.9,https://www.covabra.com.br/ovos-brancos-mantiqueira-happy-eggs-grande-pvc-caixa-com-20un/p
+covabra,ovo branco,ovos brancos mantiqueira grande pvc c/ 20 un,mantiqueira,13.9,https://www.covabra.com.br/ovos-brancos-mantiqueira-grande-pvc-c--20-un/p
+covabra,ovo branco,ovos jovanil branco grande cinta com 60unidades,jovanil,45.9,https://www.covabra.com.br/ovos-jovanil-branco-grande-cinta-com-60unidades/p
+covabra,ovo branco,ovos caipira mantiqueira happy eggs branco grande pvc caixa com 10un,mantiqueira,11.9,https://www.covabra.com.br/ovos-caipira-mantiqueira-happy-eggs-branco-grande-pvc-caixa-com-10un/p
+covabra,ovo branco,ovos mantiqueira branco grande pvc com 30un,mantiqueira,25.9,https://www.covabra.com.br/ovos-mantiqueira-branco-grande-pvc-com-30un/p
+covabra,macarrao espaguete,macarrão barilla com ovos espaguete n.8 com 500g,barilla,5.89,https://www.covabra.com.br/macarrao-barilla-com-ovos-espaguete-n-8-com-500g/p
+covabra,molho de tomate tradicional,molho tomate heinz tradicional sachê 240g,heinz,2.99,https://www.covabra.com.br/molho-tomate-heinz-tradicional-sache-240g/p
+covabra,molho de tomate tradicional,molho tomate fugini tradicional sachê 300g,fugini,2.29,https://www.covabra.com.br/molho-tomate-fugini-tradicional-sache-300g/p
+covabra,cebola branca in natura,cebola 1 unidade 280g,covabra,1.95,https://www.covabra.com.br/cebola-1-unidade-280g/p
+covabra,cebola branca in natura,cebola compra+facil 1kg,compra+fácil,6.99,https://www.covabra.com.br/cebola-compra-facil-1kg/p
+covabra,cebola branca in natura,cebola roxa 1 unidade 194g,covabra,1.92,https://www.covabra.com.br/cebola-roxa-1-unidade-194g/p
+covabra,cebola branca in natura,cebola + fit roxa 500g,+ fit,6.99,https://www.covabra.com.br/cebola---fit-roxa-500g/p
+covabra,cebola branca in natura,cebola turma da mônica roxa 400g,turma da mônica,7.99,https://www.covabra.com.br/cebola-turma-da-monica-roxa-400g/p
+covabra,cebola branca in natura,cebola daucy picada congel ado 300g,daucy,8.29,https://www.covabra.com.br/cebola-daucy-picada-congel-ado-300g/p
+covabra,cebola branca in natura,cebola empório das folhas triturada 400g,empório das folhas,11.99,https://www.covabra.com.br/cebola-emporio-das-folhas-triturada-400g/p
+covabra,cebola branca in natura,cebola sitio novo mundo orgânico 500g,sítio novo mundo,10.9,https://www.covabra.com.br/cebola-sitio-novo-mundo-organico-500g/p
+covabra,cebola branca in natura,cebola palha adko 70g,adko,11.99,https://www.covabra.com.br/cebola-palha-adko-70g/p
+covabra,cebola branca in natura,"cebola, alho e salsa kitano 40g",kitano,7.29,https://www.covabra.com.br/cebola--alho-e-salsa-kitano-40g/p
+covabra,cebola branca in natura,cebola em pó br spices 45g,br spices,18.99,https://www.covabra.com.br/cebola-em-po-br-spices-45g/p
+covabra,cebola branca in natura,cebola piasi frita crocante 100g,piasi,9.9,https://www.covabra.com.br/cebola-piasi-frita-crocante-100g/p
+covabra,cebola branca in natura,"cebola, tomate e salsa empório das folhas 30g",empório das folhas,6.89,https://www.covabra.com.br/cebola--tomate-e-salsa-emporio-das-folhas-30g/p
+covabra,cebola branca in natura,cebola sakae areia 25g,sakae,5.99,https://www.covabra.com.br/cebola-sakae-areia-25g/p
+covabra,cebola branca in natura,"cebola, bacon e salsa empório das folhas 30g",empório das folhas,6.89,https://www.covabra.com.br/cebola--bacon-e-salsa-emporio-das-folhas-30g/p
+covabra,cebola branca in natura,leave-in tratamento elseve cicatri renov  reparação total 5 com 100ml,elseve,51.59,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p
+covabra,cebola branca in natura,cebola kitano granulada 20 g,kitano,4.99,https://www.covabra.com.br/cebola-kitano-granulada-20-g/p
+covabra,cebola branca in natura,cebola fugita para tempero 400g,fugita,7.39,https://www.covabra.com.br/cebola-fugita-para-tempero-400g/p
+covabra,cebola branca in natura,leave-in dove bond intense repair 50ml,dove,21.9,https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p
+covabra,cebola branca in natura,leave-in pantene pro-resgate regeneração molecular 150ml,pantene,94.9,https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p
+covabra,cebola branca in natura,leave-in multifuncional dove reconstrução 175ml,dove,43.9,https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p
+covabra,cebola branca in natura,leave-in tratamento elseve cicatri renov rt5 50ml,elseve,32.49,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p
+covabra,cebola branca in natura,leave-in capilar elseve bond repair 90ml,elseve,101.99,https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p
+covabra,cebola branca in natura,cebola br spices granulada vidro 30g,br spices,13.69,https://www.covabra.com.br/cebola-br-spices-granulada-vidro-30g/p
+covabra,alho in natura,alho 1unidade 70g,covabra,3.49,https://www.covabra.com.br/alho-1unidade-70g/p
+covabra,alho in natura,alho piasi pacote 200g,piasi,14.9,https://www.covabra.com.br/alho-piasi-pacote-200g/p
+covabra,alho in natura,alho daucy picado congelado 300g,daucy,13.9,https://www.covabra.com.br/alho-daucy-picado-congelado-300g/p
+covabra,alho in natura,alho poró sitio novo mundo orgânico unidade,sítio novo mundo,13.9,https://www.covabra.com.br/alho-poro-sitio-novo-mundo-organico-unidade/p
+covabra,alho in natura,alho empório das folhas triturado 200g,empório das folhas,5.79,https://www.covabra.com.br/alho-emporio-das-folhas-triturado-200g/p
+covabra,alho in natura,alho empório das folhas triturado 400g,empório das folhas,12.69,https://www.covabra.com.br/alho-emporio-das-folhas-triturado-400g/p
+covabra,alho in natura,alho poro mais verdes bandeja 300gr,mais verdes,8.99,https://www.covabra.com.br/alho-poro-mais-verdes-bandeja-300gr/p
+covabra,alho in natura,alho empório das folhas cebola e salsa 200g,empório das folhas,7.79,https://www.covabra.com.br/alho-emporio-das-folhas-cebola-e-salsa-200g/p
+covabra,alho in natura,alho dai alimentos triturado 200g,dai alimentos,4.99,https://www.covabra.com.br/alho-dai-alimentos-triturado-200g/p
+covabra,alho in natura,alho piasi premium picado picado sem sal 400g,piasi,13.9,https://www.covabra.com.br/alho-piasi-premium-picado-picado-sem-sal-400g/p
+covabra,alho in natura,alho empório das folhas pasta 400g,empório das folhas,12.49,https://www.covabra.com.br/alho-emporio-das-folhas-pasta-400g/p
+covabra,alho in natura,alho piasi premium triturado sem sal 200g,piasi,7.99,https://www.covabra.com.br/alho-piasi-premium-triturado-sem-sal-200g/p
+covabra,alho in natura,"alho empório das folhas triturado 1,01kg",empório das folhas,26.9,https://www.covabra.com.br/alho-emporio-das-folhas-triturado-1-01kg/p
+covabra,alho in natura,alho em pó br spices vidro 50g,br spices,18.99,https://www.covabra.com.br/alho-em-po-br-spices-vidro-50g/p
+covabra,alho in natura,alho akio pacote 200g,akio,18.9,https://www.covabra.com.br/alho-akio-pacote-200g/p
+covabra,alho in natura,alho dai alimentos triturado 400 g,dai alimentos,9.9,https://www.covabra.com.br/alho-dai-alimentos-triturado-400-g/p
+covabra,alho in natura,alho empório das folhas frito 80g,empório das folhas,9.89,https://www.covabra.com.br/alho-emporio-das-folhas-frito-80g/p
+covabra,alho in natura,alho sakae areia 25g,sakae,6.79,https://www.covabra.com.br/alho-sakae-areia-25g/p
+covabra,alho in natura,alho poro pet xavier 250gr,pet. xavier,9.9,https://www.covabra.com.br/alho-poro-pet-xavier-250gr/p
+covabra,alho in natura,alho piasi frito crocante 100g,piasi,9.9,https://www.covabra.com.br/alho-piasi-frito-crocante-100g/p
+covabra,alho in natura,alho kitano granulado 60g,kitano,9.59,https://www.covabra.com.br/alho-kitano-granulado-60g/p
+covabra,alho in natura,alho trebeschi roxo especial 200g,trebeschi,9.9,https://www.covabra.com.br/alho-trebeschi-roxo-especial-200g/p
+covabra,alho in natura,alho piasi triturado sem sal 900g,piasi,24.9,https://www.covabra.com.br/alho-piasi-triturado-sem-sal-900g/p
+covabra,alho in natura,alho empório das folhas pasta 200g,empório das folhas,5.79,https://www.covabra.com.br/alho-emporio-das-folhas-pasta-200g/p
+covabra,cenoura in natura,cenoura 1 unidade 323g,covabra,4.16,https://www.covabra.com.br/cenoura-1-unidade-323g/p
+covabra,cenoura in natura,cenoura ralada la vita 250g,la vita,5.99,https://www.covabra.com.br/cenoura-ralada-la-vita-250g/p
+covabra,cenoura in natura,cenoura sítio novo mundo orgânico 500g,sítio novo mundo,9.9,https://www.covabra.com.br/cenoura-sitio-novo-mundo-organico-500g/p
+covabra,cenoura in natura,leave-in tratamento elseve cicatri renov  reparação total 5 com 100ml,elseve,51.59,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p
+covabra,cenoura in natura,kit prot.solar cenoura & bronze fac.fps50 50g+corp. fps50 200ml,cenoura & bronze,69.99,https://www.covabra.com.br/kit-prot-solar-cenoura---bronze-fac-fps50-50g-corp--fps50-200ml/p
+covabra,cenoura in natura,leave-in dove bond intense repair 50ml,dove,21.9,https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p
+covabra,cenoura in natura,leave-in pantene pro-resgate regeneração molecular 150ml,pantene,94.9,https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p
+covabra,cenoura in natura,leave-in multifuncional dove reconstrução 175ml,dove,43.9,https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p
+covabra,cenoura in natura,leave-in tratamento elseve cicatri renov rt5 50ml,elseve,32.49,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p
+covabra,cenoura in natura,leave-in capilar elseve bond repair 90ml,elseve,101.99,https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p
+covabra,cenoura in natura,leave-in tratamento tresemmé reconstrução e força 200ml,tresemmé,16.9,https://www.covabra.com.br/leave-in-tratamento-tresemme-reconstrucao-e-forca-200ml/p
+covabra,cenoura in natura,leave-in seda boom emulsão day after definição intensa 350ml,seda,29.9,https://www.covabra.com.br/leave-in-seda-boom-emulsao-day-after-definicao-intensa-350ml/p
+covabra,cenoura in natura,"iogurte natural vigor laranja, cenoura e mel 150g",vigor,3.99,https://www.covabra.com.br/iogurte-natural-vigor-laranja--cenoura-e-mel-150g/p
+covabra,cenoura in natura,bisnaguinha nutrellinhas mandioquinha com cenoura 300g,nutrellinhas,12.28,https://www.covabra.com.br/bisnaguinha-nutrellinhas-mandioquinha-com-cenoura-300g/p
+covabra,cenoura in natura,"iogurte natural batavo laranja, cenoura e mel 170g",batavo,3.99,https://www.covabra.com.br/iogurte-natural-batavo-laranja--cenoura-e-mel-170g/p
+covabra,cenoura in natura,pão de forma nutri vida integral vegano cenoura 400g,nutrigrãos,15.9,https://www.covabra.com.br/pao-de-forma-nutri-vida-integral-vegano-cenoura-400g/p
+covabra,brocolis in natura,"brocolis de marchi congelado 1,02kg",de marchi,15.9,https://www.covabra.com.br/brocolis-de-marchi-congelado-1-02kg/p
+covabra,brocolis in natura,leave-in tratamento elseve cicatri renov  reparação total 5 com 100ml,elseve,51.59,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p
+covabra,brocolis in natura,leave-in dove bond intense repair 50ml,dove,21.9,https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p
+covabra,brocolis in natura,leave-in pantene pro-resgate regeneração molecular 150ml,pantene,94.9,https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p
+covabra,brocolis in natura,leave-in multifuncional dove reconstrução 175ml,dove,43.9,https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p
+covabra,brocolis in natura,leave-in tratamento elseve cicatri renov rt5 50ml,elseve,32.49,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p
+covabra,brocolis in natura,leave-in capilar elseve bond repair 90ml,elseve,101.99,https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p
+covabra,brocolis in natura,leave-in tratamento tresemmé reconstrução e força 200ml,tresemmé,16.9,https://www.covabra.com.br/leave-in-tratamento-tresemme-reconstrucao-e-forca-200ml/p
+covabra,brocolis in natura,leave-in seda boom emulsão day after definição intensa 350ml,seda,29.9,https://www.covabra.com.br/leave-in-seda-boom-emulsao-day-after-definicao-intensa-350ml/p
+covabra,brocolis in natura,brócolis turma da mônica 250g,turma da mônica,12.9,https://www.covabra.com.br/brocolis-turma-da-monica-250g/p
+covabra,brocolis in natura,brocólis seara congelado  nature florete 300g,seara,6.99,https://www.covabra.com.br/brocolis-seara-congelado--nature-florete-300g/p
+covabra,brocolis in natura,brócolis daucy congelado 300g,daucy,7.89,https://www.covabra.com.br/brocolis-daucy-congelado-300g/p
+covabra,brocolis in natura,brócolis daucy florete 1kg,daucy,22.9,https://www.covabra.com.br/brocolis-daucy-florete-1kg/p
+covabra,brocolis in natura,brócolis florete la vita 200g,la vita,10.99,https://www.covabra.com.br/brocolis-florete-la-vita-200g/p
+covabra,brocolis in natura,brócolis e couve flor floretes mais verde 300g,mais verde,8.99,https://www.covabra.com.br/brocolis-e-couve-flor-floretes-mais-verde-300g/p
+covabra,brocolis in natura,brócolis ninja la vita 300g,la vita,10.99,https://www.covabra.com.br/brocolis-ninja-la-vita-300g/p
+covabra,brocolis in natura,biscoito montevergine tub-in wafer com recheio de chocolate 48g,montevergine,3.49,https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-chocolate-48g/p
+covabra,brocolis in natura,"alimentos para cães keldog carneiro, brocolis e linhaça 100g",keldog,3.49,https://www.covabra.com.br/alimentos-para-caes-keldog-carneiro--brocolis-e-linhaca-100g/p
+covabra,brocolis in natura,biscoito montevergine tub-in wafer com recheio de avelã 48g,montevergine,3.49,https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-avela-48g/p
+covabra,brocolis in natura,leave in ox peptídeos 300ml,ox,59.99,https://www.covabra.com.br/leave-in-ox-peptideos-300ml/p
+covabra,brocolis in natura,leave in dove nutrição + tri-óleos 110ml,dove,41.9,https://www.covabra.com.br/leave-in-dove-nutricao---tri-oleos-110ml/p
+covabra,brocolis in natura,leave in dove reconstrução + aminoácido 110ml,dove,41.9,https://www.covabra.com.br/leave-in-dove-reconstrucao---aminoacido-110ml/p
+covabra,brocolis in natura,leave in seda serum toque de seda 100ml,seda,31.9,https://www.covabra.com.br/leave-in-seda-serum-toque-de-seda-100ml/p
+covabra,brocolis in natura,biscoito montevergine tub-in wafer com recheio de morango 30g,montevergine,2.99,https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-morango-30g/p
+covabra,abobrinha italiana in natura,abobrinha itália 1 unidade 470g,covabra,5.12,https://www.covabra.com.br/abobrinha-italia-1-unidade-470g/p
+covabra,abobrinha italiana in natura,abobrinha brasil 1 unidade 647g,covabra,9.64,https://www.covabra.com.br/abobrinha-brasil-1-unidade-647g/p
+covabra,abobrinha italiana in natura,abobrinha itália + fit 500g,+ fit,7.99,https://www.covabra.com.br/abobrinha-italia---fit-500g/p
+covabra,abobrinha italiana in natura,abobrinha sítio novo mundo orgânico 500g,sítio novo mundo,13.9,https://www.covabra.com.br/abobrinha-sitio-novo-mundo-organico-500g/p
+covabra,abobrinha italiana in natura,leave-in tratamento elseve cicatri renov  reparação total 5 com 100ml,elseve,51.59,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p
+covabra,abobrinha italiana in natura,leave-in dove bond intense repair 50ml,dove,21.9,https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p
+covabra,abobrinha italiana in natura,leave-in pantene pro-resgate regeneração molecular 150ml,pantene,94.9,https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p
+covabra,abobrinha italiana in natura,leave-in multifuncional dove reconstrução 175ml,dove,43.9,https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p
+covabra,abobrinha italiana in natura,leave-in tratamento elseve cicatri renov rt5 50ml,elseve,32.49,https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p
+covabra,abobrinha italiana in natura,leave-in capilar elseve bond repair 90ml,elseve,101.99,https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p
+covabra,abobrinha italiana in natura,leave-in tratamento tresemmé reconstrução e força 200ml,tresemmé,16.9,https://www.covabra.com.br/leave-in-tratamento-tresemme-reconstrucao-e-forca-200ml/p
+covabra,abobrinha italiana in natura,leave-in seda boom emulsão day after definição intensa 350ml,seda,29.9,https://www.covabra.com.br/leave-in-seda-boom-emulsao-day-after-definicao-intensa-350ml/p
+covabra,abobrinha italiana in natura,passata de tomate pomarola italiana 700g,pomarola,17.99,https://www.covabra.com.br/passata-de-tomate-pomarola-italiana-700g/p
+covabra,abobrinha italiana in natura,farinha de trigo venturelli alma italiana 1kg,venturelli,9.98,https://www.covabra.com.br/farinha-de-trigo-venturelli-alma-italiana-1kg/p
+covabra,abobrinha italiana in natura,"papinha papapá orgânica pera, espinafre e abobrinha 100g",papapa,10.99,https://www.covabra.com.br/papinha-papapa-organica-pera--espinafre-e-abobrinha-100g/p
+covabra,abobrinha italiana in natura,biscoito montevergine tub-in wafer com recheio de chocolate 48g,montevergine,3.49,https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-chocolate-48g/p
+covabra,abobrinha italiana in natura,farinha colavita italiana grano tenero 1kg,colavita,21.99,https://www.covabra.com.br/farinha-colavita-italiana-grano-tenero-1kg/p
+covabra,abobrinha italiana in natura,mortadela seara gourmet italiana 471 sp 1 pacote 206g,seara,10.27,https://www.covabra.com.br/mortadela-seara-gourmet-italiana-471-sp-1-pacote-206g/p
+covabra,abobrinha italiana in natura,arroz tio joão arbório cozinha italiana 500g,tio joão,15.49,https://www.covabra.com.br/arroz-tio-joao-arborio-cozinha-italiana-500g/p
+covabra,abobrinha italiana in natura,biscoito montevergine tub-in wafer com recheio de avelã 48g,montevergine,3.49,https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-avela-48g/p
+covabra,abobrinha italiana in natura,farinha de trigo nita italiana 1kg,nita,14.99,https://www.covabra.com.br/farinha-de-trigo-nita-italiana-1kg/p
+covabra,abobrinha italiana in natura,mortadela marba superiori italiana fatiado bandeja 206g,marba,9.24,https://www.covabra.com.br/mortadela-marba-superiori-italiana-fatiado-bandeja-206g/p
+covabra,abobrinha italiana in natura,salada italiana verdureira 160g,verdureira,13.9,https://www.covabra.com.br/salada-italiana-verdureira-160g/p
+covabra,abobrinha italiana in natura,mortadela giovanni italiana 100g,giovanni,13.99,https://www.covabra.com.br/mortadela-giovanni-italiana-100g/p
+covabra,batata inglesa,batata inglesa sítio novo mundo orgânica 500g,sítio novo mundo,18.9,https://www.covabra.com.br/batata-inglesa-sitio-novo-mundo-organica-500g/p
+covabra,oleo de soja,óleo de soja liza 900ml,liza,6.99,https://www.covabra.com.br/oleo-de-soja-liza-900ml/p
+covabra,oleo de soja,óleo de soja soya 900ml,soya,8.98,https://www.covabra.com.br/oleo-de-soja-soya-900ml/p
+covabra,sal refinado,sal lebre refinado 1kg,lebre,3.19,https://www.covabra.com.br/sal-lebre-refinado-1kg/p
+covabra,sal refinado,saleiro lebre refinado 100g,lebre,5.39,https://www.covabra.com.br/saleiro-lebre-refinado-100g/p
+covabra,pimenta do reino moida,pimenta do reino kitano moída preta 50g,kitano,12.59,https://www.covabra.com.br/pimenta-do-reino-kitano-moida-preta-50g/p
+covabra,pimenta do reino moida,pimenta do reino kitano moída branca 15g,kitano,6.79,https://www.covabra.com.br/pimenta-do-reino-kitano-moida-branca-15g/p
+covabra,pimenta do reino moida,pimenta do reino br spices moída vidro 50g,br spices,21.29,https://www.covabra.com.br/pimenta-do-reino-br-spices-moida-vidro-50g/p
+covabra,paprica doce,páprica empório das folhas doce 30g,empório das folhas,5.69,https://www.covabra.com.br/paprica-emporio-das-folhas-doce-30g/p
+covabra,paprica doce,páprica kitano doce 12 g,kitano,3.89,https://www.covabra.com.br/paprica-kitano-doce-12-g/p
+covabra,paprica doce,páprica doce br spices 45g,br spices,21.29,https://www.covabra.com.br/paprica-doce-br-spices-45g/p
+covabra,paprica doce,páprica doce bombay vidro 60g,bombay,29.59,https://www.covabra.com.br/paprica-doce-bombay-vidro-60g/p
+covabra,curry em po,curry sabater em pó 35g,sabater,36.39,https://www.covabra.com.br/curry-sabater-em-po-35g/p

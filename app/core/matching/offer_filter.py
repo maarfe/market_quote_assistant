@@ -6,20 +6,16 @@ from app.core.text.text_normalizer import TextNormalizer
 def filter_offers(item: ShoppingItem, offers: list[ProductOffer]) -> list[ProductOffer]:
     filtered = offers
 
-    preferred_brand = TextNormalizer.normalize(item.preferred_brand)
-    preferred_types = _normalize_preferred_types(item.preferred_type)
-    exclude_terms = [
-        TextNormalizer.normalize(term)
-        for term in (item.exclude_terms or [])
-        if isinstance(term, str) and term.strip()
-    ]
+    preferred_brands = _normalize_terms(item.preferred_brand)
+    preferred_types = _normalize_terms(item.preferred_type)
+    exclude_terms = _normalize_terms(item.exclude_terms)
 
     # 1. brand
-    if preferred_brand:
+    if preferred_brands:
         filtered = [
             offer
             for offer in filtered
-            if preferred_brand in _build_search_text(offer)
+            if any(brand in _build_search_text(offer) for brand in preferred_brands)
         ]
         if not filtered:
             return []
@@ -44,22 +40,22 @@ def _build_search_text(offer: ProductOffer) -> str:
     return TextNormalizer.normalize(combined)
 
 
-def _normalize_preferred_types(preferred_type: str | list[str] | None) -> list[str]:
-    if not preferred_type:
+def _normalize_terms(value: str | list[str] | None) -> list[str]:
+    if not value:
         return []
 
-    if isinstance(preferred_type, str):
-        normalized = TextNormalizer.normalize(preferred_type)
+    if isinstance(value, str):
+        normalized = TextNormalizer.normalize(value)
         return [normalized] if normalized else []
 
-    if isinstance(preferred_type, list):
+    if isinstance(value, list):
         terms: list[str] = []
 
-        for value in preferred_type:
-            if not isinstance(value, str):
+        for item in value:
+            if not isinstance(item, str):
                 continue
 
-            normalized = TextNormalizer.normalize(value)
+            normalized = TextNormalizer.normalize(item)
             if normalized:
                 terms.append(normalized)
 

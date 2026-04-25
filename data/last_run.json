@@ -13,8 +13,8 @@
       },
       "items": [
         {
-          "item_name": "arroz parboilizado",
-          "offer_count": 8,
+          "item_name": "arroz",
+          "offer_count": 3,
           "lowest_price": 5.45,
           "offers": [
             {
@@ -27,42 +27,10 @@
             },
             {
               "market_name": "Savegnago",
-              "product_name": "Arroz Parboilizado Integral Prato Fino 1kg",
-              "brand": "PRATO FINO",
-              "product_url": "https://www.savegnago.com.br/arroz-parboilizado-integral-prato-fino-1kg/p",
-              "price": 5.99,
-              "available_quantity": 10000
-            },
-            {
-              "market_name": "Savegnago",
               "product_name": "Arroz Parboilizado Tio João 5kg Tipo 1",
               "brand": "TIO JOAO",
               "product_url": "https://www.savegnago.com.br/arroz-parb-tio-joao-5kg-tp1/p",
               "price": 24.9,
-              "available_quantity": 10000
-            },
-            {
-              "market_name": "Savegnago",
-              "product_name": "Arroz Parboilizado Prato Fino 2kg",
-              "brand": "PRATO FINO",
-              "product_url": "https://www.savegnago.com.br/arroz-parb-prato-fino-2kg/p",
-              "price": 10.75,
-              "available_quantity": 10000
-            },
-            {
-              "market_name": "Savegnago",
-              "product_name": "Arroz Parboilizado Broto Legal 2kg",
-              "brand": "BROTO LEGAL",
-              "product_url": "https://www.savegnago.com.br/arroz-parboilizado-broto-legal-2kg/p",
-              "price": 9.35,
-              "available_quantity": 10000
-            },
-            {
-              "market_name": "Savegnago",
-              "product_name": "Arroz Parboilizado Integral Meu Biju 1kg Tipo 1",
-              "brand": "MEU BIJU",
-              "product_url": "https://www.savegnago.com.br/arroz-parb-int-meu-biju-1kg-tp1/p",
-              "price": 5.79,
               "available_quantity": 10000
             },
             {
@@ -72,28 +40,1209 @@
               "product_url": "https://www.savegnago.com.br/arroz-parboilizado-tio-joao-saquinhos-1kg/p",
               "price": 5.45,
               "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "feijao carioca",
+          "offer_count": 8,
+          "lowest_price": 6.85,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Feijão Carioca Tipo 1 Camil 1kg",
+              "brand": "CAMIL",
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-camil-1kg/p",
+              "price": 7.65,
+              "available_quantity": 10000
             },
             {
               "market_name": "Savegnago",
-              "product_name": "Arroz Parboilizado Vasconcelos 5kg",
+              "product_name": "Feijão carioca Broto Legal 1kg",
+              "brand": "BROTO LEGAL",
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-broto-legal-1kg/p",
+              "price": 10.4,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Feijão Carioca Empório São João 1kg",
+              "brand": "EMPORIO SAO JOAO",
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-emporio-sao-joao-1kg/p",
+              "price": 8.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Feijão Carioca Carunchão 1kg",
+              "brand": "CARUNCHAO",
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-carunchao-1kg/p",
+              "price": 8.25,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Feijão carioca Vasconcelos Nobre 1kg",
               "brand": "VASCONCELOS",
-              "product_url": "https://www.savegnago.com.br/arroz-parboilizado-vasconcelos-5kg/p",
-              "price": 22.95,
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-vasconcelos-nobre-1kg/p",
+              "price": 8.25,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Feijão Carioca Serrazul 1KG",
+              "brand": "SERRAZUL",
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-serrazul-1kg/p",
+              "price": 6.85,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Feijão Carioca Vapza 500g",
+              "brand": "VAPZA",
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-vapza-500g/p",
+              "price": 18.7,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Feijão Carioca Vapza 200g",
+              "brand": "VAPZA",
+              "product_url": "https://www.savegnago.com.br/feijao-carioca-vapza-200g/p",
+              "price": 13.85,
               "available_quantity": 10000
             }
           ]
         },
         {
-          "item_name": "banana nanica",
-          "offer_count": 1,
-          "lowest_price": 5.99,
+          "item_name": "peito de frango cru",
+          "offer_count": 4,
+          "lowest_price": 18.9,
           "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Filé de Frango congelado Big Frango 1Kg",
+              "brand": "BIG FRANGO",
+              "product_url": "https://www.savegnago.com.br/file-de-frango-big-frango-kg/p",
+              "price": 18.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Filézinho Sassami Big Frango Congelado Kg",
+              "brand": "BIG FRANGO",
+              "product_url": "https://www.savegnago.com.br/filezinho-sassami-fgo-big-frango-kg-cong/p",
+              "price": 21.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Filé de Frango congelado Copacol Kg",
+              "brand": "COPACOL",
+              "product_url": "https://www.savegnago.com.br/file-de-frango-copacol-kg/p",
+              "price": 19.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Patinho bovino moído resfriado Oranges bandeja 500g",
+              "brand": "ORANGES",
+              "product_url": "https://www.savegnago.com.br/patinho-bovino-moido-resfriado-oranges-bandeja-500g/p",
+              "price": 35.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "carne bovina patinho acem",
+          "offer_count": 0,
+          "lowest_price": null,
+          "offers": []
+        },
+        {
+          "item_name": "carne moida patinho",
+          "offer_count": 3,
+          "lowest_price": 29.9,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Carne Bovina Patinho Swift 500g Moído",
+              "brand": "SWIFT",
+              "product_url": "https://www.savegnago.com.br/carne-bovina-patinho-swift-500g-moido/p",
+              "price": 29.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Patinho bovino moído resfriado Oranges bandeja 500g",
+              "brand": "ORANGES",
+              "product_url": "https://www.savegnago.com.br/patinho-bovino-moido-resfriado-oranges-bandeja-500g/p",
+              "price": 35.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Carne Bovina Patinho Swift 1kg Moído",
+              "brand": "SWIFT",
+              "product_url": "https://www.savegnago.com.br/carne-bovina-patinho-swift-1kg-moido/p",
+              "price": 51.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "linguica toscana crua",
+          "offer_count": 6,
+          "lowest_price": 14.9,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Linguiça Toscana Perdigão Na Brasa 500g",
+              "brand": "PERDIGAO",
+              "product_url": "https://www.savegnago.com.br/linguica-toscana-perdigao-na-brasa-kg/p",
+              "price": 23.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Linguiça Toscana Perdigão Nabrasa 700g",
+              "brand": "PERDIGAO",
+              "product_url": "https://www.savegnago.com.br/linguica-toscana-perdigao-nabrasa-700g/p",
+              "price": 25.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Linguiça Toscana Perdigão Nabrasa 600g Alho E Ervas",
+              "brand": "PERDIGAO",
+              "product_url": "https://www.savegnago.com.br/linguica-toscana-perdigao-nabrasa-600g-alho-e-ervas/p",
+              "price": 29.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Linguiça Toscana Perdigão Nabrasa com Queijo Coalho 600g",
+              "brand": "PERDIGAO",
+              "product_url": "https://www.savegnago.com.br/linguica-toscana-perdigao-nabrasa-600g-com-queijo-coalho/p",
+              "price": 29.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Linguiça Calabresa Perdigão Resfriada 400g",
+              "brand": "PERDIGAO",
+              "product_url": "https://www.savegnago.com.br/linguica-calabresa-perdigao-resfriada-400g/p",
+              "price": 14.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Linguiça de frango Sadia 700g",
+              "brand": "SADIA",
+              "product_url": "https://www.savegnago.com.br/linguica-de-frango-sadia-700g/p",
+              "price": 18.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "ovo branco",
+          "offer_count": 3,
+          "lowest_price": 8.55,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Ovo Branco Mantiqueira Com 20 Unidades Grandes",
+              "brand": "MANTIQUEIRA",
+              "product_url": "https://www.savegnago.com.br/ovo-branco-mantiqueira-com-20-grandes-pvc/p",
+              "price": 14.75,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Ovo Branco Grande Coag Com 12",
+              "brand": "COAG",
+              "product_url": "https://www.savegnago.com.br/ovo-branco-grande-coag-com-12/p",
+              "price": 8.55,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Ovo Branco Coag Com 20 Grande",
+              "brand": "COAG",
+              "product_url": "https://www.savegnago.com.br/ovo-branco-coag-com-20-grande/p",
+              "price": 13.5,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "macarrao espaguete",
+          "offer_count": 4,
+          "lowest_price": 3.15,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Macarrão Espaguete n8 com Ovos Barilla 500g",
+              "brand": "BARILLA",
+              "product_url": "https://www.savegnago.com.br/macarrao-ovos-barilla-500g-espaguete-n8/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Macarrão de Sêmola com Ovos Espaguete 8 Adria Pacote 500g",
+              "brand": "ADRIA",
+              "product_url": "https://www.savegnago.com.br/macarrao-ovos-adria-500g-espag-n8/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Macarrão Sêmola Adria Espaguete 400g",
+              "brand": "ADRIA",
+              "product_url": "https://www.savegnago.com.br/macarrao-semola-adria-espaguete-400g/p",
+              "price": 3.15,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Macarrão de Sêmola Grano Duro Espaguete 8 Adria Pacote 500g",
+              "brand": "ADRIA",
+              "product_url": "https://www.savegnago.com.br/macarrao-grano-duro-adria-500g-spaguete/p",
+              "price": 6.99,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "molho de tomate tradicional",
+          "offer_count": 3,
+          "lowest_price": 1.79,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Molho Tomate Heinz Tradicional 240g Sachê",
+              "brand": "HEINZ",
+              "product_url": "https://www.savegnago.com.br/molho-tomate-heinz-tradicional-240g-sache/p",
+              "price": 2.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Molho Tomate Fugini 300g Sachê Tradicional",
+              "brand": "FUGINI",
+              "product_url": "https://www.savegnago.com.br/molho-tomate-fugini-300g-sache-tradicional/p",
+              "price": 1.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Molho de tomate Heinz tradicional 320g",
+              "brand": "HEINZ",
+              "product_url": "https://www.savegnago.com.br/molho-de-tomate-heinz-tradicional-320g/p",
+              "price": 12.56,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "cebola branca in natura",
+          "offer_count": 24,
+          "lowest_price": 2.45,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cebola Nacional - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cebola-nacional-kg/p",
+              "price": 4.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cebola Miuda Bandeja 320g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cebola-miuda-bandeja-320g/p",
+              "price": 6.97,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cebola Roxa 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cebola-roxa-1kg/p",
+              "price": 8.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Primeira 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/batata-primeira-kg/p",
+              "price": 5.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Limão Taiti 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/limao-taitii-kg/p",
+              "price": 2.45,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cenoura 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cenoura-kg/p",
+              "price": 8.95,
+              "available_quantity": 10000
+            },
             {
               "market_name": "Savegnago",
               "product_name": "Banana Nanica Exportação - 1kg",
               "brand": "IN NATURA",
               "product_url": "https://www.savegnago.com.br/banana-nanica-exportacao-kg/p",
               "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Alho 500g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/alho-granel-kg/p",
+              "price": 16.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Uva Verde sem semente cumbuca 500g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/uva-thompson-cumbuca-500g/p",
+              "price": 12.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Mamão Formosa - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/mamao-formosa-1-622kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Laranja Pera 3kg Pacote",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/laranja-pera-3kg-pacote/p",
+              "price": 7.65,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Banana Prata 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/banana-prata-1kg/p",
+              "price": 9.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Tomate Longa Vida 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/tomate-longa-vida-kg/p",
+              "price": 8.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Maçã Gala - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/maca-gala-150g/p",
+              "price": 12.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Brócolis Ninja 150g Bandeja",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/brocolis-ninja-150g-bandeja/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Abacaxi Pérola Grande Unidade",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/abacaxi-perola-grande-unidade/p",
+              "price": 8.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Doce Roxa 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/batata-doce-roxa-kg/p",
+              "price": 4.75,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Manga Tommy - 1 Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/manga-tommy-kg/p",
+              "price": 6.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Beterraba 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/beterraba-kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pera Williams 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/pera-williams-kg/p",
+              "price": 10.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Chuchu 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/chuchu-kg/p",
+              "price": 3.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Melão Orange 1,15kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/melao-orange-1kg/p",
+              "price": 8.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cabotiá Bandeja 1,800kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cabotia-1700kg-bandeja/p",
+              "price": 3.75,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Melão Amarelo 2,200Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/melao-amarelo/p",
+              "price": 5.98,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "alho in natura",
+          "offer_count": 2,
+          "lowest_price": 3.45,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Alho 500g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/alho-granel-kg/p",
+              "price": 16.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Alho Poró Unidade",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/alho-poro-80g/p",
+              "price": 3.45,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "cenoura in natura",
+          "offer_count": 1,
+          "lowest_price": 8.95,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cenoura 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cenoura-kg/p",
+              "price": 8.95,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "brocolis in natura",
+          "offer_count": 1,
+          "lowest_price": 5.99,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Brócolis Ninja 150g Bandeja",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/brocolis-ninja-150g-bandeja/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "abobrinha italiana in natura",
+          "offer_count": 24,
+          "lowest_price": 2.45,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Abobrinha Bandeja 800g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/abobrinha-bandeja-800g/p",
+              "price": 7.65,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Primeira 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/batata-primeira-kg/p",
+              "price": 5.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cebola Nacional - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cebola-nacional-kg/p",
+              "price": 4.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Limão Taiti 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/limao-taitii-kg/p",
+              "price": 2.45,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cenoura 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cenoura-kg/p",
+              "price": 8.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Banana Nanica Exportação - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/banana-nanica-exportacao-kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Alho 500g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/alho-granel-kg/p",
+              "price": 16.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Uva Verde sem semente cumbuca 500g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/uva-thompson-cumbuca-500g/p",
+              "price": 12.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Mamão Formosa - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/mamao-formosa-1-622kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Laranja Pera 3kg Pacote",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/laranja-pera-3kg-pacote/p",
+              "price": 7.65,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Banana Prata 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/banana-prata-1kg/p",
+              "price": 9.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Tomate Longa Vida 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/tomate-longa-vida-kg/p",
+              "price": 8.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Maçã Gala - 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/maca-gala-150g/p",
+              "price": 12.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Brócolis Ninja 150g Bandeja",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/brocolis-ninja-150g-bandeja/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Abacaxi Pérola Grande Unidade",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/abacaxi-perola-grande-unidade/p",
+              "price": 8.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Doce Roxa 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/batata-doce-roxa-kg/p",
+              "price": 4.75,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Manga Tommy - 1 Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/manga-tommy-kg/p",
+              "price": 6.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Beterraba 1Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/beterraba-kg/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pera Williams 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/pera-williams-kg/p",
+              "price": 10.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Chuchu 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/chuchu-kg/p",
+              "price": 3.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Melão Orange 1,15kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/melao-orange-1kg/p",
+              "price": 8.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cabotiá Bandeja 1,800kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/cabotia-1700kg-bandeja/p",
+              "price": 3.75,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Melão Amarelo 2,200Kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/melao-amarelo/p",
+              "price": 5.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pepino Caipira Bandeja 550g",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/pepino-caipira-bandeja-550g/p",
+              "price": 6.99,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "batata inglesa",
+          "offer_count": 11,
+          "lowest_price": 5.95,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Primeira 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/batata-primeira-kg/p",
+              "price": 5.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
+              "brand": "BEM BRASIL",
+              "product_url": "https://www.savegnago.com.br/batata-congelada-bem-brasil-2kg-palito-mais-batata/p",
+              "price": 22.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Congelada Mccain Airfryer Fininhas 600g",
+              "brand": "MCCAIN",
+              "product_url": "https://www.savegnago.com.br/batata-mccain-airfryer-extra-crocante-600g/p",
+              "price": 14.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Congelada Mccain +Fininhas 1,05Kg",
+              "brand": "MCCAIN",
+              "product_url": "https://www.savegnago.com.br/batata-fininha-mccain-congelada-1-05kg/p",
+              "price": 18.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batatas Carinhas Bem Brasil Congelada 400g",
+              "brand": "BEM BRASIL",
+              "product_url": "https://www.savegnago.com.br/batatas-carinhas-bem-brasil-congelada-400g/p",
+              "price": 6.69,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Frita Lisa Creme De Cebola Lays 115G",
+              "brand": "LAYS",
+              "product_url": "https://www.savegnago.com.br/salgadinho-batata-lays-sour-cream-115g/p",
+              "price": 10.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Congelada Mccain Tradicional 1.5kg",
+              "brand": "MCCAIN",
+              "product_url": "https://www.savegnago.com.br/batata-mccain-tradicional-15kg-congelada/p",
+              "price": 32.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Congelada Bem Brasil 700g Fininha",
+              "brand": "BEM BRASIL",
+              "product_url": "https://www.savegnago.com.br/batata-congelada-bem-brasil-700g-fininha/p",
+              "price": 16.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Congelada Crinkle Bem Brasil 1,05kg",
+              "brand": "BEM BRASIL",
+              "product_url": "https://www.savegnago.com.br/batata-congelada-crinkle-bem-brasil-105kg/p",
+              "price": 23.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Frita Lays Rústica Sal Marinho 68G",
+              "brand": "LAYS",
+              "product_url": "https://www.savegnago.com.br/salgadinho-batata-lay-s-rusticas-sal-marinho-68g/p",
+              "price": 10.2,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Congelada Bem Brasil Air Fryer 700g",
+              "brand": "BEM BRASIL",
+              "product_url": "https://www.savegnago.com.br/batata-congelada-bem-brasil-aier-fryer-700g/p",
+              "price": 18.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "oleo de soja",
+          "offer_count": 2,
+          "lowest_price": 6.45,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Óleo de Soja Liza Pet 900ml",
+              "brand": "LIZA",
+              "product_url": "https://www.savegnago.com.br/oleo-soja-liza-900ml-pet/p",
+              "price": 7.39,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Óleo de Soja Soya Pet 900ml",
+              "brand": "SOYA",
+              "product_url": "https://www.savegnago.com.br/oleo-soja-soya-900ml-pet/p",
+              "price": 6.45,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "sal refinado",
+          "offer_count": 5,
+          "lowest_price": 3.39,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sal Refinado Lebre 1kg",
+              "brand": "LEBRE",
+              "product_url": "https://www.savegnago.com.br/sal-refinado-lebre-1kg/p",
+              "price": 3.39,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sal Refinado Cisne 1kg",
+              "brand": "CISNE",
+              "product_url": "https://www.savegnago.com.br/sal-refinado-cisne-1kg/p",
+              "price": 5.75,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sal Refinado Lebre 500g Light",
+              "brand": "LEBRE",
+              "product_url": "https://www.savegnago.com.br/sal-refinado-lebre-500g-light/p",
+              "price": 10.55,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sal Refinado Lebre Saleiro 100g",
+              "brand": "LEBRE",
+              "product_url": "https://www.savegnago.com.br/sal-refinado-lebre-saleiro-100g/p",
+              "price": 5.39,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sal Refinado Cisne 500g Light",
+              "brand": "CISNE",
+              "product_url": "https://www.savegnago.com.br/sal-refinado-cisne-500g-light/p",
+              "price": 13.45,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "pimenta do reino moida",
+          "offer_count": 6,
+          "lowest_price": 4.95,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pimenta Reino Kitano 15g Moida",
+              "brand": "KITANO",
+              "product_url": "https://www.savegnago.com.br/pimenta-reino-kitano-15g-moida/p",
+              "price": 4.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pimenta Reino A Gosto Moída 40g",
+              "brand": "A GOSTO",
+              "product_url": "https://www.savegnago.com.br/pimenta-reino-a-gosto-moida-40g/p",
+              "price": 7.15,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pimenta Reino Kitano 50g Moida Preta",
+              "brand": "KITANO",
+              "product_url": "https://www.savegnago.com.br/pimenta-reino-kitano-50g-moida-preta/p",
+              "price": 13.2,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pimenta Reino Veranita 30g Moida",
+              "brand": "VERANITA",
+              "product_url": "https://www.savegnago.com.br/pimenta-reino-veranita-30g-moida/p",
+              "price": 9.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pimenta Reino Siamar 30g Moida Cominho",
+              "brand": "SIAMAR",
+              "product_url": "https://www.savegnago.com.br/pimenta-reino-siamar-30g-moida-cominho/p",
+              "price": 6.48,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Pimenta Reino Siamar 40g Moida",
+              "brand": "SIAMAR",
+              "product_url": "https://www.savegnago.com.br/pimenta-reino-siamar-40g-moida/p",
+              "price": 13.75,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "paprica doce",
+          "offer_count": 3,
+          "lowest_price": 3.49,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Paprica Doce Veranita 40g",
+              "brand": "VERANITA",
+              "product_url": "https://www.savegnago.com.br/paprica-doce-veranita-40g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Páprica Doce Kitano 12g",
+              "brand": "KITANO",
+              "product_url": "https://www.savegnago.com.br/paprica-doce-yoki-12g/p",
+              "price": 3.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Páprica Doce Siamar 20g",
+              "brand": "SIAMAR",
+              "product_url": "https://www.savegnago.com.br/paprica-doce-siamar/p",
+              "price": 5.89,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "curry em po",
+          "offer_count": 24,
+          "lowest_price": 3.49,
+          "offers": [
+            {
+              "market_name": "Savegnago",
+              "product_name": "Curry Veranita 40g",
+              "brand": "VERANITA",
+              "product_url": "https://www.savegnago.com.br/curry-veranita-40g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Curry Kitano 50gr",
+              "brand": "KITANO",
+              "product_url": "https://www.savegnago.com.br/curry-yoki-50gr/p",
+              "price": 8.45,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sanitizante Omo Lavagem Perfeita Sanitiza e Higieniza 2.2kg",
+              "brand": "OMO",
+              "product_url": "https://www.savegnago.com.br/lava-roupa-po-sanitizante-omo-22kg-lavagem-perfeita/p",
+              "price": 26.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Po Chantilly Dr Oetker 50g",
+              "brand": "D. OETKER",
+              "product_url": "https://www.savegnago.com.br/po-chantilly-dr-oetker-50g/p",
+              "price": 11.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Po Casca Pinos 500g",
+              "brand": "MATO VERDE",
+              "product_url": "https://www.savegnago.com.br/po-casca-pinos-500g/p",
+              "price": 8.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Po Compacto Vult 6G FPS90 Medio Escuro",
+              "brand": "VULT",
+              "product_url": "https://www.savegnago.com.br/po-compacto-vult-6g-fps90-medio-escuro/p",
+              "price": 89.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Po Compacto Vult 6G FPS90 Medio Claro",
+              "brand": "VULT",
+              "product_url": "https://www.savegnago.com.br/po-compacto-vult-6g-fps90-medio-claro/p",
+              "price": 89.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Po Casca Coco Mato Vde 500g",
+              "brand": "MATO VERDE",
+              "product_url": "https://www.savegnago.com.br/po-casca-coco-mato-vde-500g/p",
+              "price": 10.4,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Po Compacto Vult Medio 6G FPS90",
+              "brand": "VULT",
+              "product_url": "https://www.savegnago.com.br/po-compacto-vult-medio-6g-fps90/p",
+              "price": 89.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Po Compacto Vult 6G Fps90 Claro",
+              "brand": "VULT",
+              "product_url": "https://www.savegnago.com.br/po-compacto-vult-6g-fps90-claro/p",
+              "price": 89.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Caldo Tablete Royal Karui 120g Curry Medio",
+              "brand": "KARUI",
+              "product_url": "https://www.savegnago.com.br/caldo-tablete-royal-karui-120g-curry-medio/p",
+              "price": 36.2,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Lava Roupas em Pó Brilhante Caixa Limpeza Total 2,2kg",
+              "brand": "BRILHANTE",
+              "product_url": "https://www.savegnago.com.br/lava-roupas-em-po-brilhante-caixa-limpeza-total-22kg/p",
+              "price": 24.45,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó Tixan Ypê Maciez Sachê 4Kg",
+              "brand": "TIXAN",
+              "product_url": "https://www.savegnago.com.br/lava-roupa-po-tixan-maciez-4kg/p",
+              "price": 37.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó Omo Lavagem Perfeita 4kg",
+              "brand": "OMO",
+              "product_url": "https://www.savegnago.com.br/lava-roupas-po-omo-lavagem-perfeita-4kg-sache/p",
+              "price": 47.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó Tixan Ypê Primavera 2,2Kg",
+              "brand": "TIXAN",
+              "product_url": "https://www.savegnago.com.br/lava-roupa-po-tixan-primavera-2-2kg/p",
+              "price": 20.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Achocolatado Po Toddy Original 700g",
+              "brand": "TODDY",
+              "product_url": "https://www.savegnago.com.br/ahocolatado-po-toddy-original-700g/p",
+              "price": 16.6,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Fermento Em Po Royal 100g",
+              "brand": "ROYAL",
+              "product_url": "https://www.savegnago.com.br/fermento-em-po-royal-100g/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó Ypê Power Act 2,2Kg",
+              "brand": "YPE",
+              "product_url": "https://www.savegnago.com.br/lava-roupa-em-po-ype-power-act-2-2kg/p",
+              "price": 21.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó 5 em 1 Surf Cuidado do Coco 1,6kg",
+              "brand": "SURF",
+              "product_url": "https://www.savegnago.com.br/lava-roupas-po-surf-cuidado-do-coco-16kg/p",
+              "price": 19.6,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Detergente Lava Louças em Pó para Máquina Ypê 1Kg",
+              "brand": "YPE",
+              "product_url": "https://www.savegnago.com.br/lava-loucas-em-po-para-maquina-ype-1kg/p",
+              "price": 52.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó Tixan Ypê Maciez Sachê 1,6Kg",
+              "brand": "TIXAN",
+              "product_url": "https://www.savegnago.com.br/sabao-em-po-tixan-ype-maciez-sache-1-6kg/p",
+              "price": 16.45,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó 5 em 1 Surf Rosas e Flor-de-Lis 800g",
+              "brand": "SURF",
+              "product_url": "https://www.savegnago.com.br/lava-roupa-po-surf-rosas-flor-lis-800g-sache/p",
+              "price": 11.45,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Canela China Po Siamar 40g",
+              "brand": "SIAMAR",
+              "product_url": "https://www.savegnago.com.br/canela-china-po-siamar-40g/p",
+              "price": 7.09,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Sabão em Pó Tixan Ypê Primavera Sachê 1,6Kg",
+              "brand": "TIXAN",
+              "product_url": "https://www.savegnago.com.br/lava-roupa-em-po-tixan-sache-1-6kg-primavera/p",
+              "price": 16.45,
               "available_quantity": 10000
             }
           ]
@@ -108,31 +1257,15 @@
       },
       "shipping": {
         "price": 14.9,
-        "delivery_estimate": "2026-04-25T20:29:00-03:00",
-        "raw_text": "Frete: R$ 14.90 | Prazo: 2026-04-25T20:29:00-03:00"
+        "delivery_estimate": "2026-04-25T20:58:00-03:00",
+        "raw_text": "Frete: R$ 14.90 | Prazo: 2026-04-25T20:58:00-03:00"
       },
       "items": [
         {
-          "item_name": "arroz parboilizado",
-          "offer_count": 7,
-          "lowest_price": 5.99,
+          "item_name": "arroz",
+          "offer_count": 1,
+          "lowest_price": 22.89,
           "offers": [
-            {
-              "market_name": "Covabra",
-              "product_name": "Arroz Prato Fino Parboilizado Tipo I 1kg",
-              "brand": "Prato Fino",
-              "product_url": "https://www.covabra.com.br/arroz-prato-fino-parboilizado-tipo-i-1kg/p",
-              "price": 6.49,
-              "available_quantity": 10000
-            },
-            {
-              "market_name": "Covabra",
-              "product_name": "Arroz Prato Fino Parboilizado Tipo I 5kg",
-              "brand": "Prato Fino",
-              "product_url": "https://www.covabra.com.br/arroz-prato-fino-parboilizado-tipo-i-5kg/p",
-              "price": 26.99,
-              "available_quantity": 10000
-            },
             {
               "market_name": "Covabra",
               "product_name": "Arroz Camil Parboilizado Tipo 1 com 5kg",
@@ -140,52 +1273,1450 @@
               "product_url": "https://www.covabra.com.br/arroz-camil-parboilizado-tipo-1-com-5kg/p",
               "price": 22.89,
               "available_quantity": 10000
-            },
+            }
+          ]
+        },
+        {
+          "item_name": "feijao carioca",
+          "offer_count": 7,
+          "lowest_price": 6.89,
+          "offers": [
             {
               "market_name": "Covabra",
-              "product_name": "Arroz Broto Legal Parboilizado Tipo I 5kg",
+              "product_name": "Feijão Broto Legal Carioca 1kg",
               "brand": "Broto Legal",
-              "product_url": "https://www.covabra.com.br/arroz-broto-legal-parboilizado-tipo-i-5kg/p",
-              "price": 22.79,
+              "product_url": "https://www.covabra.com.br/feijao-broto-legal-carioca-1kg/p",
+              "price": 10.49,
               "available_quantity": 10000
             },
             {
               "market_name": "Covabra",
-              "product_name": "Arroz Prato Fino Parboilizado Integral 1kg",
-              "brand": "Prato Fino",
-              "product_url": "https://www.covabra.com.br/arroz-prato-fino-parboilizado-integral-1kg/p",
-              "price": 5.99,
+              "product_name": "Feijão Camil Carioca 1kg",
+              "brand": "Camil",
+              "product_url": "https://www.covabra.com.br/feijao-camil-carioca-1kg/p",
+              "price": 7.99,
               "available_quantity": 10000
             },
             {
               "market_name": "Covabra",
-              "product_name": "Arroz Broto Legal Parboilizado Tipo I 2kg",
-              "brand": "Broto Legal",
-              "product_url": "https://www.covabra.com.br/arroz-broto-legal-parboilizado-tipo-i-2kg/p",
-              "price": 10.99,
+              "product_name": "Feijão Oliron Carioca 1kg",
+              "brand": "Oliron",
+              "product_url": "https://www.covabra.com.br/feijao-oliron-carioca-1kg/p",
+              "price": 7.49,
               "available_quantity": 10000
             },
             {
               "market_name": "Covabra",
-              "product_name": "Arroz Empório São João Integral Tipo I Parboilizado 1kg",
+              "product_name": "Feijão Grão de Campo Carioca 1kg",
+              "brand": "Gão de Campo",
+              "product_url": "https://www.covabra.com.br/feijao-grao-de-campo-carioca-1kg/p",
+              "price": 6.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Feijão Empório São João Carioca 1kg",
               "brand": "Empório São João",
-              "product_url": "https://www.covabra.com.br/arroz-emporio-sao-joao-integral-tipo-i-parboilizado-1kg/p",
-              "price": 5.99,
+              "product_url": "https://www.covabra.com.br/feijao-emporio-sao-joao-carioca-1kg/p",
+              "price": 8.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Feijão Gaspar Carioca 1kg",
+              "brand": "Gaspar",
+              "product_url": "https://www.covabra.com.br/feijao-gaspar-carioca-1kg/p",
+              "price": 6.89,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Feijão Vapza Carioca 500g",
+              "brand": "Vapza",
+              "product_url": "https://www.covabra.com.br/feijao-vapza-carioca-500g/p",
+              "price": 22.9,
               "available_quantity": 10000
             }
           ]
         },
         {
-          "item_name": "banana nanica",
-          "offer_count": 1,
-          "lowest_price": 2.04,
+          "item_name": "peito de frango cru",
+          "offer_count": 10,
+          "lowest_price": 12.86,
           "offers": [
             {
               "market_name": "Covabra",
-              "product_name": "Banana Nanica 1 Unidade 228g",
+              "product_name": "Peito Frango sem Osso sem Péle Resfriado Bandeja 1 Unidade 618g",
               "brand": "Covabra",
-              "product_url": "https://www.covabra.com.br/banana-nanica-1-unidade-228g/p",
-              "price": 2.04,
+              "product_url": "https://www.covabra.com.br/peito-frango-sem-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p",
+              "price": 18.47,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Peito Frango com Osso sem Pele Resfriado Bandeja 1 Unidade 618g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/peito-frango-com-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p",
+              "price": 15.38,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Peito de Frango com Osso com Pele Resfriado Bandeja 1 Unidade 850g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/peito-de-frango-com-osso-com-pele-resfriado-bandeja-1-unidade-850g/p",
+              "price": 20.31,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Peito Frango com Osso Postas Resfriado Bandeja 1 Unidade 618g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/peito-frango-com-osso-postas-resfriado-bandeja-1-unidade-618g/p",
+              "price": 14.77,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Frango Inteiro Resfriado 1 Unidade 2,900kg",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/frango-inteiro-resfriado-1-unidade-2-900kg/p",
+              "price": 37.41,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Frango à Passarinho Resfriado Bandeja 1 Unidade 1,545kg",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/frango-a-passarinho-resfriado-bandeja-1-unidade-1-545kg/p",
+              "price": 24.56,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "File Merluza Karams 500g",
+              "brand": "Karams",
+              "product_url": "https://www.covabra.com.br/file-merluza-karams-500g/p",
+              "price": 24.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "File de Frango Seara Milanesa 400g",
+              "brand": "Seara",
+              "product_url": "https://www.covabra.com.br/file-de-frango-seara-milanesa-400g/p",
+              "price": 19.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "File Mignon Suino Medalhao Resfriado 1 Unidade 515g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/file-mignon-suino-medalhao-resfriado-1-unidade-515g/p",
+              "price": 12.86,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "File Salmão Brazilian Fish 500g",
+              "brand": "Brazilian Fish",
+              "product_url": "https://www.covabra.com.br/file-salmao-brazilian-fish-500g/p",
+              "price": 71.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "carne bovina patinho acem",
+          "offer_count": 2,
+          "lowest_price": 19.55,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Patinho Bovino Cubos Bandeja 1 Unidade 515g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/patinho-bovino-cubos-bandeja-1-unidade-515g/p",
+              "price": 25.73,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Acém Bovino Cubos Bandeja 1 Unidade 515g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/acem-bovino-cubos-bandeja-1-unidade-515g/p",
+              "price": 19.55,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "carne moida patinho",
+          "offer_count": 1,
+          "lowest_price": 25.73,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Patinho Bovino Moído Bandeja 1 Unidade 515g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/patinho-bovino-moido-bandeja-1-unidade-515g/p",
+              "price": 25.73,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "linguica toscana crua",
+          "offer_count": 9,
+          "lowest_price": 14.98,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Toscana Sadia 1 Porção 824g",
+              "brand": "Sadia",
+              "product_url": "https://www.covabra.com.br/linguica-toscana-sadia-1-porcao-824g/p",
+              "price": 19.69,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Toscana Perdigão Na Brasa 1 Porção 824g",
+              "brand": "Perdigão",
+              "product_url": "https://www.covabra.com.br/linguica-toscana-perdigao-na-brasa-1-porcao-824g/p",
+              "price": 21.34,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Toscana Perdigão Na Brasa 700g",
+              "brand": "Perdigão",
+              "product_url": "https://www.covabra.com.br/linguica-toscana-perdigao-na-brasa-700g/p",
+              "price": 24.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Perdigão Na Brasa Frango 700g",
+              "brand": "Perdigão",
+              "product_url": "https://www.covabra.com.br/linguica-perdigao-na-brasa-frango-700g/p",
+              "price": 18.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Toscana Perdigão com Queijo 600g",
+              "brand": "Perdigão",
+              "product_url": "https://www.covabra.com.br/linguica-toscana-perdigao-com-queijo-600g/p",
+              "price": 24.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Toscana Sadia 700g",
+              "brand": "Sadia",
+              "product_url": "https://www.covabra.com.br/linguica-toscana-sadia-700g/p",
+              "price": 23.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Toscana Perdigão Alho 600g",
+              "brand": "Perdigão",
+              "product_url": "https://www.covabra.com.br/linguica-toscana-perdigao-alho-600g/p",
+              "price": 27.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Toscana Perdigão Biquinho 600g",
+              "brand": "Perdigão",
+              "product_url": "https://www.covabra.com.br/linguica-toscana-perdigao-biquinho-600g/p",
+              "price": 27.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Linguiça Calabresa Perdigão 400g",
+              "brand": "Perdigão",
+              "product_url": "https://www.covabra.com.br/linguica-calabresa-perdigao-400g/p",
+              "price": 14.98,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "ovo branco",
+          "offer_count": 7,
+          "lowest_price": 11.9,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Ovos Jovanil Brancos Grandes Pvc com 20Unidades",
+              "brand": "Jovanil",
+              "product_url": "https://www.covabra.com.br/ovos-jovanil-brancos-grandes-pvc-com-20unidades/p",
+              "price": 13.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Ovos Jovanil Brancos Grandes Bandeja com 30Unidades",
+              "brand": "Jovanil",
+              "product_url": "https://www.covabra.com.br/ovos-jovanil-brancos-grandes-bandeja-com-30unidades/p",
+              "price": 25.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Ovos Brancos Mantiqueira Happy Eggs Grande Pvc Caixa com 20un",
+              "brand": "Mantiqueira",
+              "product_url": "https://www.covabra.com.br/ovos-brancos-mantiqueira-happy-eggs-grande-pvc-caixa-com-20un/p",
+              "price": 22.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Ovos Brancos Mantiqueira Grande Pvc c/ 20 un",
+              "brand": "Mantiqueira",
+              "product_url": "https://www.covabra.com.br/ovos-brancos-mantiqueira-grande-pvc-c--20-un/p",
+              "price": 13.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Ovos Jovanil Branco Grande Cinta com 60Unidades",
+              "brand": "Jovanil",
+              "product_url": "https://www.covabra.com.br/ovos-jovanil-branco-grande-cinta-com-60unidades/p",
+              "price": 45.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
+              "brand": "Mantiqueira",
+              "product_url": "https://www.covabra.com.br/ovos-caipira-mantiqueira-happy-eggs-branco-grande-pvc-caixa-com-10un/p",
+              "price": 11.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Ovos Mantiqueira Branco Grande Pvc com 30un",
+              "brand": "Mantiqueira",
+              "product_url": "https://www.covabra.com.br/ovos-mantiqueira-branco-grande-pvc-com-30un/p",
+              "price": 25.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "macarrao espaguete",
+          "offer_count": 1,
+          "lowest_price": 5.89,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Macarrão Barilla com Ovos Espaguete N.8 com 500g",
+              "brand": "Barilla",
+              "product_url": "https://www.covabra.com.br/macarrao-barilla-com-ovos-espaguete-n-8-com-500g/p",
+              "price": 5.89,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "molho de tomate tradicional",
+          "offer_count": 2,
+          "lowest_price": 2.29,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Molho Tomate Heinz Tradicional Sachê 240g",
+              "brand": "Heinz",
+              "product_url": "https://www.covabra.com.br/molho-tomate-heinz-tradicional-sache-240g/p",
+              "price": 2.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Molho Tomate Fugini Tradicional Sachê 300g",
+              "brand": "Fugini",
+              "product_url": "https://www.covabra.com.br/molho-tomate-fugini-tradicional-sache-300g/p",
+              "price": 2.29,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "cebola branca in natura",
+          "offer_count": 24,
+          "lowest_price": 1.92,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola 1 Unidade 280g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/cebola-1-unidade-280g/p",
+              "price": 1.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Compra+Facil 1kg",
+              "brand": "Compra+Fácil",
+              "product_url": "https://www.covabra.com.br/cebola-compra-facil-1kg/p",
+              "price": 6.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Roxa 1 Unidade 194g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/cebola-roxa-1-unidade-194g/p",
+              "price": 1.92,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola + Fit Roxa 500g",
+              "brand": "+ Fit",
+              "product_url": "https://www.covabra.com.br/cebola---fit-roxa-500g/p",
+              "price": 6.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Turma da Mônica Roxa 400g",
+              "brand": "Turma da Mônica",
+              "product_url": "https://www.covabra.com.br/cebola-turma-da-monica-roxa-400g/p",
+              "price": 7.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Daucy Picada ConGel ado 300g",
+              "brand": "Daucy",
+              "product_url": "https://www.covabra.com.br/cebola-daucy-picada-congel-ado-300g/p",
+              "price": 8.29,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Empório Das Folhas Triturada 400g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/cebola-emporio-das-folhas-triturada-400g/p",
+              "price": 11.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Sitio Novo Mundo Orgânico 500g",
+              "brand": "Sítio Novo Mundo",
+              "product_url": "https://www.covabra.com.br/cebola-sitio-novo-mundo-organico-500g/p",
+              "price": 10.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Palha Adko 70g",
+              "brand": "Adko",
+              "product_url": "https://www.covabra.com.br/cebola-palha-adko-70g/p",
+              "price": 11.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola, Alho e Salsa Kitano 40g",
+              "brand": "Kitano",
+              "product_url": "https://www.covabra.com.br/cebola--alho-e-salsa-kitano-40g/p",
+              "price": 7.29,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola em Pó Br Spices 45g",
+              "brand": "Br Spices",
+              "product_url": "https://www.covabra.com.br/cebola-em-po-br-spices-45g/p",
+              "price": 18.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Piasi Frita Crocante 100g",
+              "brand": "Piasi",
+              "product_url": "https://www.covabra.com.br/cebola-piasi-frita-crocante-100g/p",
+              "price": 9.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola, Tomate e Salsa Empório das Folhas 30g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/cebola--tomate-e-salsa-emporio-das-folhas-30g/p",
+              "price": 6.89,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Sakae Areia 25g",
+              "brand": "Sakae",
+              "product_url": "https://www.covabra.com.br/cebola-sakae-areia-25g/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola, Bacon e Salsa Empório das Folhas 30g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/cebola--bacon-e-salsa-emporio-das-folhas-30g/p",
+              "price": 6.89,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Tratamento Elseve Cicatri Renov  Reparação Total 5 com 100ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p",
+              "price": 51.59,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Kitano Granulada 20 g",
+              "brand": "Kitano",
+              "product_url": "https://www.covabra.com.br/cebola-kitano-granulada-20-g/p",
+              "price": 4.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Fugita para Tempero 400g",
+              "brand": "Fugita",
+              "product_url": "https://www.covabra.com.br/cebola-fugita-para-tempero-400g/p",
+              "price": 7.39,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Dove Bond Intense Repair 50ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p",
+              "price": 21.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Pantene Pro-Resgate Regeneração Molecular 150ml",
+              "brand": "Pantene",
+              "product_url": "https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p",
+              "price": 94.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Multifuncional Dove Reconstrução 175ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p",
+              "price": 43.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-in Tratamento Elseve Cicatri Renov Rt5 50ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p",
+              "price": 32.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Capilar Elseve Bond Repair 90ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p",
+              "price": 101.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cebola Br Spices Granulada Vidro 30g",
+              "brand": "Br Spices",
+              "product_url": "https://www.covabra.com.br/cebola-br-spices-granulada-vidro-30g/p",
+              "price": 13.69,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "alho in natura",
+          "offer_count": 24,
+          "lowest_price": 3.49,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho 1Unidade 70g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/alho-1unidade-70g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Piasi Pacote 200g",
+              "brand": "Piasi",
+              "product_url": "https://www.covabra.com.br/alho-piasi-pacote-200g/p",
+              "price": 14.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Daucy Picado Congelado 300g",
+              "brand": "Daucy",
+              "product_url": "https://www.covabra.com.br/alho-daucy-picado-congelado-300g/p",
+              "price": 13.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Poró Sitio Novo Mundo Orgânico Unidade",
+              "brand": "Sítio Novo Mundo",
+              "product_url": "https://www.covabra.com.br/alho-poro-sitio-novo-mundo-organico-unidade/p",
+              "price": 13.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Empório das Folhas Triturado 200g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/alho-emporio-das-folhas-triturado-200g/p",
+              "price": 5.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Empório das Folhas Triturado 400g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/alho-emporio-das-folhas-triturado-400g/p",
+              "price": 12.69,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Poro Mais Verdes Bandeja 300gr",
+              "brand": "Mais Verdes",
+              "product_url": "https://www.covabra.com.br/alho-poro-mais-verdes-bandeja-300gr/p",
+              "price": 8.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Empório das Folhas Cebola e Salsa 200g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/alho-emporio-das-folhas-cebola-e-salsa-200g/p",
+              "price": 7.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Dai Alimentos Triturado 200g",
+              "brand": "Dai Alimentos",
+              "product_url": "https://www.covabra.com.br/alho-dai-alimentos-triturado-200g/p",
+              "price": 4.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Piasi Premium Picado Picado sem Sal 400g",
+              "brand": "Piasi",
+              "product_url": "https://www.covabra.com.br/alho-piasi-premium-picado-picado-sem-sal-400g/p",
+              "price": 13.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Empório das Folhas Pasta 400g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/alho-emporio-das-folhas-pasta-400g/p",
+              "price": 12.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Piasi Premium Triturado sem Sal 200g",
+              "brand": "Piasi",
+              "product_url": "https://www.covabra.com.br/alho-piasi-premium-triturado-sem-sal-200g/p",
+              "price": 7.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Empório das Folhas Triturado 1,01kg",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/alho-emporio-das-folhas-triturado-1-01kg/p",
+              "price": 26.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho em Pó Br Spices Vidro 50g",
+              "brand": "Br Spices",
+              "product_url": "https://www.covabra.com.br/alho-em-po-br-spices-vidro-50g/p",
+              "price": 18.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Akio Pacote 200g",
+              "brand": "Akio",
+              "product_url": "https://www.covabra.com.br/alho-akio-pacote-200g/p",
+              "price": 18.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Dai Alimentos Triturado 400 g",
+              "brand": "Dai Alimentos",
+              "product_url": "https://www.covabra.com.br/alho-dai-alimentos-triturado-400-g/p",
+              "price": 9.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Empório das Folhas Frito 80g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/alho-emporio-das-folhas-frito-80g/p",
+              "price": 9.89,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Sakae Areia 25g",
+              "brand": "Sakae",
+              "product_url": "https://www.covabra.com.br/alho-sakae-areia-25g/p",
+              "price": 6.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Poro Pet Xavier 250gr",
+              "brand": "Pet. Xavier",
+              "product_url": "https://www.covabra.com.br/alho-poro-pet-xavier-250gr/p",
+              "price": 9.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Piasi Frito Crocante 100g",
+              "brand": "Piasi",
+              "product_url": "https://www.covabra.com.br/alho-piasi-frito-crocante-100g/p",
+              "price": 9.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Kitano Granulado 60g",
+              "brand": "Kitano",
+              "product_url": "https://www.covabra.com.br/alho-kitano-granulado-60g/p",
+              "price": 9.59,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Trebeschi Roxo Especial 200g",
+              "brand": "Trebeschi",
+              "product_url": "https://www.covabra.com.br/alho-trebeschi-roxo-especial-200g/p",
+              "price": 9.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Piasi Triturado sem Sal 900g",
+              "brand": "Piasi",
+              "product_url": "https://www.covabra.com.br/alho-piasi-triturado-sem-sal-900g/p",
+              "price": 24.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alho Empório das Folhas Pasta 200g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/alho-emporio-das-folhas-pasta-200g/p",
+              "price": 5.79,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "cenoura in natura",
+          "offer_count": 16,
+          "lowest_price": 3.99,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Cenoura 1 Unidade 323g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/cenoura-1-unidade-323g/p",
+              "price": 4.16,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cenoura Ralada La Vita 250g",
+              "brand": "La Vita",
+              "product_url": "https://www.covabra.com.br/cenoura-ralada-la-vita-250g/p",
+              "price": 5.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Cenoura Sítio Novo Mundo Orgânico 500g",
+              "brand": "Sítio Novo Mundo",
+              "product_url": "https://www.covabra.com.br/cenoura-sitio-novo-mundo-organico-500g/p",
+              "price": 9.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Tratamento Elseve Cicatri Renov  Reparação Total 5 com 100ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p",
+              "price": 51.59,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Kit Prot.Solar Cenoura & Bronze Fac.Fps50 50g+Corp. Fps50 200ml",
+              "brand": "Cenoura & Bronze",
+              "product_url": "https://www.covabra.com.br/kit-prot-solar-cenoura---bronze-fac-fps50-50g-corp--fps50-200ml/p",
+              "price": 69.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Dove Bond Intense Repair 50ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p",
+              "price": 21.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Pantene Pro-Resgate Regeneração Molecular 150ml",
+              "brand": "Pantene",
+              "product_url": "https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p",
+              "price": 94.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Multifuncional Dove Reconstrução 175ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p",
+              "price": 43.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-in Tratamento Elseve Cicatri Renov Rt5 50ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p",
+              "price": 32.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Capilar Elseve Bond Repair 90ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p",
+              "price": 101.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Tratamento Tresemmé Reconstrução e Força 200ml",
+              "brand": "Tresemmé",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-tresemme-reconstrucao-e-forca-200ml/p",
+              "price": 16.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Seda Boom Emulsão Day After Definição Intensa 350ml",
+              "brand": "Seda",
+              "product_url": "https://www.covabra.com.br/leave-in-seda-boom-emulsao-day-after-definicao-intensa-350ml/p",
+              "price": 29.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Iogurte Natural Vigor Laranja, Cenoura e Mel 150g",
+              "brand": "Vigor",
+              "product_url": "https://www.covabra.com.br/iogurte-natural-vigor-laranja--cenoura-e-mel-150g/p",
+              "price": 3.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Bisnaguinha Nutrellinhas Mandioquinha com Cenoura 300g",
+              "brand": "Nutrellinhas",
+              "product_url": "https://www.covabra.com.br/bisnaguinha-nutrellinhas-mandioquinha-com-cenoura-300g/p",
+              "price": 12.28,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Iogurte Natural Batavo Laranja, Cenoura e Mel 170g",
+              "brand": "Batavo",
+              "product_url": "https://www.covabra.com.br/iogurte-natural-batavo-laranja--cenoura-e-mel-170g/p",
+              "price": 3.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Pão de Forma Nutri Vida Integral Vegano Cenoura 400g",
+              "brand": "Nutrigrãos",
+              "product_url": "https://www.covabra.com.br/pao-de-forma-nutri-vida-integral-vegano-cenoura-400g/p",
+              "price": 15.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "brocolis in natura",
+          "offer_count": 24,
+          "lowest_price": 2.99,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Brocolis De Marchi Congelado 1,02kg",
+              "brand": "De Marchi",
+              "product_url": "https://www.covabra.com.br/brocolis-de-marchi-congelado-1-02kg/p",
+              "price": 15.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Tratamento Elseve Cicatri Renov  Reparação Total 5 com 100ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p",
+              "price": 51.59,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Dove Bond Intense Repair 50ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p",
+              "price": 21.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Pantene Pro-Resgate Regeneração Molecular 150ml",
+              "brand": "Pantene",
+              "product_url": "https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p",
+              "price": 94.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Multifuncional Dove Reconstrução 175ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p",
+              "price": 43.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-in Tratamento Elseve Cicatri Renov Rt5 50ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p",
+              "price": 32.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Capilar Elseve Bond Repair 90ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p",
+              "price": 101.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Tratamento Tresemmé Reconstrução e Força 200ml",
+              "brand": "Tresemmé",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-tresemme-reconstrucao-e-forca-200ml/p",
+              "price": 16.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Seda Boom Emulsão Day After Definição Intensa 350ml",
+              "brand": "Seda",
+              "product_url": "https://www.covabra.com.br/leave-in-seda-boom-emulsao-day-after-definicao-intensa-350ml/p",
+              "price": 29.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Brócolis Turma da Mônica 250g",
+              "brand": "Turma da Mônica",
+              "product_url": "https://www.covabra.com.br/brocolis-turma-da-monica-250g/p",
+              "price": 12.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Brocólis Seara Congelado  Nature Florete 300g",
+              "brand": "Seara",
+              "product_url": "https://www.covabra.com.br/brocolis-seara-congelado--nature-florete-300g/p",
+              "price": 6.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Brócolis Daucy Congelado 300g",
+              "brand": "Daucy",
+              "product_url": "https://www.covabra.com.br/brocolis-daucy-congelado-300g/p",
+              "price": 7.89,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Brócolis Daucy Florete 1kg",
+              "brand": "Daucy",
+              "product_url": "https://www.covabra.com.br/brocolis-daucy-florete-1kg/p",
+              "price": 22.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Brócolis Florete La Vita 200g",
+              "brand": "La Vita",
+              "product_url": "https://www.covabra.com.br/brocolis-florete-la-vita-200g/p",
+              "price": 10.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Brócolis e Couve Flor Floretes Mais Verde 300g",
+              "brand": "Mais Verde",
+              "product_url": "https://www.covabra.com.br/brocolis-e-couve-flor-floretes-mais-verde-300g/p",
+              "price": 8.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Brócolis Ninja La Vita 300g",
+              "brand": "La Vita",
+              "product_url": "https://www.covabra.com.br/brocolis-ninja-la-vita-300g/p",
+              "price": 10.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Biscoito Montevergine Tub-In Wafer com Recheio de Chocolate 48g",
+              "brand": "Montevergine",
+              "product_url": "https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-chocolate-48g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Alimentos para Cães Keldog Carneiro, Brocolis e Linhaça 100g",
+              "brand": "Keldog",
+              "product_url": "https://www.covabra.com.br/alimentos-para-caes-keldog-carneiro--brocolis-e-linhaca-100g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Biscoito Montevergine Tub-In Wafer com Recheio de Avelã 48g",
+              "brand": "Montevergine",
+              "product_url": "https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-avela-48g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave In Ox Peptídeos 300ml",
+              "brand": "Ox",
+              "product_url": "https://www.covabra.com.br/leave-in-ox-peptideos-300ml/p",
+              "price": 59.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave In Dove Nutrição + Tri-Óleos 110ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-dove-nutricao---tri-oleos-110ml/p",
+              "price": 41.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave In Dove Reconstrução + Aminoácido 110ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-dove-reconstrucao---aminoacido-110ml/p",
+              "price": 41.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave In Seda Serum Toque de Seda 100ml",
+              "brand": "Seda",
+              "product_url": "https://www.covabra.com.br/leave-in-seda-serum-toque-de-seda-100ml/p",
+              "price": 31.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Biscoito Montevergine Tub-In Wafer com Recheio de Morango 30g",
+              "brand": "Montevergine",
+              "product_url": "https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-morango-30g/p",
+              "price": 2.99,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "abobrinha italiana in natura",
+          "offer_count": 24,
+          "lowest_price": 3.49,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Abobrinha Itália 1 Unidade 470g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/abobrinha-italia-1-unidade-470g/p",
+              "price": 5.12,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Abobrinha Brasil 1 Unidade 647g",
+              "brand": "Covabra",
+              "product_url": "https://www.covabra.com.br/abobrinha-brasil-1-unidade-647g/p",
+              "price": 9.64,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Abobrinha Itália + Fit 500g",
+              "brand": "+ Fit",
+              "product_url": "https://www.covabra.com.br/abobrinha-italia---fit-500g/p",
+              "price": 7.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Abobrinha Sítio Novo Mundo Orgânico 500g",
+              "brand": "Sítio Novo Mundo",
+              "product_url": "https://www.covabra.com.br/abobrinha-sitio-novo-mundo-organico-500g/p",
+              "price": 13.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Tratamento Elseve Cicatri Renov  Reparação Total 5 com 100ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov--reparacao-total-5-com-100ml/p",
+              "price": 51.59,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Dove Bond Intense Repair 50ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-dove-bond-intense-repair-50ml/p",
+              "price": 21.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Pantene Pro-Resgate Regeneração Molecular 150ml",
+              "brand": "Pantene",
+              "product_url": "https://www.covabra.com.br/leave-in-pantene-pro-resgate-regeneracao-molecular-150ml/p",
+              "price": 94.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Multifuncional Dove Reconstrução 175ml",
+              "brand": "Dove",
+              "product_url": "https://www.covabra.com.br/leave-in-multifuncional-dove-reconstrucao-175ml/p",
+              "price": 43.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-in Tratamento Elseve Cicatri Renov Rt5 50ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-elseve-cicatri-renov-rt5-50ml/p",
+              "price": 32.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Capilar Elseve Bond Repair 90ml",
+              "brand": "Elseve",
+              "product_url": "https://www.covabra.com.br/leave-in-capilar-elseve-bond-repair-90ml/p",
+              "price": 101.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Tratamento Tresemmé Reconstrução e Força 200ml",
+              "brand": "Tresemmé",
+              "product_url": "https://www.covabra.com.br/leave-in-tratamento-tresemme-reconstrucao-e-forca-200ml/p",
+              "price": 16.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Leave-In Seda Boom Emulsão Day After Definição Intensa 350ml",
+              "brand": "Seda",
+              "product_url": "https://www.covabra.com.br/leave-in-seda-boom-emulsao-day-after-definicao-intensa-350ml/p",
+              "price": 29.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Passata de Tomate Pomarola Italiana 700g",
+              "brand": "Pomarola",
+              "product_url": "https://www.covabra.com.br/passata-de-tomate-pomarola-italiana-700g/p",
+              "price": 17.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Farinha de Trigo Venturelli Alma Italiana 1kg",
+              "brand": "Venturelli",
+              "product_url": "https://www.covabra.com.br/farinha-de-trigo-venturelli-alma-italiana-1kg/p",
+              "price": 9.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Papinha Papapá Orgânica Pera, Espinafre e Abobrinha 100g",
+              "brand": "Papapa",
+              "product_url": "https://www.covabra.com.br/papinha-papapa-organica-pera--espinafre-e-abobrinha-100g/p",
+              "price": 10.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Biscoito Montevergine Tub-In Wafer com Recheio de Chocolate 48g",
+              "brand": "Montevergine",
+              "product_url": "https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-chocolate-48g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Farinha Colavita Italiana Grano Tenero 1kg",
+              "brand": "Colavita",
+              "product_url": "https://www.covabra.com.br/farinha-colavita-italiana-grano-tenero-1kg/p",
+              "price": 21.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Mortadela Seara Gourmet Italiana 471 SP 1 Pacote 206g",
+              "brand": "Seara",
+              "product_url": "https://www.covabra.com.br/mortadela-seara-gourmet-italiana-471-sp-1-pacote-206g/p",
+              "price": 10.27,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Arroz Tio João Arbório Cozinha Italiana 500g",
+              "brand": "Tio João",
+              "product_url": "https://www.covabra.com.br/arroz-tio-joao-arborio-cozinha-italiana-500g/p",
+              "price": 15.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Biscoito Montevergine Tub-In Wafer com Recheio de Avelã 48g",
+              "brand": "Montevergine",
+              "product_url": "https://www.covabra.com.br/biscoito-montevergine-tub-in-wafer-com-recheio-de-avela-48g/p",
+              "price": 3.49,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Farinha de Trigo Nita Italiana 1kg",
+              "brand": "Nita",
+              "product_url": "https://www.covabra.com.br/farinha-de-trigo-nita-italiana-1kg/p",
+              "price": 14.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Mortadela Marba Superiori Italiana Fatiado Bandeja 206g",
+              "brand": "Marba",
+              "product_url": "https://www.covabra.com.br/mortadela-marba-superiori-italiana-fatiado-bandeja-206g/p",
+              "price": 9.24,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Salada Italiana Verdureira 160g",
+              "brand": "Verdureira",
+              "product_url": "https://www.covabra.com.br/salada-italiana-verdureira-160g/p",
+              "price": 13.9,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Mortadela Giovanni Italiana 100g",
+              "brand": "Giovanni",
+              "product_url": "https://www.covabra.com.br/mortadela-giovanni-italiana-100g/p",
+              "price": 13.99,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "batata inglesa",
+          "offer_count": 1,
+          "lowest_price": 18.9,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Batata Inglesa Sítio Novo Mundo Orgânica 500g",
+              "brand": "Sítio Novo Mundo",
+              "product_url": "https://www.covabra.com.br/batata-inglesa-sitio-novo-mundo-organica-500g/p",
+              "price": 18.9,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "oleo de soja",
+          "offer_count": 2,
+          "lowest_price": 6.99,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Óleo de Soja Liza 900ml",
+              "brand": "Liza",
+              "product_url": "https://www.covabra.com.br/oleo-de-soja-liza-900ml/p",
+              "price": 6.99,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Óleo de Soja Soya 900ml",
+              "brand": "Soya",
+              "product_url": "https://www.covabra.com.br/oleo-de-soja-soya-900ml/p",
+              "price": 8.98,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "sal refinado",
+          "offer_count": 2,
+          "lowest_price": 3.19,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Sal Lebre Refinado 1kg",
+              "brand": "Lebre",
+              "product_url": "https://www.covabra.com.br/sal-lebre-refinado-1kg/p",
+              "price": 3.19,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Saleiro Lebre Refinado 100g",
+              "brand": "Lebre",
+              "product_url": "https://www.covabra.com.br/saleiro-lebre-refinado-100g/p",
+              "price": 5.39,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "pimenta do reino moida",
+          "offer_count": 3,
+          "lowest_price": 6.79,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Pimenta do Reino Kitano Moída Preta 50g",
+              "brand": "Kitano",
+              "product_url": "https://www.covabra.com.br/pimenta-do-reino-kitano-moida-preta-50g/p",
+              "price": 12.59,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Pimenta do Reino Kitano Moída Branca 15g",
+              "brand": "Kitano",
+              "product_url": "https://www.covabra.com.br/pimenta-do-reino-kitano-moida-branca-15g/p",
+              "price": 6.79,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Pimenta do Reino Br Spices Moída Vidro 50g",
+              "brand": "Br Spices",
+              "product_url": "https://www.covabra.com.br/pimenta-do-reino-br-spices-moida-vidro-50g/p",
+              "price": 21.29,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "paprica doce",
+          "offer_count": 4,
+          "lowest_price": 3.89,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Páprica Empório das Folhas Doce 30g",
+              "brand": "Empório das Folhas",
+              "product_url": "https://www.covabra.com.br/paprica-emporio-das-folhas-doce-30g/p",
+              "price": 5.69,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Páprica Kitano Doce 12 g",
+              "brand": "Kitano",
+              "product_url": "https://www.covabra.com.br/paprica-kitano-doce-12-g/p",
+              "price": 3.89,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Páprica Doce Br Spices 45g",
+              "brand": "Br Spices",
+              "product_url": "https://www.covabra.com.br/paprica-doce-br-spices-45g/p",
+              "price": 21.29,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Covabra",
+              "product_name": "Páprica Doce Bombay Vidro 60g",
+              "brand": "Bombay",
+              "product_url": "https://www.covabra.com.br/paprica-doce-bombay-vidro-60g/p",
+              "price": 29.59,
+              "available_quantity": 10000
+            }
+          ]
+        },
+        {
+          "item_name": "curry em po",
+          "offer_count": 1,
+          "lowest_price": 36.39,
+          "offers": [
+            {
+              "market_name": "Covabra",
+              "product_name": "Curry Sabater em Pó 35g",
+              "brand": "Sabater",
+              "product_url": "https://www.covabra.com.br/curry-sabater-em-po-35g/p",
+              "price": 36.39,
               "available_quantity": 10000
             }
           ]

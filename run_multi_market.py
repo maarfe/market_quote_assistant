@@ -93,20 +93,19 @@ def build_run_result(address: Address, shopping_items: list[ShoppingItem]) -> Ru
 
     return run_result
 
-
-def main() -> None:
+def run_multi_market() -> RunResult:
     address = load_address()
     shopping_items = load_shopping_items()
 
     if not shopping_items:
         print("Nenhum item válido encontrado em shopping_list.json")
-        return
+        return RunResult()
 
     run_result = build_run_result(address, shopping_items)
 
     if not run_result.markets:
         print("Nenhum mercado habilitado.")
-        return
+        return run_result
 
     TerminalPresenter().present(run_result)
     JsonExporter().export(run_result)
@@ -116,6 +115,8 @@ def main() -> None:
     print("- data/last_run.json")
     print("- data/market_comparison.csv")
 
+    return run_result
 
-if __name__ == "__main__":
-    main()
+
+def main() -> None:
+    run_multi_market()

@@ -8,8 +8,8 @@
       },
       "shipping": {
         "price": 18.2,
-        "delivery_estimate": "2026-04-24T11:00:00-03:00",
-        "raw_text": "Frete: R$ 18.20 | Prazo: 2026-04-24T11:00:00-03:00"
+        "delivery_estimate": "2026-04-27T11:00:00-03:00",
+        "raw_text": "Frete: R$ 18.20 | Prazo: 2026-04-27T11:00:00-03:00"
       },
       "items": [
         {
@@ -108,8 +108,8 @@
       },
       "shipping": {
         "price": 14.9,
-        "delivery_estimate": "2026-04-24T13:00:00-03:00",
-        "raw_text": "Frete: R$ 14.90 | Prazo: 2026-04-24T13:00:00-03:00"
+        "delivery_estimate": "2026-04-25T20:29:00-03:00",
+        "raw_text": "Frete: R$ 14.90 | Prazo: 2026-04-25T20:29:00-03:00"
       },
       "items": [
         {

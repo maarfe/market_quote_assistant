@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "name": "arroz",
+      "preferred_brand": ["Camil", "Tio João"],
+      "preferred_type": ["parboilizado"],
+      "exclude_terms": ["integral", "arboreo", "risoto"]
+    },
+    {
+      "name": "feijao",
+      "preferred_brand": null,
+      "preferred_type": ["carioca"],
+      "exclude_terms": ["preto", "fradinho"]
+    },
+    {
+      "name": "leite",
+      "preferred_brand": ["Piracanjuba", "Italac"],
+      "preferred_type": ["integral"],
+      "exclude_terms": ["po", "lactose", "condensado", "fermentado"]
+    },
+    {
+      "name": "banana",
+      "preferred_brand": null,
+      "preferred_type": ["nanica"],
+      "exclude_terms": ["prata", "maça"]
+    },
+    {
+      "name": "frango",
+      "preferred_brand": null,
+      "preferred_type": ["peito"],
+      "exclude_terms": ["temperado", "empanado"]
+    },
+    {
+      "name": "carne bovina",
+      "preferred_brand": null,
+      "preferred_type": ["patinho", "acem"],
+      "exclude_terms": ["premium", "wagyu"]
+    },
+    {
+      "name": "oleo",
+      "preferred_brand": ["Liza", "Soya"],
+      "preferred_type": ["soja"],
+      "exclude_terms": ["canola", "girassol", "coco"]
+    },
+    {
+      "name": "macarrao",
+      "preferred_brand": ["Barilla", "Adria"],
+      "preferred_type": ["espaguete"],
+      "exclude_terms": ["instantaneo"]
+    },
+    {
+      "name": "ovo",
+      "preferred_brand": null,
+      "preferred_type": ["branco"],
+      "exclude_terms": ["codorna"]
+    },
+    {
+      "name": "pao",
+      "preferred_brand": null,
+      "preferred_type": ["forma"],
+      "exclude_terms": ["integral", "sem gluten"]
+    }
+  ]
+}

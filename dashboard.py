@@ -197,7 +197,7 @@ display_df = cmp[["_item_key"] + display_cols[1:]].copy()
 
 # Ordena por menor preço entre os mercados disponíveis na linha
 display_df["_min_price"] = display_df[price_cols].min(axis=1)
-display_df = display_df.sort_values("_min_price").drop(columns=["_min_price"])
+display_df = display_df.sort_values(["Produto", "_min_price"]).drop(columns=["_min_price"])
 
 display_df.insert(0, "✓", False)
 
@@ -255,15 +255,14 @@ cols = st.columns(len(markets))
 for col, market in zip(cols, markets):
     mdf = filtered[filtered["market"] == market]
     info = shipping_info.get(market, {})
+    frete = info.get("price")
+    delivery = info.get("delivery", "—")
     with col:
-        st.metric(label=market.title(), value=f"{len(mdf)} ofertas")
-        if not mdf.empty:
-            st.caption(f"Menor preço: R$ {mdf['price'].min():.2f}")
-            st.caption(f"Maior preço: R$ {mdf['price'].max():.2f}")
-        frete = info.get("price")
-        delivery = info.get("delivery", "—")
-        st.caption(f"🚚 Frete: R$ {frete:.2f}" if frete is not None else "🚚 Frete: —")
-        st.caption(f"📅 Entrega: {delivery}")
+        st.markdown(f"#### {market.title()}")
+        frete_label = f"R$ {frete:.2f}" if frete is not None else "—"
+        st.metric(label="🚚 Frete", value=frete_label)
+        st.caption(f"📅 Entrega prevista: {delivery}")
+        st.caption(f"📦 {len(mdf)} ofertas encontradas")
 
 # ---------------------------------------------------------------------------
 # Lista de compras — tabela sempre visível
@@ -294,14 +293,27 @@ else:
             f"🔗 {market.title()}", display_text="abrir", width="small"
         )
 
-    st.dataframe(
-        cart_df,
+    cart_df.insert(0, "🗑️", False)
+    cart_column_config["🗑️"] = st.column_config.CheckboxColumn("🗑️", width="small", default=False)
+    cart_display_cols_with_remove = ["🗑️"] + cart_display_cols
+
+    cart_edited = st.data_editor(
+        cart_df[cart_display_cols_with_remove],
         column_config=cart_column_config,
-        column_order=cart_display_cols,
+        column_order=cart_display_cols_with_remove,
         use_container_width=True,
         hide_index=True,
         height=min(80 + len(cart_df) * 38, 400),
+        key="cart_table",
     )
+
+    # Processar remoções
+    remove_mask = cart_edited["🗑️"] == True
+    if remove_mask.any():
+        keys_to_remove = cart[remove_mask.values]["_item_key"].tolist()
+        for key in keys_to_remove:
+            st.session_state.selected_items.discard(key)
+        st.rerun()
 
     if st.button("🗑️ Limpar lista", key="clear_cart"):
         st.session_state.selected_items.clear()

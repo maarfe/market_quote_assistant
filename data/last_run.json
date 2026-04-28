@@ -8,8 +8,8 @@
       },
       "shipping": {
         "price": 18.2,
-        "delivery_estimate": "2026-04-27T11:00:00-03:00",
-        "raw_text": "Frete: R$ 18.20 | Prazo: 2026-04-27T11:00:00-03:00"
+        "delivery_estimate": "2026-04-28T11:00:00-03:00",
+        "raw_text": "Frete: R$ 18.20 | Prazo: 2026-04-28T11:00:00-03:00"
       },
       "items": [
         {
@@ -139,7 +139,7 @@
           ]
         },
         {
-          "item_name": "peito de frango",
+          "item_name": "peito frango",
           "offer_count": 1,
           "lowest_price": 27.95,
           "offers": [
@@ -319,7 +319,7 @@
         },
         {
           "item_name": "ovo",
-          "offer_count": 8,
+          "offer_count": 7,
           "lowest_price": 8.7,
           "offers": [
             {
@@ -376,14 +376,6 @@
               "brand": "COAG",
               "product_url": "https://www.savegnago.com.br/ovo-bco-coag-com-30-gde/p",
               "price": 19.95,
-              "available_quantity": 10000
-            },
-            {
-              "market_name": "Savegnago",
-              "product_name": "Ovo Vermelho Grande Orgânico Fazenda Da Toca Com 20 Unidades",
-              "brand": "FAZENDA DA TOCA",
-              "product_url": "https://www.savegnago.com.br/ovo-vermelho-grande-organico-fazenda-da-toca-com-20-unidades/p",
-              "price": 34.9,
               "available_quantity": 10000
             }
           ]
@@ -556,15 +548,15 @@
         },
         {
           "item_name": "cebola",
-          "offer_count": 5,
-          "lowest_price": 3.98,
+          "offer_count": 6,
+          "lowest_price": 3.79,
           "offers": [
             {
               "market_name": "Savegnago",
               "product_name": "Cebola Nacional - 1kg",
               "brand": "IN NATURA",
               "product_url": "https://www.savegnago.com.br/cebola-nacional-kg/p",
-              "price": 3.98,
+              "price": 3.79,
               "available_quantity": 10000
             },
             {
@@ -581,6 +573,14 @@
               "brand": "IN NATURA",
               "product_url": "https://www.savegnago.com.br/cebola-roxa-1kg/p",
               "price": 8.98,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Cebola roxa Turma da Mônica 400g",
+              "brand": "TURMA DA MONICA",
+              "product_url": "https://www.savegnago.com.br/cebola-roxa-turma-da-monica-400g/p",
+              "price": 7.98,
               "available_quantity": 10000
             },
             {
@@ -687,7 +687,7 @@
         },
         {
           "item_name": "batata",
-          "offer_count": 1,
+          "offer_count": 2,
           "lowest_price": 5.95,
           "offers": [
             {
@@ -696,6 +696,14 @@
               "brand": "IN NATURA",
               "product_url": "https://www.savegnago.com.br/batata-primeira-kg/p",
               "price": 5.95,
+              "available_quantity": 10000
+            },
+            {
+              "market_name": "Savegnago",
+              "product_name": "Batata Pirulito 1kg",
+              "brand": "IN NATURA",
+              "product_url": "https://www.savegnago.com.br/batata-pirulito-kg/p",
+              "price": 5.98,
               "available_quantity": 10000
             }
           ]
@@ -873,8 +881,8 @@
       },
       "shipping": {
         "price": 14.9,
-        "delivery_estimate": "2026-04-27T13:00:00-03:00",
-        "raw_text": "Frete: R$ 14.90 | Prazo: 2026-04-27T13:00:00-03:00"
+        "delivery_estimate": "2026-04-28T13:00:00-03:00",
+        "raw_text": "Frete: R$ 14.90 | Prazo: 2026-04-28T13:00:00-03:00"
       },
       "items": [
         {
@@ -988,7 +996,7 @@
           ]
         },
         {
-          "item_name": "peito de frango",
+          "item_name": "peito frango",
           "offer_count": 20,
           "lowest_price": 14.77,
           "offers": [
@@ -2053,6 +2061,1374 @@
               "product_url": "https://www.covabra.com.br/molho-karui-curry-royal-medio-120g/p",
               "price": 34.99,
               "available_quantity": 10000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market_name": "Tenda",
+      "coverage": {
+        "status": "covered",
+        "has_delivery": true
+      },
+      "shipping": {
+        "price": 19.9,
+        "delivery_estimate": "2026-04-29",
+        "raw_text": "Frete: R$ 19.90 | Prazo: 2026-04-29"
+      },
+      "items": [
+        {
+          "item_name": "arroz parboilizado",
+          "offer_count": 8,
+          "lowest_price": 3.65,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Parboilizado Camil 1Kg",
+              "brand": "Camil",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-camil-parbolizado-1kg",
+              "price": 3.65,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Parboilizado Select 5kg",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-parboilizado-select-5kg-2542",
+              "price": 17.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Parboilizado Urbano 5kg",
+              "brand": "Urbano",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-parboilizado-urbano-5kg",
+              "price": 18.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Tipo 1 Parboilizado Picinin 5kg",
+              "brand": "Picinin",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-tipo-1-parboilizado-picinin-5kg",
+              "price": 18.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Parboilizado Camil 5kg",
+              "brand": "Camil",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-parboilizado-camil-5kg-603",
+              "price": 20.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Parboilizado Inteirão 5kg",
+              "brand": "Inteirão",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-parboilizado-inteirao-5kg",
+              "price": 17.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Parboilizado Prato Fino 5kg",
+              "brand": "Prato Fino",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-parboilizado-prato-fino-5kg-2032",
+              "price": 25.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Arroz Parboilizado Blue Ville 5kg",
+              "brand": "Blue Ville",
+              "product_url": "https://tendaatacado.com.br/produto/arroz-parboilizado-blue-ville-5kg-21528",
+              "price": 23.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "feijao carioca",
+          "offer_count": 14,
+          "lowest_price": 5.99,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca 5 Estrelas 1kg",
+              "brand": "5 Estrelas",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-5-estrelas-1kg-30378",
+              "price": 5.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca da Casa 1kg",
+              "brand": "Da Casa",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-da-casa-1kg-608",
+              "price": 6.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Tipo 1 Camil 1kg",
+              "brand": "Camil",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-camil-1kg-481",
+              "price": 7.59,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Grão de Campo - 1kg",
+              "brand": "Grão de Campo",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-grao-de-campo-1kg",
+              "price": 8.19,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Broto Legal 1kg",
+              "brand": "Broto Legal",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-broto-legal-1kg-929",
+              "price": 8.69,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Tipo 1 Kicaldo 1kg",
+              "brand": "Kicaldo",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-kicaldo-1kg-567",
+              "price": 7.89,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Tipo 1 Rosalito 1kg",
+              "brand": "Rosalito",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-rosalito-1kg",
+              "price": 8.29,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Premium Picinin 1kg",
+              "brand": "Picinin",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-premium-picinin-1kg",
+              "price": 7.89,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Empório São João 1kg",
+              "brand": "Empório São João",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-emporio-sao-joao-1kg-33449",
+              "price": 8.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Tipo 1 Select 1kg",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-select-1kg-2624",
+              "price": 8.59,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Carunchão 1Kg",
+              "brand": "Carunchão",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-carunchao-1kg",
+              "price": 8.59,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Taruma 1Kg",
+              "brand": "Taruma",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-taruma-1kg",
+              "price": 8.49,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Tipo 1 Máximo 1kg",
+              "brand": "Sabor Máximo",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-maximo-1kg",
+              "price": 5.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Feijão Carioca Vasconcelos 1Kg",
+              "brand": "Vasconcelos",
+              "product_url": "https://tendaatacado.com.br/produto/feijao-carioca-vasconcelos-1kg",
+              "price": 9.19,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "peito frango",
+          "offer_count": 12,
+          "lowest_price": 7.74,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango Congelado Aurora 1kg",
+              "brand": "Aurora",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-frango-congelado-aurora-1kg-2015",
+              "price": 22.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango Congelado Lar 1Kg",
+              "brand": "Lar",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-de-frango-congelado-lar-1kg",
+              "price": 18.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango Congelado Sadia 800g",
+              "brand": "Sadia",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-de-frango-congelado-sadia-800g",
+              "price": 19.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango resfriado bandeja 600g",
+              "brand": "Tenda",
+              "product_url": "https://tendaatacado.com.br/produto/peito-frango-sosso-spele-resf-kg",
+              "price": 10.739999999999998,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango Congelado Sadia Zip 1kg",
+              "brand": "Sadia",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-de-frabgo-congelado-sadia-zip-pct1kg-3842",
+              "price": 18.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango Congelado Aurora IQF 1Kg",
+              "brand": "Aurora",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-aurora-iqf-1kg-11518",
+              "price": 20.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango Congelado Aurora IQF 3kg",
+              "brand": "Aurora",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-de-frango-iqf-aurora-3kg-17156",
+              "price": 54.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Peito de Frango Congelado Perdigão IQF 800g",
+              "brand": "Perdigão",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-de-frango-perdigao-iqf-800g-9149",
+              "price": 18.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Peito de Frango com osso resfriado bandeja 600g",
+              "brand": "Tenda",
+              "product_url": "https://tendaatacado.com.br/produto/peito-frango-cosso-resf-kg",
+              "price": 7.74,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de peito bandeja Seara 1kg",
+              "brand": "Seara",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-bandeja-seara-1kg",
+              "price": 19.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de Coxa e Sobrecoxa Congelado Aurora 1kg",
+              "brand": "Aurora",
+              "product_url": "https://tendaatacado.com.br/produto/file-coxa-sobrecoxa-aurora-1kg-5040",
+              "price": 16.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Filé de peito Seara IQF 1kg",
+              "brand": "Seara",
+              "product_url": "https://tendaatacado.com.br/produto/file-de-peito-seara-iqf-1kg",
+              "price": 20.5,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "carne bovina",
+          "offer_count": 2,
+          "lowest_price": 19.96,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Patinho bovino em Bifes Resfriado bandeja 400g",
+              "brand": "Tenda",
+              "product_url": "https://tendaatacado.com.br/produto/patinho-bifes-bandeja-400g",
+              "price": 19.96,
+              "available_quantity": 20
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Carne Moída Bovina Patinho Reserva 500g",
+              "brand": "Friboi",
+              "product_url": "https://tendaatacado.com.br/produto/carne-moida-bov-patinho-reserva-500g",
+              "price": 20.27,
+              "available_quantity": 1000
+            }
+          ]
+        },
+        {
+          "item_name": "carne bovina acem",
+          "offer_count": 1,
+          "lowest_price": 44.9,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Bacon em Cubos Frimesa 1Kg",
+              "brand": "Frimesa",
+              "product_url": "https://tendaatacado.com.br/produto/bacon-em-cubos-frimesa-1kg",
+              "price": 44.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "carne moida",
+          "offer_count": 1,
+          "lowest_price": 20.27,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Carne Moída Bovina Patinho Reserva 500g",
+              "brand": "Friboi",
+              "product_url": "https://tendaatacado.com.br/produto/carne-moida-bov-patinho-reserva-500g",
+              "price": 20.27,
+              "available_quantity": 1000
+            }
+          ]
+        },
+        {
+          "item_name": "linguica toscana",
+          "offer_count": 6,
+          "lowest_price": 20.9,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Linguiça Toscana Na Brasa Perdigão 5Kg",
+              "brand": "Perdigão",
+              "product_url": "https://tendaatacado.com.br/produto/linguica-toscana-na-brasa-perdigao-5kg",
+              "price": 119.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Linguiça Toscana Na Brasa Perdigão 700g",
+              "brand": "Perdigão",
+              "product_url": "https://tendaatacado.com.br/produto/linguica-toscana-na-brasa-perdigao-700g",
+              "price": 20.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Linguiça Toscana Congelada Sadia Pacote 5kg",
+              "brand": "Sadia",
+              "product_url": "https://tendaatacado.com.br/produto/linguica-toscana-sadia-kg-86",
+              "price": 99.5,
+              "available_quantity": 20
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Linguiça Toscana Congelada NaBrasa Perdigão com Queijo 600g",
+              "brand": "Perdigão",
+              "product_url": "https://tendaatacado.com.br/produto/linguica-toscana-congelada-com-queijo-perdigao-600g",
+              "price": 24.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Linguiça Toscana Congelada Sadia 700g",
+              "brand": "Sadia",
+              "product_url": "https://tendaatacado.com.br/produto/linguica-toscana-congelada-sadia-700g",
+              "price": 20.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Linguiça Toscana Congelada NaBrasa Perdigão com Alho e Ervas 600g",
+              "brand": "Perdigão",
+              "product_url": "https://tendaatacado.com.br/produto/linguica-toscana-com-alho-e-ervas-na-brasa-perdigao-600g-29415",
+              "price": 24.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "ovo",
+          "offer_count": 5,
+          "lowest_price": 9.49,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Ovos Grandes Vermelhos 12 Unidades",
+              "brand": "Satoshi Ito",
+              "product_url": "https://tendaatacado.com.br/produto/ovos-grandes-vermelhos-12-unidades-1583",
+              "price": 10.49,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Ovos Grandes Vermelhos  30 Unidades",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/ovos-grandes-vermelhos-30-unidades-1570",
+              "price": 24.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Ovos Grandes Branco 12 Unidades",
+              "brand": "Agro",
+              "product_url": "https://tendaatacado.com.br/produto/ovos-grandes-branco-12-unidades-1395",
+              "price": 9.49,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Ovos Grandes Branco 30 Unidades",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/ovos-grandes-branco-25-dz-1396",
+              "price": 23.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Ovos Grandes Branco Cinta 5 Dúzias",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/ovos-grandes-branco-cinta-05dz-5154",
+              "price": 39.8,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "macarrao espaguete",
+          "offer_count": 2,
+          "lowest_price": 3.49,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Macarrão com Ovos Espaguete Furado 5 Adria 500g",
+              "brand": "Adria",
+              "product_url": "https://tendaatacado.com.br/produto/macarrao-com-ovos-espaguete-furado-5-adria-500g-1361",
+              "price": 3.49,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Macarrão com Ovos Espaguete 8 Adria 500g",
+              "brand": "Adria",
+              "product_url": "https://tendaatacado.com.br/produto/macarrao-com-ovos-espaguete-8-adria-500g-1357",
+              "price": 3.49,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "extrato de tomate",
+          "offer_count": 19,
+          "lowest_price": 3.1,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Quero 300g",
+              "brand": "Quero",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-quero-300g",
+              "price": 4.35,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Elefante 850g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-850g-378",
+              "price": 15.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Elefante 1,7kg",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-1-7kg",
+              "price": 32.0,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Só Tomate Elefante 300g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/ext-tom-elefante-so-tomate-pt-300g",
+              "price": 6.0,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de tomate Elefante pote 300g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/ext-tom-elefante-pt-300g",
+              "price": 7.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Quero TP 1,080kg",
+              "brand": "Quero",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-quero-tp-1-080kg-19692",
+              "price": 10.1,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Elefante 535g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-535g",
+              "price": 11.9,
+              "available_quantity": 1000
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Concentrado Salsaretti 300g",
+              "brand": "Salsaretti",
+              "product_url": "https://tendaatacado.com.br/produto/extratode-tomate-concentrado-salsaretti-300g",
+              "price": 6.49,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate com Cebola e Alho Elefante 300g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/ext-tom-cebola-e-alho-elefante-300g",
+              "price": 6.49,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Base para Strogonoff Sabores Elefante 300g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-base-para-strogonoff-sabores-elefante-300g",
+              "price": 6.0,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Elefante 130g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-130g-223",
+              "price": 4.25,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Select 300g",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-select-300g",
+              "price": 3.1,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Quero Sachê 1,02Kg",
+              "brand": "Quero",
+              "product_url": "https://tendaatacado.com.br/produto/ext-tom-quero-sch-1-02kg",
+              "price": 9.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Base para Carne de Panela Sabores Elefante 300g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-base-para-carne-de-panela-sabores-elefante-300g",
+              "price": 6.0,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Cesta Básica Ouro 19 itens Tenda",
+              "brand": "Tenda",
+              "product_url": "https://tendaatacado.com.br/produto/cesta-basica-ouro-19-itens-tenda",
+              "price": 84.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Elefante 1,04Kg",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-1-04kg",
+              "price": 19.8,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Elefante Pote 310g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/ext-tom-elefante-pt-310g",
+              "price": 6.0,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Extrato de Tomate Elefante 275g",
+              "brand": "Elefante",
+              "product_url": "https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-275g",
+              "price": 5.25,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Sopão Maggi Carne com Legumes 200g",
+              "brand": "Maggi",
+              "product_url": "https://tendaatacado.com.br/produto/sopao-maggi-carne-com-legumes-200g",
+              "price": 10.79,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "cebola",
+          "offer_count": 5,
+          "lowest_price": 3.99,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Cebola Saco 1Kg",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/cebola-bandeja-1kg-15828",
+              "price": 3.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Cebola Select 2kg",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/cebola-select-2kg",
+              "price": 9.89,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Cebola Saco 10kg",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/cebola-pacote-10kg-17339",
+              "price": 47.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Cebola Roxa Select 1kg",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/cebola-roxa-select-1kg",
+              "price": 9.69,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pão de Cebola Santa Massa 400g",
+              "brand": "Santa Massa",
+              "product_url": "https://tendaatacado.com.br/produto/pao-de-cebola-santa-massa-400g",
+              "price": 14.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "alho",
+          "offer_count": 6,
+          "lowest_price": 1.69,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Alho Select 200g",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/alho-select-200g-8238",
+              "price": 11.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Alho Granel Saco 100g",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/alho-granel-100gr-15813",
+              "price": 1.69,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Alho Descascado Piasi 1kg",
+              "brand": "Piasi",
+              "product_url": "https://tendaatacado.com.br/produto/alho-descascado-piasi-1kg-27656",
+              "price": 37.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Alho Selecionado Select 500g",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/alho-selecionado-select-500g-8236",
+              "price": 29.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Alho Descascado Piasi Pacote 500g",
+              "brand": "Piasi",
+              "product_url": "https://tendaatacado.com.br/produto/alho-descascado-piasi-pacote-500g-23813",
+              "price": 18.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Alho Congelado De Marchi - 1,020kg",
+              "brand": "De Marchi",
+              "product_url": "https://tendaatacado.com.br/produto/alho-congelado-de-marchi-1-020kg",
+              "price": 17.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "cenoura",
+          "offer_count": 8,
+          "lowest_price": 3.99,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Cenoura Saco 1kg",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/cenoura-1kg-15831",
+              "price": 9.89,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Biscoito NESFIT Laranja e Cenoura 160g",
+              "brand": "Nesfit",
+              "product_url": "https://tendaatacado.com.br/produto/biscoito-nesfit-laranja-e-cenoura-160g",
+              "price": 4.65,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Ração Úmida Sachet para Gatos Peixe com Ervilha e Cenoura Kelcat 85G",
+              "brand": "Kelcat",
+              "product_url": "https://tendaatacado.com.br/produto/racao-umida-sachet-para-gatos-peixe-com-ervilha-e-cenoura-kelcat-85g",
+              "price": 3.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Yakisoba Seara 500g",
+              "brand": "Seara",
+              "product_url": "https://tendaatacado.com.br/produto/yakisoba-seara-500g",
+              "price": 17.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Jardineira sem Milho Congelada De Marchi 1,02kg",
+              "brand": "De Marchi",
+              "product_url": "https://tendaatacado.com.br/produto/jardineira-cong-de-marchi-1-020kg",
+              "price": 11.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Macarrão Instantâneo Sabor Galinha Caipira Picante Cup Noodles Nissin 68g",
+              "brand": "Nissin",
+              "product_url": "https://tendaatacado.com.br/produto/macarrao-instantaneo-sabor-galinha-caipira-picante-cup-noodles-nissin-68g-25864",
+              "price": 5.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Chá Abacaxi e Hortelã Leão 25g 10 Unidades",
+              "brand": "Leão",
+              "product_url": "https://tendaatacado.com.br/produto/cha-abacaxi-e-hortela-leao-25g-10-unidades",
+              "price": 9.05,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Seleta de Legumes Congelados De Marchi 1,02kg",
+              "brand": "De Marchi",
+              "product_url": "https://tendaatacado.com.br/produto/legumes-cong-de-marchi-psaltear-1-020kg",
+              "price": 12.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "brocolis",
+          "offer_count": 2,
+          "lowest_price": 7.99,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Brócolis Ninja Unidade",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/brocolis-ninja-unidade-1292",
+              "price": 7.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Casadinho Brócolis Ninja + Couve Flor Saco Unidade",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/casadinho-brocolis-ninja-couve-flor-32114",
+              "price": 8.47,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "abobrinha italiana",
+          "offer_count": 2,
+          "lowest_price": 1.9222500000000002,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Abobrinha Italiana Unidade",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/abobrinha-italiana-kg",
+              "price": 1.9222500000000002,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Abobrinha Italiana Bandeja 600g",
+              "brand": "Batista",
+              "product_url": "https://tendaatacado.com.br/produto/abobrinha-italiana-bandeja-600g",
+              "price": 5.99,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "batata",
+          "offer_count": 0,
+          "lowest_price": null,
+          "offers": []
+        },
+        {
+          "item_name": "oleo de soja",
+          "offer_count": 3,
+          "lowest_price": 7.29,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Óleo De Soja Liza 900ml",
+              "brand": "Liza",
+              "product_url": "https://tendaatacado.com.br/produto/oleo-de-soja-liza-900ml-1094",
+              "price": 7.39,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Óleo de Soja Soya Pet 900ml",
+              "brand": "Soya",
+              "product_url": "https://tendaatacado.com.br/produto/oleo-de-soja-soya-pet-900ml-1291",
+              "price": 7.29,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Óleo de Soja Refinado Fry Max Soya 14,5kg",
+              "brand": "Soya",
+              "product_url": "https://tendaatacado.com.br/produto/oleo-de-soja-refinado-fry-max-soya-14-5kg",
+              "price": 149.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "sal rosa",
+          "offer_count": 16,
+          "lowest_price": 3.07,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Sal Rosa do Himalaia Fino BR Spices 500g",
+              "brand": "BR Spices",
+              "product_url": "https://tendaatacado.com.br/produto/sal-rosa-do-himalaia-fino-br-spices-500g",
+              "price": 10.05,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Molho para Salada Rose Liza 234ml",
+              "brand": "Liza",
+              "product_url": "https://tendaatacado.com.br/produto/molho-para-salada-rose-liza-234ml-5969",
+              "price": 11.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Molho para Salada Rosé Hellmanns 210ml",
+              "brand": "Hellmann's",
+              "product_url": "https://tendaatacado.com.br/produto/molho-para-salada-rose-hellmanns-210ml",
+              "price": 17.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Argentino Chac Chac Malbec Rosé 750ml",
+              "brand": "Viña Las Perdices",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-argentino-chac-chac-malbec-rose-750ml",
+              "price": 59.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Espumante Brut Rosé Chandon 750ml",
+              "brand": "Chandon",
+              "product_url": "https://tendaatacado.com.br/produto/espumante-brut-rose-chandon-750ml-33579",
+              "price": 128.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Chileno Chilano Rosé - 750ml",
+              "brand": "Chilano",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-chileno-chilano-rose-750ml",
+              "price": 36.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Borracha BIC Neon",
+              "brand": "Bic",
+              "product_url": "https://tendaatacado.com.br/produto/borracha-bic-neon-15403",
+              "price": 3.07,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Rosé Saint Germain Frisante Suave 750ml",
+              "brand": "Saint Germain",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-rose-saint-germain-frisante-suave-750ml",
+              "price": 26.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Chileno Paskua Summer Rosé - 750ml",
+              "brand": "Paskua Land",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-chileno-paskua-summer-rose-750ml",
+              "price": 42.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Português Alecrim Rosé 750ml",
+              "brand": "Alecrim",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-portugues-alecrim-rose-750ml",
+              "price": 44.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Chileno Sauvignon Blanc Paskua Land 750ml",
+              "brand": "Paskua Land",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-chileno-sauvignon-blanc-paskua-land-750ml-33175",
+              "price": 30.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Chocotrio Nestlé Chocolate 90g",
+              "brand": "Nestlé",
+              "product_url": "https://tendaatacado.com.br/produto/chocotrio-nestle-chocolate-90g",
+              "price": 10.7,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Brasileiro Rosé Frisante Suave Serra Gaúcha Saint Germain 750ml",
+              "brand": "Saint Germain",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-tinto-seco-750ml",
+              "price": 26.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Essência Rosas Roubadas Aromasil 140ml",
+              "brand": "Aromasil",
+              "product_url": "https://tendaatacado.com.br/produto/essencia-rosas-roubadas-aromasil-140ml",
+              "price": 8.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Rosé Suave Country Wine - 750ml",
+              "brand": "Country Wine",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-rose-suave-country-wine-750ml-25298",
+              "price": 11.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Rosé Português Calamares 750ml",
+              "brand": "Calamares",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-rose-portugues-calamares-750ml",
+              "price": 64.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "pimenta do reino",
+          "offer_count": 17,
+          "lowest_price": 3.09,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Creme de Cebola Maggi 1kg",
+              "brand": "Maggi",
+              "product_url": "https://tendaatacado.com.br/produto/creme-de-cebola-maggi-1kg-6622",
+              "price": 35.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pimenta do Reino em Pó PQ 1kg",
+              "brand": "PQ",
+              "product_url": "https://tendaatacado.com.br/produto/pimenta-do-reino-em-po-pq-1kg-17886",
+              "price": 17.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Tempero Pimenta do Reino em Pó Select 60g",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/tempero-pimenta-do-reino-em-po-select-60g",
+              "price": 6.6,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pimenta-do-Reino Preta Moída Kitano Pouch 50g",
+              "brand": "Kitano",
+              "product_url": "https://tendaatacado.com.br/produto/pimenta-do-reino-preta-em-po-kitano-50g-1537",
+              "price": 10.79,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Tempero Completo Arisco 300g",
+              "brand": "Arisco",
+              "product_url": "https://tendaatacado.com.br/produto/tempero-completo-arisco-300g-7697",
+              "price": 8.19,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Sopa Maggi Cebola 68g",
+              "brand": "Maggi",
+              "product_url": "https://tendaatacado.com.br/produto/sopa-maggi-cebola-68g-5706",
+              "price": 6.05,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Tempero em Pó Lemon Pepper BR Spices 100g",
+              "brand": "BR Spices",
+              "product_url": "https://tendaatacado.com.br/produto/tempero-em-po-lemon-pepper-br-spices-100g",
+              "price": 19.3,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Creme de Cebola Maggi Equilibrium Sachê 61g",
+              "brand": "Maggi",
+              "product_url": "https://tendaatacado.com.br/produto/creme-de-cebola-maggi-equilibrium-sache-61g",
+              "price": 7.09,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Baby Beef Bovino Resfriado Montana Na Brasa Steakhouse peça 1,2kg",
+              "brand": "Na Brasa Steakhouse",
+              "product_url": "https://tendaatacado.com.br/produto/baby-beef-montana-na-brasa-steakhouse-1-2kg-24790",
+              "price": 68.28,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Tempero Baiano Select 50g",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/tempero-baiano-select-50g",
+              "price": 3.09,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Amaciante de Carne Maggi 1,1kg",
+              "brand": "Maggi",
+              "product_url": "https://tendaatacado.com.br/produto/amaciante-de-carne-maggi-1-1kg-18804",
+              "price": 27.6,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Creme de Cebola com Bacon MAGGI Sachê 61g",
+              "brand": "Maggi",
+              "product_url": "https://tendaatacado.com.br/produto/creme-de-cebola-com-bacon-maggi-sache-61g",
+              "price": 7.09,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Vinho Undurraga Carmenère Varietal Chile - 750ml",
+              "brand": "Carmenère",
+              "product_url": "https://tendaatacado.com.br/produto/vinho-undurraga-carmenere-750ml-varietal-chile",
+              "price": 47.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Lasanha bolonhesa Seara 600g",
+              "brand": "Seara",
+              "product_url": "https://tendaatacado.com.br/produto/lasanha-bolonhesa-seara-600g",
+              "price": 14.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Lasanha bolonhesa Seara 1kg",
+              "brand": "Seara",
+              "product_url": "https://tendaatacado.com.br/produto/lasanha-bolonhesa-seara-1kg",
+              "price": 23.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Tempero & Sabor MAGGI Legumes 50g",
+              "brand": "Maggi",
+              "product_url": "https://tendaatacado.com.br/produto/tempero-e-sabor-maggi-legumes-50g",
+              "price": 3.95,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Lasanha à Bolonhesa Aurora 600g",
+              "brand": "Aurora",
+              "product_url": "https://tendaatacado.com.br/produto/lasanha-a-bolonhesa-aurora-600g-24531",
+              "price": 13.9,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "paprica doce",
+          "offer_count": 20,
+          "lowest_price": 0.95,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce Pé de Moleque Gulosina 160g",
+              "brand": "Gulosina",
+              "product_url": "https://tendaatacado.com.br/produto/doce-pe-de-moleque-gulosina-160g",
+              "price": 3.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pipoca Doce Kari-Kari 40g",
+              "brand": "Kari-Kari",
+              "product_url": "https://tendaatacado.com.br/produto/pipoca-doce-kari-kari-40g-28464",
+              "price": 1.05,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pipoca Doce Kari-Kari 60g",
+              "brand": "Kari-Kari",
+              "product_url": "https://tendaatacado.com.br/produto/pipoca-doce-kari-kari-60g-27558",
+              "price": 1.55,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Batata Doce Branca 250g",
+              "brand": "FLV",
+              "product_url": "https://tendaatacado.com.br/produto/batata-doce-branca-250g",
+              "price": 2.4975,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pipoca Doce Kari-Kari 100g",
+              "brand": "Kari-Kari",
+              "product_url": "https://tendaatacado.com.br/produto/pipoca-doce-kari-kari-100g-27561",
+              "price": 2.19,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pipoca Doce Emília 40g",
+              "brand": "Emilia",
+              "product_url": "https://tendaatacado.com.br/produto/pipoca-doce-emilia-40g",
+              "price": 0.95,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Pipoca Doce Emília 100g",
+              "brand": "Emilia",
+              "product_url": "https://tendaatacado.com.br/produto/pipoca-doce-emilia-100g",
+              "price": 2.85,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Polvilho Doce Pq 1kg",
+              "brand": "PQ",
+              "product_url": "https://tendaatacado.com.br/produto/polvilho-doce-pq-1kg-1965",
+              "price": 12.7,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce Pé de Moça Biro Biro 150g",
+              "brand": "Biro Biro",
+              "product_url": "https://tendaatacado.com.br/produto/doce-pe-de-moca-biro-biro-150g-",
+              "price": 10.05,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Polvilho Doce PQ 500g",
+              "brand": "PQ",
+              "product_url": "https://tendaatacado.com.br/produto/polvilho-doce-pq-500g-17851",
+              "price": 6.89,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce Gibi Gulosina 1,1kg",
+              "brand": "Gulosina",
+              "product_url": "https://tendaatacado.com.br/produto/doce-gibi-gulosina-1-1kg-29452",
+              "price": 30.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce de Mocotó Biro Biro 140g",
+              "brand": "Biro Biro",
+              "product_url": "https://tendaatacado.com.br/produto/doce-mocoto-biro-biro-140g",
+              "price": 5.95,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce Paçoca Caseira Gulosina 450g",
+              "brand": "Gulosina",
+              "product_url": "https://tendaatacado.com.br/produto/doce-pacoca-caseira-gulosina-450g-29926",
+              "price": 12.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce Paçoca Rolha Gulosina 1,05kg",
+              "brand": "Gulosina",
+              "product_url": "https://tendaatacado.com.br/produto/doce-pacoca-rolha-gulosina-1-05kg-29928",
+              "price": 30.9,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Chá de Erva Doce Leão 20g",
+              "brand": "Leão",
+              "product_url": "https://tendaatacado.com.br/produto/cha-de-erva-doce-leao-10g-5690",
+              "price": 4.99,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Chá de Erva Doce Leão 30g",
+              "brand": "Leão",
+              "product_url": "https://tendaatacado.com.br/produto/cha-de-erva-doce-leao-30g-7504",
+              "price": 7.5,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce de Leite Italac 350g",
+              "brand": "Italac",
+              "product_url": "https://tendaatacado.com.br/produto/doce-de-leite-italac-350g-23861",
+              "price": 10.09,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce de Leite Select 400g",
+              "brand": "Select",
+              "product_url": "https://tendaatacado.com.br/produto/doce-de-leite-select-400g",
+              "price": 11.29,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce Leite Oliveira 360g",
+              "brand": "Oliveira",
+              "product_url": "https://tendaatacado.com.br/produto/doce-leite-oliveira-360g-12208",
+              "price": 9.59,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Doce Gibi Gulosina 160g",
+              "brand": "Gulosina",
+              "product_url": "https://tendaatacado.com.br/produto/doce-gibi-gulosina-160g",
+              "price": 3.99,
+              "available_quantity": 500
+            }
+          ]
+        },
+        {
+          "item_name": "curry",
+          "offer_count": 2,
+          "lowest_price": 7.79,
+          "offers": [
+            {
+              "market_name": "Tenda",
+              "product_name": "Curry Kitano Pouch 50g",
+              "brand": "Kitano",
+              "product_url": "https://tendaatacado.com.br/produto/curry-kitano-50g-12001",
+              "price": 8.15,
+              "available_quantity": 500
+            },
+            {
+              "market_name": "Tenda",
+              "product_name": "Cerveja 1906 Reserva La Milnueve Estrella Galicia 355ml",
+              "brand": "Estrella Galicia",
+              "product_url": "https://tendaatacado.com.br/produto/cerveja-1906-reserva-la-milnueve-estrella-galicia-355ml",
+              "price": 7.79,
+              "available_quantity": 500
             }
           ]
         }

@@ -1,0 +1,348 @@
+{
+  "items": [
+    {
+      "name": "arroz parboilizado",
+      "quantity": "1 kg",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "integral",
+        "arboreo",
+        "risoto",
+        "7 graos",
+        "pronto",
+        "temperado"
+      ]
+    },
+    {
+      "name": "feijao carioca",
+      "quantity": "500 g",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "preto",
+        "fradinho",
+        "branco",
+        "lata",
+        "pronto",
+        "temperado"
+      ]
+    },
+    {
+      "name": "peito frango",
+      "quantity": "1.5 kg",
+      "preferred_brand": null,
+      "preferred_type": [
+        "file",
+        "resfriado"
+      ],
+      "exclude_terms": [
+        "temperado",
+        "empanado",
+        "nuggets",
+        "defumado",
+        "sassami",
+        "pronto",
+        "bovino"
+      ]
+    },
+    {
+      "name": "carne bovina",
+      "quantity": "1 kg",
+      "preferred_brand": null,
+      "preferred_type": [
+        "patinho",
+        "cubos"
+      ],
+      "exclude_terms": [
+        "premium",
+        "wagyu",
+        "hamburguer",
+        "pronto",
+        "temperado",
+        "caldo",
+        "suína",
+        "moído",
+        "coxão"
+      ]
+    },
+    {
+      "name": "carne bovina acem",
+      "quantity": "1 kg",
+      "preferred_brand": null,
+      "preferred_type": [
+        "cubos"
+      ],
+      "exclude_terms": [
+        "premium",
+        "wagyu",
+        "hamburguer",
+        "pronto",
+        "temperado",
+        "caldo",
+        "suína",
+        "moído",
+        "coxão"
+      ]
+    },
+    {
+      "name": "carne moida",
+      "quantity": "1 kg",
+      "preferred_brand": null,
+      "preferred_type": [
+        "patinho"
+      ],
+      "exclude_terms": [
+        "hamburguer",
+        "pronto",
+        "temperado"
+      ]
+    },
+    {
+      "name": "linguica toscana",
+      "quantity": "500 g",
+      "preferred_brand": [
+        "Sadia",
+        "Perdigao"
+      ],
+      "preferred_type": null,
+      "exclude_terms": [
+        "apimentada",
+        "defumada",
+        "fatiada",
+        "pronta"
+      ]
+    },
+    {
+      "name": "ovo",
+      "quantity": "12 unidades",
+      "preferred_brand": null,
+      "preferred_type": [
+        "grande"
+      ],
+      "exclude_terms": [
+        "codorna",
+        "liquido",
+        "pasteurizado"
+      ]
+    },
+    {
+      "name": "macarrao espaguete",
+      "quantity": "500 g",
+      "preferred_brand": [
+        "Barilla",
+        "Adria"
+      ],
+      "preferred_type": [
+        "espaguete"
+      ],
+      "exclude_terms": [
+        "instantaneo",
+        "miojo",
+        "pronto"
+      ]
+    },
+    {
+      "name": "extrato de tomate",
+      "quantity": "2 unidades",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "apimentado",
+        "manjericao",
+        "molho"
+      ]
+    },
+    {
+      "name": "cebola",
+      "quantity": "4 unidades",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "conserva",
+        "caramelizada",
+        "desidratada",
+        "cola",
+        "escolar",
+        "alho",
+        "salsa",
+        "triturada",
+        "picada",
+        "granulada",
+        "frita",
+        "tempero",
+        "batata",
+        "creme",
+        "sopa",
+        "anéis",
+        "salgadinho",
+        "farofa",
+        "extrato",
+        "palha",
+        "pó",
+        "areia"
+      ]
+    },
+    {
+      "name": "alho",
+      "quantity": "1 cabeca",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "frito",
+        "pasta",
+        "tempero",
+        "poro",
+        "tempero",
+        "pronto",
+        "granulado",
+        "cebola",
+        "salsa",
+        "pao",
+        "extrato",
+        "areia",
+        "picado",
+        "triturado",
+        "pó"
+      ]
+    },
+    {
+      "name": "cenoura",
+      "quantity": "4 unidades",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "protetor",
+        "bronzeador",
+        "suco",
+        "bolo",
+        "baby",
+        "papinha",
+        "ralada",
+        "iogurte",
+        "pao",
+        "bisnaguinha",
+        "bolinho",
+        "mix"
+      ]
+    },
+    {
+      "name": "brocolis",
+      "quantity": "2 unidades",
+      "preferred_brand": null,
+      "preferred_type": [
+        "ninja"
+      ],
+      "exclude_terms": [
+        "congelado",
+        "pronto",
+        "creme",
+        "sopa",
+        "fettuccine",
+        "macarrão"
+      ]
+    },
+    {
+      "name": "abobrinha italiana",
+      "quantity": "2 unidades",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "refogada pronta",
+        "conserva"
+      ]
+    },
+    {
+      "name": "batata",
+      "quantity": "1 kg",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "doce",
+        "chips",
+        "palha",
+        "congelada",
+        "pronta",
+        "frita",
+        "airfryer",
+        "palito",
+        "bem brasil",
+        "lays",
+        "pringles",
+        "crinkle",
+        "ruffles"
+      ]
+    },
+    {
+      "name": "oleo de soja",
+      "quantity": "1 unidade",
+      "preferred_brand": [
+        "Liza",
+        "Soya"
+      ],
+      "preferred_type": [
+        "soja"
+      ],
+      "exclude_terms": [
+        "canola",
+        "girassol",
+        "coco",
+        "azeite"
+      ]
+    },
+    {
+      "name": "sal rosa",
+      "quantity": "1 unidade",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "grosso",
+        "temperado",
+        "esmalte",
+        "moedor",
+        "saleiro",
+        "pasta"
+      ]
+    },
+    {
+      "name": "pimenta do reino",
+      "quantity": "1 unidade",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "molho",
+        "pasta",
+        "moedor"
+      ]
+    },
+    {
+      "name": "paprica doce",
+      "quantity": "1 unidade",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "picante"
+      ]
+    },
+    {
+      "name": "curry",
+      "quantity": "1 unidade",
+      "preferred_brand": null,
+      "preferred_type": null,
+      "exclude_terms": [
+        "pasta ",
+        "sanitizante",
+        "chantilly",
+        "casca",
+        "compacto",
+        "tablete",
+        "lava",
+        "sabão",
+        "achocolatado",
+        "fermento",
+        "detergente",
+        "canela"
+      ]
+    }
+  ]
+}

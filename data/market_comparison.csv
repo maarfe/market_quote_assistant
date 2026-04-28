@@ -13,7 +13,7 @@ savegnago,feijao carioca,feijão carioca serrazul 1kg,serrazul,6.85,https://www.
 savegnago,feijao carioca,feijão carioca vasconcelos nobre 1kg,vasconcelos,8.25,https://www.savegnago.com.br/feijao-carioca-vasconcelos-nobre-1kg/p
 savegnago,feijao carioca,feijão carioca vapza 500g,vapza,18.7,https://www.savegnago.com.br/feijao-carioca-vapza-500g/p
 savegnago,feijao carioca,feijão carioca vapza 200g,vapza,13.85,https://www.savegnago.com.br/feijao-carioca-vapza-200g/p
-savegnago,peito de frango,filé de peito de frango sadia 1kg bandeja,sadia,27.95,https://www.savegnago.com.br/file-peito-frango-sadia-1kg-bandeja/p
+savegnago,peito frango,filé de peito de frango sadia 1kg bandeja,sadia,27.95,https://www.savegnago.com.br/file-peito-frango-sadia-1kg-bandeja/p
 savegnago,carne bovina,carne bovina acém swift 500g cubos,swift,22.9,https://www.savegnago.com.br/carne-bovina-acem-swift-500g-cubos/p
 savegnago,carne bovina,carne bovina músculo mole swift 500g cubos,swift,19.9,https://www.savegnago.com.br/carne-bovina-musculo-mole-swift-500g-cubos/p
 savegnago,carne bovina,carne-bovina-patinho-swift-500g-congelado-cubo,swift,28.5,https://www.savegnago.com.br/carne-bovina-patinho-swift-500g-congelado-cubo/p
@@ -38,7 +38,6 @@ savegnago,ovo,ovo branco coag com 20 grande,coag,12.9,https://www.savegnago.com.
 savegnago,ovo,ovo vermelho coag grande com 12,coag,9.99,https://www.savegnago.com.br/ovo-vermelho-grande-coag-com-12/p
 savegnago,ovo,ovo branco mantiqueira happy eggs com 10 grande,mantiqueira,11.8,https://www.savegnago.com.br/ovo-branco-mantiqueira-happy-eggs-com-10/p
 savegnago,ovo,ovo bco coag com 30 grande,coag,19.95,https://www.savegnago.com.br/ovo-bco-coag-com-30-gde/p
-savegnago,ovo,ovo vermelho grande orgânico fazenda da toca com 20 unidades,fazenda da toca,34.9,https://www.savegnago.com.br/ovo-vermelho-grande-organico-fazenda-da-toca-com-20-unidades/p
 savegnago,macarrao espaguete,macarrão espaguete n8 com ovos barilla 500g,barilla,5.99,https://www.savegnago.com.br/macarrao-ovos-barilla-500g-espaguete-n8/p
 savegnago,macarrao espaguete,macarrão de sêmola com ovos espaguete 8 adria pacote 500g,adria,3.49,https://www.savegnago.com.br/macarrao-ovos-adria-500g-espag-n8/p
 savegnago,macarrao espaguete,macarrão sêmola adria espaguete 400g,adria,3.15,https://www.savegnago.com.br/macarrao-semola-adria-espaguete-400g/p
@@ -58,9 +57,10 @@ savegnago,extrato de tomate,extrato tomate salsaretti 300g pote,salsaretti,7.79,
 savegnago,extrato de tomate,extrato tomate elefante 535g tp,elefante,12.5,https://www.savegnago.com.br/extrato-tomate-elefante-535g-tp/p
 savegnago,extrato de tomate,extrato tomate elefante sabores strogonoff 300g,elefante,8.75,https://www.savegnago.com.br/extrato-tomate-elefante-sabores-strogonoff-300g/p
 savegnago,extrato de tomate,extrato de tomate predilecta cebola e alho pote 300g,predilecta,6.99,https://www.savegnago.com.br/extrato-de-tomate-predilecta-cebola-e-alho-pote-300g/p
-savegnago,cebola,cebola nacional - 1kg,in natura,3.98,https://www.savegnago.com.br/cebola-nacional-kg/p
+savegnago,cebola,cebola nacional - 1kg,in natura,3.79,https://www.savegnago.com.br/cebola-nacional-kg/p
 savegnago,cebola,cebola miuda bandeja 320g,in natura,6.97,https://www.savegnago.com.br/cebola-miuda-bandeja-320g/p
 savegnago,cebola,cebola roxa 1kg,in natura,8.98,https://www.savegnago.com.br/cebola-roxa-1kg/p
+savegnago,cebola,cebola roxa turma da mônica 400g,turma da monica,7.98,https://www.savegnago.com.br/cebola-roxa-turma-da-monica-400g/p
 savegnago,cebola,cebola organica solo vivo 500g,solo vivo,7.45,https://www.savegnago.com.br/cebola-organica-solo-vivo-600g/p
 savegnago,cebola,cebola colossal turma da mônica pacote 400g,turma da monica,7.98,https://www.savegnago.com.br/cebola-colossal-turma-da-monica-pacote-400g/p
 savegnago,alho,alho 500g,in natura,18.95,https://www.savegnago.com.br/alho-granel-kg/p
@@ -71,6 +71,7 @@ savegnago,cenoura,cenoura irmãos pimenta bandeja 600g,irmaos pimenta,4.69,https
 savegnago,brocolis,brócolis ninja 150g bandeja,in natura,5.95,https://www.savegnago.com.br/brocolis-ninja-150g-bandeja/p
 savegnago,abobrinha italiana,abobrinha italiana organica solo vivo 600g,solo vivo,11.45,https://www.savegnago.com.br/abobrinha-italiana-organica-solo-vivo-600g/p
 savegnago,batata,batata primeira 1kg,in natura,5.95,https://www.savegnago.com.br/batata-primeira-kg/p
+savegnago,batata,batata pirulito 1kg,in natura,5.98,https://www.savegnago.com.br/batata-pirulito-kg/p
 savegnago,oleo de soja,óleo de soja liza pet 900ml,liza,6.75,https://www.savegnago.com.br/oleo-soja-liza-900ml-pet/p
 savegnago,oleo de soja,óleo de soja soya pet 900ml,soya,7.49,https://www.savegnago.com.br/oleo-soja-soya-900ml-pet/p
 savegnago,sal rosa,sal rosa himalaia br spices fino 500g,br spices,12.7,https://www.savegnago.com.br/sal-rosa-himalaia-br-spices-fino-500g/p
@@ -99,26 +100,26 @@ covabra,feijao carioca,feijão grão de campo carioca 1kg,gão de campo,6.99,htt
 covabra,feijao carioca,feijão empório são joão carioca 1kg,empório são joão,8.99,https://www.covabra.com.br/feijao-emporio-sao-joao-carioca-1kg/p
 covabra,feijao carioca,feijão gaspar carioca 1kg,gaspar,6.89,https://www.covabra.com.br/feijao-gaspar-carioca-1kg/p
 covabra,feijao carioca,feijão vapza carioca 500g,vapza,22.9,https://www.covabra.com.br/feijao-vapza-carioca-500g/p
-covabra,peito de frango,peito frango sem osso sem péle resfriado bandeja 1 unidade 618g,covabra,18.47,https://www.covabra.com.br/peito-frango-sem-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p
-covabra,peito de frango,peito frango com osso sem pele resfriado bandeja 1 unidade 618g,covabra,15.38,https://www.covabra.com.br/peito-frango-com-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p
-covabra,peito de frango,peito de frango com osso com pele resfriado bandeja 1 unidade 850g,covabra,20.31,https://www.covabra.com.br/peito-de-frango-com-osso-com-pele-resfriado-bandeja-1-unidade-850g/p
-covabra,peito de frango,peito frango com osso postas resfriado bandeja 1 unidade 618g,covabra,14.77,https://www.covabra.com.br/peito-frango-com-osso-postas-resfriado-bandeja-1-unidade-618g/p
-covabra,peito de frango,filé de peito de frango seara congelado 1a1 1kg,seara,25.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-congelado-1a1-1kg/p
-covabra,peito de frango,filé de peito de frango sadia congelado 1a1 1kg,sadia,17.98,https://www.covabra.com.br/file-de-peito-de-frango-sadia-congelado-1a1-1kg/p
-covabra,peito de frango,filé de peito de frango fatiado resfriado bandeja 1 unidade 618g,covabra,20.33,https://www.covabra.com.br/file-de-peito-de-frango-fatiado-resfriado-bandeja-1-unidade-618g/p
-covabra,peito de frango,filé de peito de frango strogonoff resfriado bandeja 1 unidade 515g,covabra,16.94,https://www.covabra.com.br/file-de-peito-de-frango-strogonoff-resfriado-bandeja-1-unidade-515g/p
-covabra,peito de frango,filé de  peito de  frango perdigão iqf 800g,perdigão,19.98,https://www.covabra.com.br/file-de--peito-de--frango-perdigao-iqf-800g/p
-covabra,peito de frango,filézinho de  peito de  frango perdigão iqf 800g,perdigão,19.98,https://www.covabra.com.br/filezinho-de--peito-de--frango-perdigao-iqf-800g/p
-covabra,peito de frango,filé de  peito de  frango sadia bio congelado pacote iqf 1kg,sadia,29.9,https://www.covabra.com.br/file-de--peito-de--frango-sadia-bio-congelado-pacote-iqf-1kg/p
-covabra,peito de frango,filé de peito de frango seara bandeja 1kg,seara,25.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-bandeja-1kg/p
-covabra,peito de frango,filé de  peito de  frango korin sem transgênico congelado bandeja 600g,korin,36.9,https://www.covabra.com.br/file-de--peito-de--frango-korin-sem-transgenico-congelado-bandeja-600g/p
-covabra,peito de frango,filé de  peito de  frango sadia bifes marinados 1a1 1kg,sadia,32.9,https://www.covabra.com.br/file-de--peito-de--frango-sadia-bifes-marinados-1a1-1kg/p
-covabra,peito de frango,filé de peito de frango seara da granja congelado 1a1 1kg,seara,29.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-da-granja-congelado-1a1-1kg/p
-covabra,peito de frango,filé de peito de frango korin boa pedida congelado pacote iqf 700g,korin,44.9,https://www.covabra.com.br/file-de-peito-de-frango-korin-boa-pedida-congelado-pacote-iqf-700g/p
-covabra,peito de frango,filé de peito de frango seara orgânico em tiras congelado 600g,seara,28.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-organico-em-tiras-congelado-600g/p
-covabra,peito de frango,filé de peito de frango sadia em bifes congelado bandeja 800g,sadia,28.9,https://www.covabra.com.br/file-de-peito-de-frango-sadia-em-bifes-congelado-bandeja-800g/p
-covabra,peito de frango,filé de peito de frango korin orgânico congelado pacote iqf  700g,sol,49.9,https://www.covabra.com.br/file-de-peito-de-frango-korin-organico-congelado-pacote-iqf--700g/p
-covabra,peito de frango,filé de peito de frango sadia em bifes congelado pacote iqf 1kg,sadia,34.9,https://www.covabra.com.br/file-de-peito-de-frango-sadia-em-bifes-congelado-pacote-iqf-1kg/p
+covabra,peito frango,peito frango sem osso sem péle resfriado bandeja 1 unidade 618g,covabra,18.47,https://www.covabra.com.br/peito-frango-sem-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p
+covabra,peito frango,peito frango com osso sem pele resfriado bandeja 1 unidade 618g,covabra,15.38,https://www.covabra.com.br/peito-frango-com-osso-sem-pele-resfriado-bandeja-1-unidade-618g/p
+covabra,peito frango,peito de frango com osso com pele resfriado bandeja 1 unidade 850g,covabra,20.31,https://www.covabra.com.br/peito-de-frango-com-osso-com-pele-resfriado-bandeja-1-unidade-850g/p
+covabra,peito frango,peito frango com osso postas resfriado bandeja 1 unidade 618g,covabra,14.77,https://www.covabra.com.br/peito-frango-com-osso-postas-resfriado-bandeja-1-unidade-618g/p
+covabra,peito frango,filé de peito de frango seara congelado 1a1 1kg,seara,25.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-congelado-1a1-1kg/p
+covabra,peito frango,filé de peito de frango sadia congelado 1a1 1kg,sadia,17.98,https://www.covabra.com.br/file-de-peito-de-frango-sadia-congelado-1a1-1kg/p
+covabra,peito frango,filé de peito de frango fatiado resfriado bandeja 1 unidade 618g,covabra,20.33,https://www.covabra.com.br/file-de-peito-de-frango-fatiado-resfriado-bandeja-1-unidade-618g/p
+covabra,peito frango,filé de peito de frango strogonoff resfriado bandeja 1 unidade 515g,covabra,16.94,https://www.covabra.com.br/file-de-peito-de-frango-strogonoff-resfriado-bandeja-1-unidade-515g/p
+covabra,peito frango,filé de  peito de  frango perdigão iqf 800g,perdigão,19.98,https://www.covabra.com.br/file-de--peito-de--frango-perdigao-iqf-800g/p
+covabra,peito frango,filézinho de  peito de  frango perdigão iqf 800g,perdigão,19.98,https://www.covabra.com.br/filezinho-de--peito-de--frango-perdigao-iqf-800g/p
+covabra,peito frango,filé de  peito de  frango sadia bio congelado pacote iqf 1kg,sadia,29.9,https://www.covabra.com.br/file-de--peito-de--frango-sadia-bio-congelado-pacote-iqf-1kg/p
+covabra,peito frango,filé de peito de frango seara bandeja 1kg,seara,25.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-bandeja-1kg/p
+covabra,peito frango,filé de  peito de  frango korin sem transgênico congelado bandeja 600g,korin,36.9,https://www.covabra.com.br/file-de--peito-de--frango-korin-sem-transgenico-congelado-bandeja-600g/p
+covabra,peito frango,filé de  peito de  frango sadia bifes marinados 1a1 1kg,sadia,32.9,https://www.covabra.com.br/file-de--peito-de--frango-sadia-bifes-marinados-1a1-1kg/p
+covabra,peito frango,filé de peito de frango seara da granja congelado 1a1 1kg,seara,29.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-da-granja-congelado-1a1-1kg/p
+covabra,peito frango,filé de peito de frango korin boa pedida congelado pacote iqf 700g,korin,44.9,https://www.covabra.com.br/file-de-peito-de-frango-korin-boa-pedida-congelado-pacote-iqf-700g/p
+covabra,peito frango,filé de peito de frango seara orgânico em tiras congelado 600g,seara,28.9,https://www.covabra.com.br/file-de-peito-de-frango-seara-organico-em-tiras-congelado-600g/p
+covabra,peito frango,filé de peito de frango sadia em bifes congelado bandeja 800g,sadia,28.9,https://www.covabra.com.br/file-de-peito-de-frango-sadia-em-bifes-congelado-bandeja-800g/p
+covabra,peito frango,filé de peito de frango korin orgânico congelado pacote iqf  700g,sol,49.9,https://www.covabra.com.br/file-de-peito-de-frango-korin-organico-congelado-pacote-iqf--700g/p
+covabra,peito frango,filé de peito de frango sadia em bifes congelado pacote iqf 1kg,sadia,34.9,https://www.covabra.com.br/file-de-peito-de-frango-sadia-em-bifes-congelado-pacote-iqf-1kg/p
 covabra,carne bovina,acém bovino cubos bandeja 1 unidade 515g,covabra,19.04,https://www.covabra.com.br/acem-bovino-cubos-bandeja-1-unidade-515g/p
 covabra,carne bovina,paleta bovina cubos bandeja 1 unidade 515g,covabra,25.69,https://www.covabra.com.br/paleta-bovina-cubos-bandeja-1-unidade-515g/p
 covabra,carne bovina,músculo traseiro bovino cubos bandeja 1 unidade 515g,covabra,19.04,https://www.covabra.com.br/musculo-traseiro-bovino-cubos-bandeja-1-unidade-515g/p
@@ -216,3 +217,155 @@ covabra,curry,curry vermont mild suave 115g,vermont,41.99,https://www.covabra.co
 covabra,curry,macarrão instantâneo cup noodles curry 70g,cup noodles,4.69,https://www.covabra.com.br/macarrao-instantaneo-cup-noodles-curry-70g/p
 covabra,curry,ketchup heinz squeeze curry 397g,heinz,18.79,https://www.covabra.com.br/ketchup-heinz-squeeze-curry-397g/p
 covabra,curry,molho karui curry royal médio 120g,royal,34.99,https://www.covabra.com.br/molho-karui-curry-royal-medio-120g/p
+tenda,arroz parboilizado,arroz parboilizado camil 1kg,camil,3.65,https://tendaatacado.com.br/produto/arroz-camil-parbolizado-1kg
+tenda,arroz parboilizado,arroz parboilizado select 5kg,select,17.5,https://tendaatacado.com.br/produto/arroz-parboilizado-select-5kg-2542
+tenda,arroz parboilizado,arroz parboilizado urbano 5kg,urbano,18.9,https://tendaatacado.com.br/produto/arroz-parboilizado-urbano-5kg
+tenda,arroz parboilizado,arroz tipo 1 parboilizado picinin 5kg,picinin,18.5,https://tendaatacado.com.br/produto/arroz-tipo-1-parboilizado-picinin-5kg
+tenda,arroz parboilizado,arroz parboilizado camil 5kg,camil,20.9,https://tendaatacado.com.br/produto/arroz-parboilizado-camil-5kg-603
+tenda,arroz parboilizado,arroz parboilizado inteirão 5kg,inteirão,17.9,https://tendaatacado.com.br/produto/arroz-parboilizado-inteirao-5kg
+tenda,arroz parboilizado,arroz parboilizado prato fino 5kg,prato fino,25.9,https://tendaatacado.com.br/produto/arroz-parboilizado-prato-fino-5kg-2032
+tenda,arroz parboilizado,arroz parboilizado blue ville 5kg,blue ville,23.9,https://tendaatacado.com.br/produto/arroz-parboilizado-blue-ville-5kg-21528
+tenda,feijao carioca,feijão carioca 5 estrelas 1kg,5 estrelas,5.99,https://tendaatacado.com.br/produto/feijao-carioca-5-estrelas-1kg-30378
+tenda,feijao carioca,feijão carioca da casa 1kg,da casa,6.99,https://tendaatacado.com.br/produto/feijao-carioca-da-casa-1kg-608
+tenda,feijao carioca,feijão carioca tipo 1 camil 1kg,camil,7.59,https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-camil-1kg-481
+tenda,feijao carioca,feijão carioca grão de campo - 1kg,grão de campo,8.19,https://tendaatacado.com.br/produto/feijao-carioca-grao-de-campo-1kg
+tenda,feijao carioca,feijão carioca broto legal 1kg,broto legal,8.69,https://tendaatacado.com.br/produto/feijao-carioca-broto-legal-1kg-929
+tenda,feijao carioca,feijão carioca tipo 1 kicaldo 1kg,kicaldo,7.89,https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-kicaldo-1kg-567
+tenda,feijao carioca,feijão carioca tipo 1 rosalito 1kg,rosalito,8.29,https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-rosalito-1kg
+tenda,feijao carioca,feijão carioca premium picinin 1kg,picinin,7.89,https://tendaatacado.com.br/produto/feijao-carioca-premium-picinin-1kg
+tenda,feijao carioca,feijão carioca empório são joão 1kg,empório são joão,8.99,https://tendaatacado.com.br/produto/feijao-carioca-emporio-sao-joao-1kg-33449
+tenda,feijao carioca,feijão carioca tipo 1 select 1kg,select,8.59,https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-select-1kg-2624
+tenda,feijao carioca,feijão carioca carunchão 1kg,carunchão,8.59,https://tendaatacado.com.br/produto/feijao-carioca-carunchao-1kg
+tenda,feijao carioca,feijão carioca taruma 1kg,taruma,8.49,https://tendaatacado.com.br/produto/feijao-carioca-taruma-1kg
+tenda,feijao carioca,feijão carioca tipo 1 máximo 1kg,sabor máximo,5.99,https://tendaatacado.com.br/produto/feijao-carioca-tipo-1-maximo-1kg
+tenda,feijao carioca,feijão carioca vasconcelos 1kg,vasconcelos,9.19,https://tendaatacado.com.br/produto/feijao-carioca-vasconcelos-1kg
+tenda,peito frango,filé de peito de frango congelado aurora 1kg,aurora,22.9,https://tendaatacado.com.br/produto/file-de-peito-frango-congelado-aurora-1kg-2015
+tenda,peito frango,filé de peito de frango congelado lar 1kg,lar,18.9,https://tendaatacado.com.br/produto/file-de-peito-de-frango-congelado-lar-1kg
+tenda,peito frango,filé de peito de frango congelado sadia 800g,sadia,19.9,https://tendaatacado.com.br/produto/file-de-peito-de-frango-congelado-sadia-800g
+tenda,peito frango,filé de peito de frango resfriado bandeja 600g,tenda,10.739999999999998,https://tendaatacado.com.br/produto/peito-frango-sosso-spele-resf-kg
+tenda,peito frango,filé de peito de frango congelado sadia zip 1kg,sadia,18.9,https://tendaatacado.com.br/produto/file-de-peito-de-frabgo-congelado-sadia-zip-pct1kg-3842
+tenda,peito frango,filé de peito de frango congelado aurora iqf 1kg,aurora,20.9,https://tendaatacado.com.br/produto/file-de-peito-aurora-iqf-1kg-11518
+tenda,peito frango,filé de peito de frango congelado aurora iqf 3kg,aurora,54.9,https://tendaatacado.com.br/produto/file-de-peito-de-frango-iqf-aurora-3kg-17156
+tenda,peito frango,filé de peito de frango congelado perdigão iqf 800g,perdigão,18.9,https://tendaatacado.com.br/produto/file-de-peito-de-frango-perdigao-iqf-800g-9149
+tenda,peito frango,peito de frango com osso resfriado bandeja 600g,tenda,7.74,https://tendaatacado.com.br/produto/peito-frango-cosso-resf-kg
+tenda,peito frango,filé de peito bandeja seara 1kg,seara,19.9,https://tendaatacado.com.br/produto/file-de-peito-bandeja-seara-1kg
+tenda,peito frango,filé de coxa e sobrecoxa congelado aurora 1kg,aurora,16.5,https://tendaatacado.com.br/produto/file-coxa-sobrecoxa-aurora-1kg-5040
+tenda,peito frango,filé de peito seara iqf 1kg,seara,20.5,https://tendaatacado.com.br/produto/file-de-peito-seara-iqf-1kg
+tenda,carne bovina,patinho bovino em bifes resfriado bandeja 400g,tenda,19.96,https://tendaatacado.com.br/produto/patinho-bifes-bandeja-400g
+tenda,carne bovina,carne moída bovina patinho reserva 500g,friboi,20.27,https://tendaatacado.com.br/produto/carne-moida-bov-patinho-reserva-500g
+tenda,carne bovina acem,bacon em cubos frimesa 1kg,frimesa,44.9,https://tendaatacado.com.br/produto/bacon-em-cubos-frimesa-1kg
+tenda,carne moida,carne moída bovina patinho reserva 500g,friboi,20.27,https://tendaatacado.com.br/produto/carne-moida-bov-patinho-reserva-500g
+tenda,linguica toscana,linguiça toscana na brasa perdigão 5kg,perdigão,119.5,https://tendaatacado.com.br/produto/linguica-toscana-na-brasa-perdigao-5kg
+tenda,linguica toscana,linguiça toscana na brasa perdigão 700g,perdigão,20.9,https://tendaatacado.com.br/produto/linguica-toscana-na-brasa-perdigao-700g
+tenda,linguica toscana,linguiça toscana congelada sadia pacote 5kg,sadia,99.5,https://tendaatacado.com.br/produto/linguica-toscana-sadia-kg-86
+tenda,linguica toscana,linguiça toscana congelada nabrasa perdigão com queijo 600g,perdigão,24.9,https://tendaatacado.com.br/produto/linguica-toscana-congelada-com-queijo-perdigao-600g
+tenda,linguica toscana,linguiça toscana congelada sadia 700g,sadia,20.9,https://tendaatacado.com.br/produto/linguica-toscana-congelada-sadia-700g
+tenda,linguica toscana,linguiça toscana congelada nabrasa perdigão com alho e ervas 600g,perdigão,24.9,https://tendaatacado.com.br/produto/linguica-toscana-com-alho-e-ervas-na-brasa-perdigao-600g-29415
+tenda,ovo,ovos grandes vermelhos 12 unidades,satoshi ito,10.49,https://tendaatacado.com.br/produto/ovos-grandes-vermelhos-12-unidades-1583
+tenda,ovo,ovos grandes vermelhos  30 unidades,flv,24.9,https://tendaatacado.com.br/produto/ovos-grandes-vermelhos-30-unidades-1570
+tenda,ovo,ovos grandes branco 12 unidades,agro,9.49,https://tendaatacado.com.br/produto/ovos-grandes-branco-12-unidades-1395
+tenda,ovo,ovos grandes branco 30 unidades,flv,23.9,https://tendaatacado.com.br/produto/ovos-grandes-branco-25-dz-1396
+tenda,ovo,ovos grandes branco cinta 5 dúzias,flv,39.8,https://tendaatacado.com.br/produto/ovos-grandes-branco-cinta-05dz-5154
+tenda,macarrao espaguete,macarrão com ovos espaguete furado 5 adria 500g,adria,3.49,https://tendaatacado.com.br/produto/macarrao-com-ovos-espaguete-furado-5-adria-500g-1361
+tenda,macarrao espaguete,macarrão com ovos espaguete 8 adria 500g,adria,3.49,https://tendaatacado.com.br/produto/macarrao-com-ovos-espaguete-8-adria-500g-1357
+tenda,extrato de tomate,extrato de tomate quero 300g,quero,4.35,https://tendaatacado.com.br/produto/extrato-de-tomate-quero-300g
+tenda,extrato de tomate,extrato de tomate elefante 850g,elefante,15.9,https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-850g-378
+tenda,extrato de tomate,"extrato de tomate elefante 1,7kg",elefante,32.0,https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-1-7kg
+tenda,extrato de tomate,extrato de tomate só tomate elefante 300g,elefante,6.0,https://tendaatacado.com.br/produto/ext-tom-elefante-so-tomate-pt-300g
+tenda,extrato de tomate,extrato de tomate elefante pote 300g,elefante,7.99,https://tendaatacado.com.br/produto/ext-tom-elefante-pt-300g
+tenda,extrato de tomate,"extrato de tomate quero tp 1,080kg",quero,10.1,https://tendaatacado.com.br/produto/extrato-de-tomate-quero-tp-1-080kg-19692
+tenda,extrato de tomate,extrato de tomate elefante 535g,elefante,11.9,https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-535g
+tenda,extrato de tomate,extrato de tomate concentrado salsaretti 300g,salsaretti,6.49,https://tendaatacado.com.br/produto/extratode-tomate-concentrado-salsaretti-300g
+tenda,extrato de tomate,extrato de tomate com cebola e alho elefante 300g,elefante,6.49,https://tendaatacado.com.br/produto/ext-tom-cebola-e-alho-elefante-300g
+tenda,extrato de tomate,extrato de tomate base para strogonoff sabores elefante 300g,elefante,6.0,https://tendaatacado.com.br/produto/extrato-de-tomate-base-para-strogonoff-sabores-elefante-300g
+tenda,extrato de tomate,extrato de tomate elefante 130g,elefante,4.25,https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-130g-223
+tenda,extrato de tomate,extrato de tomate select 300g,select,3.1,https://tendaatacado.com.br/produto/extrato-de-tomate-select-300g
+tenda,extrato de tomate,"extrato de tomate quero sachê 1,02kg",quero,9.5,https://tendaatacado.com.br/produto/ext-tom-quero-sch-1-02kg
+tenda,extrato de tomate,extrato de tomate base para carne de panela sabores elefante 300g,elefante,6.0,https://tendaatacado.com.br/produto/extrato-de-tomate-base-para-carne-de-panela-sabores-elefante-300g
+tenda,extrato de tomate,cesta básica ouro 19 itens tenda,tenda,84.9,https://tendaatacado.com.br/produto/cesta-basica-ouro-19-itens-tenda
+tenda,extrato de tomate,"extrato de tomate elefante 1,04kg",elefante,19.8,https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-1-04kg
+tenda,extrato de tomate,extrato de tomate elefante pote 310g,elefante,6.0,https://tendaatacado.com.br/produto/ext-tom-elefante-pt-310g
+tenda,extrato de tomate,extrato de tomate elefante 275g,elefante,5.25,https://tendaatacado.com.br/produto/extrato-de-tomate-elefante-275g
+tenda,extrato de tomate,sopão maggi carne com legumes 200g,maggi,10.79,https://tendaatacado.com.br/produto/sopao-maggi-carne-com-legumes-200g
+tenda,cebola,cebola saco 1kg,flv,3.99,https://tendaatacado.com.br/produto/cebola-bandeja-1kg-15828
+tenda,cebola,cebola select 2kg,select,9.89,https://tendaatacado.com.br/produto/cebola-select-2kg
+tenda,cebola,cebola saco 10kg,flv,47.9,https://tendaatacado.com.br/produto/cebola-pacote-10kg-17339
+tenda,cebola,cebola roxa select 1kg,select,9.69,https://tendaatacado.com.br/produto/cebola-roxa-select-1kg
+tenda,cebola,pão de cebola santa massa 400g,santa massa,14.9,https://tendaatacado.com.br/produto/pao-de-cebola-santa-massa-400g
+tenda,alho,alho select 200g,select,11.99,https://tendaatacado.com.br/produto/alho-select-200g-8238
+tenda,alho,alho granel saco 100g,flv,1.69,https://tendaatacado.com.br/produto/alho-granel-100gr-15813
+tenda,alho,alho descascado piasi 1kg,piasi,37.9,https://tendaatacado.com.br/produto/alho-descascado-piasi-1kg-27656
+tenda,alho,alho selecionado select 500g,select,29.9,https://tendaatacado.com.br/produto/alho-selecionado-select-500g-8236
+tenda,alho,alho descascado piasi pacote 500g,piasi,18.99,https://tendaatacado.com.br/produto/alho-descascado-piasi-pacote-500g-23813
+tenda,alho,"alho congelado de marchi - 1,020kg",de marchi,17.9,https://tendaatacado.com.br/produto/alho-congelado-de-marchi-1-020kg
+tenda,cenoura,cenoura saco 1kg,flv,9.89,https://tendaatacado.com.br/produto/cenoura-1kg-15831
+tenda,cenoura,biscoito nesfit laranja e cenoura 160g,nesfit,4.65,https://tendaatacado.com.br/produto/biscoito-nesfit-laranja-e-cenoura-160g
+tenda,cenoura,ração úmida sachet para gatos peixe com ervilha e cenoura kelcat 85g,kelcat,3.99,https://tendaatacado.com.br/produto/racao-umida-sachet-para-gatos-peixe-com-ervilha-e-cenoura-kelcat-85g
+tenda,cenoura,yakisoba seara 500g,seara,17.9,https://tendaatacado.com.br/produto/yakisoba-seara-500g
+tenda,cenoura,"jardineira sem milho congelada de marchi 1,02kg",de marchi,11.9,https://tendaatacado.com.br/produto/jardineira-cong-de-marchi-1-020kg
+tenda,cenoura,macarrão instantâneo sabor galinha caipira picante cup noodles nissin 68g,nissin,5.99,https://tendaatacado.com.br/produto/macarrao-instantaneo-sabor-galinha-caipira-picante-cup-noodles-nissin-68g-25864
+tenda,cenoura,chá abacaxi e hortelã leão 25g 10 unidades,leão,9.05,https://tendaatacado.com.br/produto/cha-abacaxi-e-hortela-leao-25g-10-unidades
+tenda,cenoura,"seleta de legumes congelados de marchi 1,02kg",de marchi,12.9,https://tendaatacado.com.br/produto/legumes-cong-de-marchi-psaltear-1-020kg
+tenda,brocolis,brócolis ninja unidade,flv,7.99,https://tendaatacado.com.br/produto/brocolis-ninja-unidade-1292
+tenda,brocolis,casadinho brócolis ninja + couve flor saco unidade,flv,8.47,https://tendaatacado.com.br/produto/casadinho-brocolis-ninja-couve-flor-32114
+tenda,abobrinha italiana,abobrinha italiana unidade,flv,1.9222500000000002,https://tendaatacado.com.br/produto/abobrinha-italiana-kg
+tenda,abobrinha italiana,abobrinha italiana bandeja 600g,batista,5.99,https://tendaatacado.com.br/produto/abobrinha-italiana-bandeja-600g
+tenda,batata,,,,
+tenda,oleo de soja,óleo de soja liza 900ml,liza,7.39,https://tendaatacado.com.br/produto/oleo-de-soja-liza-900ml-1094
+tenda,oleo de soja,óleo de soja soya pet 900ml,soya,7.29,https://tendaatacado.com.br/produto/oleo-de-soja-soya-pet-900ml-1291
+tenda,oleo de soja,"óleo de soja refinado fry max soya 14,5kg",soya,149.9,https://tendaatacado.com.br/produto/oleo-de-soja-refinado-fry-max-soya-14-5kg
+tenda,sal rosa,sal rosa do himalaia fino br spices 500g,br spices,10.05,https://tendaatacado.com.br/produto/sal-rosa-do-himalaia-fino-br-spices-500g
+tenda,sal rosa,molho para salada rose liza 234ml,liza,11.9,https://tendaatacado.com.br/produto/molho-para-salada-rose-liza-234ml-5969
+tenda,sal rosa,molho para salada rosé hellmanns 210ml,hellmann's,17.9,https://tendaatacado.com.br/produto/molho-para-salada-rose-hellmanns-210ml
+tenda,sal rosa,vinho argentino chac chac malbec rosé 750ml,viña las perdices,59.9,https://tendaatacado.com.br/produto/vinho-argentino-chac-chac-malbec-rose-750ml
+tenda,sal rosa,espumante brut rosé chandon 750ml,chandon,128.9,https://tendaatacado.com.br/produto/espumante-brut-rose-chandon-750ml-33579
+tenda,sal rosa,vinho chileno chilano rosé - 750ml,chilano,36.9,https://tendaatacado.com.br/produto/vinho-chileno-chilano-rose-750ml
+tenda,sal rosa,borracha bic neon,bic,3.07,https://tendaatacado.com.br/produto/borracha-bic-neon-15403
+tenda,sal rosa,vinho rosé saint germain frisante suave 750ml,saint germain,26.9,https://tendaatacado.com.br/produto/vinho-rose-saint-germain-frisante-suave-750ml
+tenda,sal rosa,vinho chileno paskua summer rosé - 750ml,paskua land,42.9,https://tendaatacado.com.br/produto/vinho-chileno-paskua-summer-rose-750ml
+tenda,sal rosa,vinho português alecrim rosé 750ml,alecrim,44.9,https://tendaatacado.com.br/produto/vinho-portugues-alecrim-rose-750ml
+tenda,sal rosa,vinho chileno sauvignon blanc paskua land 750ml,paskua land,30.9,https://tendaatacado.com.br/produto/vinho-chileno-sauvignon-blanc-paskua-land-750ml-33175
+tenda,sal rosa,chocotrio nestlé chocolate 90g,nestlé,10.7,https://tendaatacado.com.br/produto/chocotrio-nestle-chocolate-90g
+tenda,sal rosa,vinho brasileiro rosé frisante suave serra gaúcha saint germain 750ml,saint germain,26.9,https://tendaatacado.com.br/produto/vinho-tinto-seco-750ml
+tenda,sal rosa,essência rosas roubadas aromasil 140ml,aromasil,8.99,https://tendaatacado.com.br/produto/essencia-rosas-roubadas-aromasil-140ml
+tenda,sal rosa,vinho rosé suave country wine - 750ml,country wine,11.99,https://tendaatacado.com.br/produto/vinho-rose-suave-country-wine-750ml-25298
+tenda,sal rosa,vinho rosé português calamares 750ml,calamares,64.9,https://tendaatacado.com.br/produto/vinho-rose-portugues-calamares-750ml
+tenda,pimenta do reino,creme de cebola maggi 1kg,maggi,35.9,https://tendaatacado.com.br/produto/creme-de-cebola-maggi-1kg-6622
+tenda,pimenta do reino,pimenta do reino em pó pq 1kg,pq,17.5,https://tendaatacado.com.br/produto/pimenta-do-reino-em-po-pq-1kg-17886
+tenda,pimenta do reino,tempero pimenta do reino em pó select 60g,select,6.6,https://tendaatacado.com.br/produto/tempero-pimenta-do-reino-em-po-select-60g
+tenda,pimenta do reino,pimenta-do-reino preta moída kitano pouch 50g,kitano,10.79,https://tendaatacado.com.br/produto/pimenta-do-reino-preta-em-po-kitano-50g-1537
+tenda,pimenta do reino,tempero completo arisco 300g,arisco,8.19,https://tendaatacado.com.br/produto/tempero-completo-arisco-300g-7697
+tenda,pimenta do reino,sopa maggi cebola 68g,maggi,6.05,https://tendaatacado.com.br/produto/sopa-maggi-cebola-68g-5706
+tenda,pimenta do reino,tempero em pó lemon pepper br spices 100g,br spices,19.3,https://tendaatacado.com.br/produto/tempero-em-po-lemon-pepper-br-spices-100g
+tenda,pimenta do reino,creme de cebola maggi equilibrium sachê 61g,maggi,7.09,https://tendaatacado.com.br/produto/creme-de-cebola-maggi-equilibrium-sache-61g
+tenda,pimenta do reino,"baby beef bovino resfriado montana na brasa steakhouse peça 1,2kg",na brasa steakhouse,68.28,https://tendaatacado.com.br/produto/baby-beef-montana-na-brasa-steakhouse-1-2kg-24790
+tenda,pimenta do reino,tempero baiano select 50g,select,3.09,https://tendaatacado.com.br/produto/tempero-baiano-select-50g
+tenda,pimenta do reino,"amaciante de carne maggi 1,1kg",maggi,27.6,https://tendaatacado.com.br/produto/amaciante-de-carne-maggi-1-1kg-18804
+tenda,pimenta do reino,creme de cebola com bacon maggi sachê 61g,maggi,7.09,https://tendaatacado.com.br/produto/creme-de-cebola-com-bacon-maggi-sache-61g
+tenda,pimenta do reino,vinho undurraga carmenère varietal chile - 750ml,carmenère,47.9,https://tendaatacado.com.br/produto/vinho-undurraga-carmenere-750ml-varietal-chile
+tenda,pimenta do reino,lasanha bolonhesa seara 600g,seara,14.9,https://tendaatacado.com.br/produto/lasanha-bolonhesa-seara-600g
+tenda,pimenta do reino,lasanha bolonhesa seara 1kg,seara,23.9,https://tendaatacado.com.br/produto/lasanha-bolonhesa-seara-1kg
+tenda,pimenta do reino,tempero & sabor maggi legumes 50g,maggi,3.95,https://tendaatacado.com.br/produto/tempero-e-sabor-maggi-legumes-50g
+tenda,pimenta do reino,lasanha à bolonhesa aurora 600g,aurora,13.9,https://tendaatacado.com.br/produto/lasanha-a-bolonhesa-aurora-600g-24531
+tenda,paprica doce,doce pé de moleque gulosina 160g,gulosina,3.99,https://tendaatacado.com.br/produto/doce-pe-de-moleque-gulosina-160g
+tenda,paprica doce,pipoca doce kari-kari 40g,kari-kari,1.05,https://tendaatacado.com.br/produto/pipoca-doce-kari-kari-40g-28464
+tenda,paprica doce,pipoca doce kari-kari 60g,kari-kari,1.55,https://tendaatacado.com.br/produto/pipoca-doce-kari-kari-60g-27558
+tenda,paprica doce,batata doce branca 250g,flv,2.4975,https://tendaatacado.com.br/produto/batata-doce-branca-250g
+tenda,paprica doce,pipoca doce kari-kari 100g,kari-kari,2.19,https://tendaatacado.com.br/produto/pipoca-doce-kari-kari-100g-27561
+tenda,paprica doce,pipoca doce emília 40g,emilia,0.95,https://tendaatacado.com.br/produto/pipoca-doce-emilia-40g
+tenda,paprica doce,pipoca doce emília 100g,emilia,2.85,https://tendaatacado.com.br/produto/pipoca-doce-emilia-100g
+tenda,paprica doce,polvilho doce pq 1kg,pq,12.7,https://tendaatacado.com.br/produto/polvilho-doce-pq-1kg-1965
+tenda,paprica doce,doce pé de moça biro biro 150g,biro biro,10.05,https://tendaatacado.com.br/produto/doce-pe-de-moca-biro-biro-150g-
+tenda,paprica doce,polvilho doce pq 500g,pq,6.89,https://tendaatacado.com.br/produto/polvilho-doce-pq-500g-17851
+tenda,paprica doce,"doce gibi gulosina 1,1kg",gulosina,30.5,https://tendaatacado.com.br/produto/doce-gibi-gulosina-1-1kg-29452
+tenda,paprica doce,doce de mocotó biro biro 140g,biro biro,5.95,https://tendaatacado.com.br/produto/doce-mocoto-biro-biro-140g
+tenda,paprica doce,doce paçoca caseira gulosina 450g,gulosina,12.9,https://tendaatacado.com.br/produto/doce-pacoca-caseira-gulosina-450g-29926
+tenda,paprica doce,"doce paçoca rolha gulosina 1,05kg",gulosina,30.9,https://tendaatacado.com.br/produto/doce-pacoca-rolha-gulosina-1-05kg-29928
+tenda,paprica doce,chá de erva doce leão 20g,leão,4.99,https://tendaatacado.com.br/produto/cha-de-erva-doce-leao-10g-5690
+tenda,paprica doce,chá de erva doce leão 30g,leão,7.5,https://tendaatacado.com.br/produto/cha-de-erva-doce-leao-30g-7504
+tenda,paprica doce,doce de leite italac 350g,italac,10.09,https://tendaatacado.com.br/produto/doce-de-leite-italac-350g-23861
+tenda,paprica doce,doce de leite select 400g,select,11.29,https://tendaatacado.com.br/produto/doce-de-leite-select-400g
+tenda,paprica doce,doce leite oliveira 360g,oliveira,9.59,https://tendaatacado.com.br/produto/doce-leite-oliveira-360g-12208
+tenda,paprica doce,doce gibi gulosina 160g,gulosina,3.99,https://tendaatacado.com.br/produto/doce-gibi-gulosina-160g
+tenda,curry,curry kitano pouch 50g,kitano,8.15,https://tendaatacado.com.br/produto/curry-kitano-50g-12001
+tenda,curry,cerveja 1906 reserva la milnueve estrella galicia 355ml,estrella galicia,7.79,https://tendaatacado.com.br/produto/cerveja-1906-reserva-la-milnueve-estrella-galicia-355ml

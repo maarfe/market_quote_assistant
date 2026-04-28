@@ -62,6 +62,7 @@ def build_run_result(address: Address, shopping_items: list[ShoppingItem]) -> Ru
         enabled_markets=[
             "savegnago",
             "covabra",
+            "tenda"
         ]
     )
 
